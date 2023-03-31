@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-SemiBold.ttf">
+            <string>Montserrat-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CustomTabCell" id="gTV-IL-0wX" customClass="CustomTabCell" customModule="WeddingBells" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="89" height="128"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="89" height="128"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iiE-Fh-SuN">
+                        <rect key="frame" x="0.0" y="0.0" width="89" height="128"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BAJ-53-pkx">
+                                <rect key="frame" x="0.0" y="0.0" width="89" height="67"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NtJ-nf-Y7j">
+                                        <rect key="frame" x="0.0" y="0.0" width="89" height="67"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_home_unselected" highlightedImage="ic_home_selected" translatesAutoresizingMaskIntoConstraints="NO" id="Chi-pt-uSo">
+                                                <rect key="frame" x="34.5" y="13" width="20" height="20"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="20" id="FUg-ek-jUK"/>
+                                                    <constraint firstAttribute="width" secondItem="Chi-pt-uSo" secondAttribute="height" multiplier="1:1" id="WrJ-mR-hoa"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Csx-3w-UPW">
+                                                <rect key="frame" x="0.0" y="38" width="89" height="16"/>
+                                                <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="13"/>
+                                                <color key="textColor" name="maincolor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="Chi-pt-uSo" firstAttribute="top" secondItem="NtJ-nf-Y7j" secondAttribute="top" constant="13" id="0x6-Op-X5y"/>
+                                            <constraint firstItem="Chi-pt-uSo" firstAttribute="centerX" secondItem="NtJ-nf-Y7j" secondAttribute="centerX" id="8OT-DA-TfI"/>
+                                            <constraint firstItem="Csx-3w-UPW" firstAttribute="top" secondItem="Chi-pt-uSo" secondAttribute="bottom" constant="5" id="GAf-FP-Jss"/>
+                                            <constraint firstAttribute="trailing" secondItem="Csx-3w-UPW" secondAttribute="trailing" id="M5V-Qo-ycN"/>
+                                            <constraint firstItem="Csx-3w-UPW" firstAttribute="leading" secondItem="NtJ-nf-Y7j" secondAttribute="leading" id="Obl-d1-hox"/>
+                                            <constraint firstAttribute="bottom" secondItem="Csx-3w-UPW" secondAttribute="bottom" constant="13" id="hlm-9c-tGj"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="NtJ-nf-Y7j" firstAttribute="top" secondItem="BAJ-53-pkx" secondAttribute="top" id="32R-7z-DB9"/>
+                                    <constraint firstAttribute="trailing" secondItem="NtJ-nf-Y7j" secondAttribute="trailing" id="RS7-42-WEm"/>
+                                    <constraint firstItem="NtJ-nf-Y7j" firstAttribute="leading" secondItem="BAJ-53-pkx" secondAttribute="leading" id="ZaN-dX-lvr"/>
+                                    <constraint firstAttribute="bottom" secondItem="NtJ-nf-Y7j" secondAttribute="bottom" id="oER-Gy-0IE"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="BAJ-53-pkx" secondAttribute="bottom" id="LVo-2t-XJU"/>
+                            <constraint firstAttribute="trailing" secondItem="BAJ-53-pkx" secondAttribute="trailing" id="c16-s6-X1y"/>
+                            <constraint firstItem="BAJ-53-pkx" firstAttribute="top" secondItem="iiE-Fh-SuN" secondAttribute="top" id="ffL-Rp-SHg"/>
+                            <constraint firstItem="BAJ-53-pkx" firstAttribute="leading" secondItem="iiE-Fh-SuN" secondAttribute="leading" id="nh3-oF-UKs"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="iiE-Fh-SuN" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="V08-kW-pbQ"/>
+                <constraint firstAttribute="trailing" secondItem="iiE-Fh-SuN" secondAttribute="trailing" id="X4x-rB-3Mg"/>
+                <constraint firstItem="iiE-Fh-SuN" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="YwV-Ol-aoF"/>
+                <constraint firstAttribute="bottom" secondItem="iiE-Fh-SuN" secondAttribute="bottom" id="nc7-BC-Xof"/>
+            </constraints>
+            <size key="customSize" width="89" height="128"/>
+            <connections>
+                <outlet property="imageTab" destination="Chi-pt-uSo" id="dGU-dy-qvN"/>
+                <outlet property="lblTabName" destination="Csx-3w-UPW" id="fNW-r3-xQl"/>
+            </connections>
+            <point key="canvasLocation" x="238.40579710144928" y="87.053571428571431"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="ic_home_selected" width="24" height="24"/>
+        <image name="ic_home_unselected" width="24" height="24"/>
+        <namedColor name="maincolor">
+            <color red="0.78431372549019607" green="0.35294117647058826" blue="0.32941176470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

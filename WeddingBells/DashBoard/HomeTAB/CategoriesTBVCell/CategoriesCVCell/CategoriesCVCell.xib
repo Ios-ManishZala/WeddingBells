@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-SemiBold.ttf">
+            <string>Montserrat-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CategoriesCVCell" id="gTV-IL-0wX" customClass="CategoriesCVCell" customModule="WeddingBells" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="162" height="196"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="162" height="196"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tdO-2k-jhb">
+                        <rect key="frame" x="0.0" y="0.0" width="162" height="196"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hS2-Or-Rmu">
+                                <rect key="frame" x="0.0" y="0.0" width="162" height="114"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Lj2-A0-xgn">
+                                        <rect key="frame" x="0.0" y="0.0" width="162" height="90"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="90" id="Mqb-iG-9JK"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WW4-tF-APT">
+                                        <rect key="frame" x="0.0" y="98" width="162" height="16"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="WW4-tF-APT" secondAttribute="bottom" id="2of-mq-mEB"/>
+                                    <constraint firstItem="Lj2-A0-xgn" firstAttribute="leading" secondItem="hS2-Or-Rmu" secondAttribute="leading" id="EMx-wT-hUv"/>
+                                    <constraint firstAttribute="trailing" secondItem="Lj2-A0-xgn" secondAttribute="trailing" id="P7x-O2-7bk"/>
+                                    <constraint firstItem="Lj2-A0-xgn" firstAttribute="top" secondItem="hS2-Or-Rmu" secondAttribute="top" id="Voq-NQ-HbY"/>
+                                    <constraint firstItem="WW4-tF-APT" firstAttribute="top" secondItem="Lj2-A0-xgn" secondAttribute="bottom" constant="8" id="aOF-KU-sbJ"/>
+                                    <constraint firstItem="WW4-tF-APT" firstAttribute="leading" secondItem="Lj2-A0-xgn" secondAttribute="leading" id="gVZ-kg-wsq"/>
+                                    <constraint firstItem="WW4-tF-APT" firstAttribute="trailing" secondItem="Lj2-A0-xgn" secondAttribute="trailing" id="rug-DH-lOq"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="hS2-Or-Rmu" secondAttribute="bottom" id="JmG-KJ-BB4"/>
+                            <constraint firstItem="hS2-Or-Rmu" firstAttribute="top" secondItem="tdO-2k-jhb" secondAttribute="top" id="KdP-zY-LQz"/>
+                            <constraint firstItem="hS2-Or-Rmu" firstAttribute="leading" secondItem="tdO-2k-jhb" secondAttribute="leading" id="cHq-WZ-p4O"/>
+                            <constraint firstAttribute="trailing" secondItem="hS2-Or-Rmu" secondAttribute="trailing" id="xUc-hk-4KK"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="tdO-2k-jhb" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="7MH-I3-ZHm"/>
+                <constraint firstItem="tdO-2k-jhb" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Ljh-Zm-ojM"/>
+                <constraint firstAttribute="trailing" secondItem="tdO-2k-jhb" secondAttribute="trailing" id="cox-cM-foi"/>
+                <constraint firstAttribute="bottom" secondItem="tdO-2k-jhb" secondAttribute="bottom" id="tze-dB-TWK"/>
+            </constraints>
+            <size key="customSize" width="162" height="196"/>
+            <connections>
+                <outlet property="imageCategory" destination="Lj2-A0-xgn" id="1WG-aR-9WV"/>
+                <outlet property="lblCategoryName" destination="WW4-tF-APT" id="scP-CO-iVQ"/>
+            </connections>
+            <point key="canvasLocation" x="215.26717557251908" y="40.140845070422536"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

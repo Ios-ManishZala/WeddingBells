@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NunitoSans-Bold.ttf">
+            <string>NunitoSans-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CommonCVHeaderView" id="U6b-Vx-4bR" customClass="CommonCVHeaderView" customModule="StoryTime" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="497" height="135"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="diN-h8-CKI">
+                    <rect key="frame" x="0.0" y="0.0" width="497" height="135"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yay-Pm-hCy">
+                            <rect key="frame" x="20" y="0.0" width="457" height="135"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2pL-Du-A06">
+                                    <rect key="frame" x="0.0" y="5" width="457" height="125"/>
+                                    <fontDescription key="fontDescription" name="NunitoSans-Bold" family="Nunito Sans" pointSize="18"/>
+                                    <color key="textColor" name="Black"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="2pL-Du-A06" firstAttribute="top" secondItem="Yay-Pm-hCy" secondAttribute="top" constant="5" id="J5V-LJ-tg0"/>
+                                <constraint firstItem="2pL-Du-A06" firstAttribute="centerY" secondItem="Yay-Pm-hCy" secondAttribute="centerY" id="Kge-ci-czN"/>
+                                <constraint firstAttribute="trailing" secondItem="2pL-Du-A06" secondAttribute="trailing" id="bIj-bj-Lb8"/>
+                                <constraint firstItem="2pL-Du-A06" firstAttribute="leading" secondItem="Yay-Pm-hCy" secondAttribute="leading" id="ceB-fR-fjw"/>
+                                <constraint firstAttribute="bottom" secondItem="2pL-Du-A06" secondAttribute="bottom" constant="5" id="sT6-h3-ork"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="Yay-Pm-hCy" firstAttribute="leading" secondItem="diN-h8-CKI" secondAttribute="leading" constant="20" id="2JP-Bd-K3O"/>
+                        <constraint firstAttribute="trailing" secondItem="Yay-Pm-hCy" secondAttribute="trailing" constant="20" id="R1Q-2t-pbK"/>
+                        <constraint firstItem="Yay-Pm-hCy" firstAttribute="top" secondItem="diN-h8-CKI" secondAttribute="top" id="TGe-ZY-R0M"/>
+                        <constraint firstAttribute="bottom" secondItem="Yay-Pm-hCy" secondAttribute="bottom" id="y2n-fW-Vx3"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="VXr-Tz-HHm"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="diN-h8-CKI" secondAttribute="bottom" id="0fE-XB-B6y"/>
+                <constraint firstItem="VXr-Tz-HHm" firstAttribute="trailing" secondItem="diN-h8-CKI" secondAttribute="trailing" id="UYB-yb-pD2"/>
+                <constraint firstItem="diN-h8-CKI" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="XcT-W7-UOr"/>
+                <constraint firstItem="diN-h8-CKI" firstAttribute="leading" secondItem="VXr-Tz-HHm" secondAttribute="leading" id="cUG-Qo-gRA"/>
+            </constraints>
+            <connections>
+                <outlet property="lblTitle" destination="2pL-Du-A06" id="dd7-5W-Fai"/>
+            </connections>
+            <point key="canvasLocation" x="274.04580152671753" y="49.647887323943664"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <namedColor name="Black">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Bold.ttf">
+            <string>Roboto-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CommonCVFooterView" id="U6b-Vx-4bR" customClass="CommonCVFooterView" customModule="SmartHome" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="610" height="155"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sX1-OS-SHU">
+                    <rect key="frame" x="0.0" y="0.0" width="610" height="121"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oag-3F-EAr">
+                            <rect key="frame" x="20" y="30" width="570" height="50"/>
+                            <color key="backgroundColor" name="maincolor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="IIp-g3-gKc"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="20"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="20" maxY="0.0"/>
+                            <state key="normal" title="Add new device" image="ic_plus-circle-outline">
+                                <color key="titleColor" systemColor="systemBackgroundColor"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="10"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="btnAddnewAction:" destination="U6b-Vx-4bR" eventType="touchUpInside" id="xMA-zo-M0o"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="Oag-3F-EAr" secondAttribute="trailing" constant="20" id="44B-5l-MXo"/>
+                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Oag-3F-EAr" secondAttribute="bottom" constant="20" id="PIq-IB-wSY"/>
+                        <constraint firstItem="Oag-3F-EAr" firstAttribute="top" secondItem="sX1-OS-SHU" secondAttribute="top" constant="30" id="aNk-pQ-iSY"/>
+                        <constraint firstItem="Oag-3F-EAr" firstAttribute="leading" secondItem="sX1-OS-SHU" secondAttribute="leading" constant="20" id="r3P-7I-6ak"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="VXr-Tz-HHm"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="sX1-OS-SHU" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="9ML-Ne-5iY"/>
+                <constraint firstItem="VXr-Tz-HHm" firstAttribute="trailing" secondItem="sX1-OS-SHU" secondAttribute="trailing" id="QN8-5G-9Ak"/>
+                <constraint firstItem="sX1-OS-SHU" firstAttribute="leading" secondItem="VXr-Tz-HHm" secondAttribute="leading" id="Yv7-Wm-Jzm"/>
+                <constraint firstItem="VXr-Tz-HHm" firstAttribute="bottom" secondItem="sX1-OS-SHU" secondAttribute="bottom" id="bxb-2T-eJ9"/>
+            </constraints>
+            <connections>
+                <outlet property="btnAddnewDevice" destination="Oag-3F-EAr" id="LsG-LZ-SGd"/>
+            </connections>
+            <point key="canvasLocation" x="342.02898550724638" y="130.91517857142856"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="ic_plus-circle-outline" width="24" height="24"/>
+        <namedColor name="maincolor">
+            <color red="0.68235294117647061" green="0.51372549019607838" blue="0.35686274509803922" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

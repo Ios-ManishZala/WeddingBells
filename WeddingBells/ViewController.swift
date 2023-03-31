@@ -11,7 +11,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+            let vc = IntroVC()
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
     }
 
 

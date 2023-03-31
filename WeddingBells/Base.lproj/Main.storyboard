@@ -1,24 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7s4-sY-UmR">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Philosopher-BoldItalic.ttf">
+            <string>Philosopher-BoldItalic</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WeddingBells" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fMa-Pc-Fdr">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_splash" translatesAutoresizingMaskIntoConstraints="NO" id="zmo-JB-3zw">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wedding Bells" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="drI-W6-L3K">
+                                        <rect key="frame" x="20" y="409.33333333333331" width="353" height="33.666666666666686"/>
+                                        <fontDescription key="fontDescription" name="Philosopher-BoldItalic" family="Philosopher" pointSize="30"/>
+                                        <color key="textColor" name="maincolor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="zmo-JB-3zw" firstAttribute="top" secondItem="fMa-Pc-Fdr" secondAttribute="top" id="EpF-bd-NzV"/>
+                                    <constraint firstAttribute="bottom" secondItem="zmo-JB-3zw" secondAttribute="bottom" id="GVn-Tn-cNL"/>
+                                    <constraint firstItem="drI-W6-L3K" firstAttribute="centerY" secondItem="fMa-Pc-Fdr" secondAttribute="centerY" id="KTT-cI-SLZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="drI-W6-L3K" secondAttribute="trailing" constant="20" id="fjk-Nq-gRE"/>
+                                    <constraint firstItem="drI-W6-L3K" firstAttribute="leading" secondItem="fMa-Pc-Fdr" secondAttribute="leading" constant="20" id="hK9-aT-Od0"/>
+                                    <constraint firstItem="zmo-JB-3zw" firstAttribute="leading" secondItem="fMa-Pc-Fdr" secondAttribute="leading" id="kcF-ZM-9hI"/>
+                                    <constraint firstAttribute="trailing" secondItem="zmo-JB-3zw" secondAttribute="trailing" id="yWt-Xj-DC3"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="fMa-Pc-Fdr" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="HKL-yd-Pdd"/>
+                            <constraint firstItem="fMa-Pc-Fdr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Rai-Py-9SI"/>
+                            <constraint firstAttribute="bottom" secondItem="fMa-Pc-Fdr" secondAttribute="bottom" id="j4I-Mf-c6I"/>
+                            <constraint firstAttribute="trailing" secondItem="fMa-Pc-Fdr" secondAttribute="trailing" id="oCv-zM-Wch"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="9E4-wL-oWx"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1057.2519083969464" y="-34.507042253521128"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="WL7-qK-zoW">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="7s4-sY-UmR" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ww8-Xx-2jZ">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="rPI-Rl-vna"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wg2-g4-lKc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.53435114503816" y="-34.507042253521128"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ic_splash" width="414" height="896"/>
+        <namedColor name="maincolor">
+            <color red="0.78431372549019607" green="0.35294117647058826" blue="0.32941176470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
