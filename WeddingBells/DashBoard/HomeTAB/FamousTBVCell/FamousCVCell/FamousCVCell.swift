@@ -16,6 +16,16 @@ class FamousCVCell: UICollectionViewCell {
     @IBOutlet weak var lblDollarForPay: UILabel!
     @IBOutlet weak var lblRating: UILabel!
     
+    var famousDecorData:DecorPackageModel?{
+        didSet{
+            self.lblDecorName.text = famousDecorData?.decorpackageName
+            self.lblDollarForPay.text = famousDecorData?.decorAmount
+            self.lblTime.text = famousDecorData?.decorTime
+            self.imageDecor.image = famousDecorData?.decorImageName
+        }
+    }
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
        

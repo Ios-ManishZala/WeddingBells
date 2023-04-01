@@ -168,6 +168,8 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <connections>
+                <outlet property="addImage" destination="gd4-dv-6PW" id="fRl-dQ-Wif"/>
+                <outlet property="imageViewHeight" destination="iPy-YO-xDf" id="8rl-Ma-16U"/>
                 <outlet property="searchView" destination="J6C-Yz-oe6" id="JGE-Rv-2FU"/>
                 <outlet property="txtSearch" destination="Zqe-NC-1wq" id="hF6-Yd-Zyf"/>
             </connections>

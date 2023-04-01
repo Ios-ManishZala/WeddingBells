@@ -9,8 +9,10 @@ import UIKit
 
 class HomeFirstTBVCell: UITableViewCell {
 
+    @IBOutlet weak var addImage: UIImageView!
     @IBOutlet weak var txtSearch: UITextField!
     @IBOutlet weak var searchView: UIView!
+    @IBOutlet weak var imageViewHeight: NSLayoutConstraint!
     
     override func awakeFromNib() {
         super.awakeFromNib()

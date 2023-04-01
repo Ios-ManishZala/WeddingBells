@@ -13,7 +13,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
-            let vc = IntroVC()
+            let vc = TabBarVC()
             self.navigationController?.pushViewController(vc, animated: true)
         }
     }

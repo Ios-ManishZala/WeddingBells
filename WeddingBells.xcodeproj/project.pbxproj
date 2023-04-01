@@ -51,6 +51,7 @@
 		EC786F5E29D6BD71005F5FD4 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC786F5929D6BD71005F5FD4 /* Montserrat-ExtraBold.ttf */; };
 		EC786F5F29D6BD71005F5FD4 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC786F5A29D6BD71005F5FD4 /* Montserrat-Bold.ttf */; };
 		EC786F6129D6C230005F5FD4 /* NunitoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC786F6029D6C230005F5FD4 /* NunitoSans-Bold.ttf */; };
+		EC7E10EF29D7EC7700DEC3A8 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7E10EE29D7EC7700DEC3A8 /* Data.swift */; };
 		ECC6D0CF29D6DD84002CE30B /* OtpVerificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC6D0C229D6DD83002CE30B /* OtpVerificationVC.swift */; };
 		ECC6D0D029D6DD84002CE30B /* OtpVerificationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECC6D0C329D6DD83002CE30B /* OtpVerificationVC.xib */; };
 		ECC6D0D529D6DD84002CE30B /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC6D0CB29D6DD83002CE30B /* LoginVC.swift */; };
@@ -135,6 +136,7 @@
 		EC786F5929D6BD71005F5FD4 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
 		EC786F5A29D6BD71005F5FD4 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		EC786F6029D6C230005F5FD4 /* NunitoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Bold.ttf"; sourceTree = "<group>"; };
+		EC7E10EE29D7EC7700DEC3A8 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		ECC6D0C229D6DD83002CE30B /* OtpVerificationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtpVerificationVC.swift; sourceTree = "<group>"; };
 		ECC6D0C329D6DD83002CE30B /* OtpVerificationVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OtpVerificationVC.xib; sourceTree = "<group>"; };
 		ECC6D0CB29D6DD83002CE30B /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -352,6 +354,7 @@
 		EC786F2729D6BB11005F5FD4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				EC7E10F029D7EC8800DEC3A8 /* MVC */,
 				EC786F2829D6BB11005F5FD4 /* BasicStuff */,
 				EC786F2E29D6BB11005F5FD4 /* Fonts */,
 			);
@@ -362,11 +365,8 @@
 			isa = PBXGroup;
 			children = (
 				EC786F2C29D6BB11005F5FD4 /* BasicStuff.swift */,
-				EC786F2A29D6BB11005F5FD4 /* Model.swift */,
 				EC786F2B29D6BB11005F5FD4 /* Localize.swift */,
 				ECC6D21629D6FC8C002CE30B /* AppClouser.swift */,
-				ECC6D21A29D6FF64002CE30B /* TableviewDatasource.swift */,
-				ECC6D22D29D70383002CE30B /* CollectionViewDatasource.swift */,
 				EC786F2929D6BB11005F5FD4 /* CollectionView+Extension.swift */,
 				EC786F2D29D6BB11005F5FD4 /* UITableView+Extension.swift */,
 			);
@@ -385,6 +385,17 @@
 				EC786F5429D6BD47005F5FD4 /* Philosopher-BoldItalic.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		EC7E10F029D7EC8800DEC3A8 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				EC786F2A29D6BB11005F5FD4 /* Model.swift */,
+				EC7E10EE29D7EC7700DEC3A8 /* Data.swift */,
+				ECC6D21A29D6FF64002CE30B /* TableviewDatasource.swift */,
+				ECC6D22D29D70383002CE30B /* CollectionViewDatasource.swift */,
+			);
+			path = MVC;
 			sourceTree = "<group>";
 		};
 		ECC6D0BD29D6DD83002CE30B /* LoginFlow */ = {
@@ -431,8 +442,8 @@
 				ECC6D1FA29D6E8B5002CE30B /* HomeVC.xib */,
 				ECC6D21129D6F83B002CE30B /* HomeFirstTBVCell */,
 				ECC6D21C29D70185002CE30B /* CategoriesTBVCell */,
-				ECC6D22529D701DB002CE30B /* FamousTBVCell */,
 				EC62A28429D70E08006048CE /* WeddingTBVCell */,
+				ECC6D22529D701DB002CE30B /* FamousTBVCell */,
 				ECC6D22629D70213002CE30B /* TrendingDecorTBVCell */,
 			);
 			path = HomeTAB;
@@ -709,6 +720,7 @@
 				ECC6D21729D6FC8C002CE30B /* AppClouser.swift in Sources */,
 				EC786F4729D6BB11005F5FD4 /* CollectionView+Extension.swift in Sources */,
 				EC786F4B29D6BB11005F5FD4 /* UITableView+Extension.swift in Sources */,
+				EC7E10EF29D7EC7700DEC3A8 /* Data.swift in Sources */,
 				ECC6D23129D703D8002CE30B /* CategoriesCVCell.swift in Sources */,
 				EC786F4629D6BB11005F5FD4 /* HeaderTitleOfTableview.swift in Sources */,
 				EC786F3D29D6BB11005F5FD4 /* NavigationBar.swift in Sources */,
