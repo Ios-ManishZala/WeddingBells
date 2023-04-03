@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-SemiBold.ttf">
+            <string>Montserrat-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="VenueDetailsThirdTBVCell" rowHeight="115" id="KGk-i7-Jjw" customClass="VenueDetailsThirdTBVCell" customModule="WeddingBells" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="287" height="115"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="287" height="115"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R6R-sC-ZKP">
+                        <rect key="frame" x="0.0" y="0.0" width="287" height="115"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sXb-cc-J7y">
+                                <rect key="frame" x="20" y="9.9999999999999964" width="247" height="58.666666666666657"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$56 onwards" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r9J-mA-sVi">
+                                        <rect key="frame" x="0.0" y="0.0" width="247" height="20"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="16"/>
+                                        <color key="textColor" name="maincolor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(advance booking payment$20)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ADp-zr-rMW">
+                                        <rect key="frame" x="0.0" y="25.000000000000004" width="247" height="14.666666666666668"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="12"/>
+                                        <color key="textColor" name="fontgraycolor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KSg-9k-voL">
+                                        <rect key="frame" x="0.0" y="57.666666666666671" width="247" height="1"/>
+                                        <color key="backgroundColor" red="0.85098039219999999" green="0.85098039219999999" blue="0.85098039219999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="Bz6-Fk-gcJ"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="KSg-9k-voL" secondAttribute="trailing" id="1Yf-fb-jOb"/>
+                                    <constraint firstItem="ADp-zr-rMW" firstAttribute="top" secondItem="r9J-mA-sVi" secondAttribute="bottom" constant="5" id="7oo-xY-JeN"/>
+                                    <constraint firstItem="KSg-9k-voL" firstAttribute="top" secondItem="ADp-zr-rMW" secondAttribute="bottom" constant="18" id="C4O-iq-cDu"/>
+                                    <constraint firstItem="r9J-mA-sVi" firstAttribute="top" secondItem="sXb-cc-J7y" secondAttribute="top" id="L8r-AZ-gmh"/>
+                                    <constraint firstAttribute="trailing" secondItem="r9J-mA-sVi" secondAttribute="trailing" id="b3I-hl-yR4"/>
+                                    <constraint firstItem="KSg-9k-voL" firstAttribute="leading" secondItem="sXb-cc-J7y" secondAttribute="leading" id="eDM-w2-8PW"/>
+                                    <constraint firstAttribute="bottom" secondItem="KSg-9k-voL" secondAttribute="bottom" id="ejg-AY-qFg"/>
+                                    <constraint firstItem="r9J-mA-sVi" firstAttribute="leading" secondItem="sXb-cc-J7y" secondAttribute="leading" id="lyc-q2-oGm"/>
+                                    <constraint firstItem="ADp-zr-rMW" firstAttribute="leading" secondItem="sXb-cc-J7y" secondAttribute="leading" id="oGj-Ef-wmU"/>
+                                    <constraint firstAttribute="trailing" secondItem="ADp-zr-rMW" secondAttribute="trailing" id="tTL-Ju-a73"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="sXb-cc-J7y" secondAttribute="bottom" constant="10" id="02Z-sw-Ac4"/>
+                            <constraint firstItem="sXb-cc-J7y" firstAttribute="top" secondItem="R6R-sC-ZKP" secondAttribute="top" constant="10" id="0VU-Zo-zPq"/>
+                            <constraint firstAttribute="trailing" secondItem="sXb-cc-J7y" secondAttribute="trailing" constant="20" id="N49-mn-TB3"/>
+                            <constraint firstItem="sXb-cc-J7y" firstAttribute="leading" secondItem="R6R-sC-ZKP" secondAttribute="leading" constant="20" id="ocA-aE-2jk"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="R6R-sC-ZKP" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="RKf-O5-W4n"/>
+                    <constraint firstAttribute="trailing" secondItem="R6R-sC-ZKP" secondAttribute="trailing" id="V51-Nx-Xgp"/>
+                    <constraint firstItem="R6R-sC-ZKP" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="YM6-FC-83n"/>
+                    <constraint firstAttribute="bottom" secondItem="R6R-sC-ZKP" secondAttribute="bottom" id="lq3-rK-ddy"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <point key="canvasLocation" x="-100" y="5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="fontgraycolor">
+            <color red="0.58039215686274515" green="0.58039215686274515" blue="0.58039215686274515" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="maincolor">
+            <color red="0.78431372549019607" green="0.35294117647058826" blue="0.32941176470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

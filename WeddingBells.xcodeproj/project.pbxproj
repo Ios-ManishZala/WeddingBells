@@ -81,6 +81,24 @@
 		ECC6D22E29D70383002CE30B /* CollectionViewDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC6D22D29D70383002CE30B /* CollectionViewDatasource.swift */; };
 		ECC6D23129D703D8002CE30B /* CategoriesCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC6D22F29D703D8002CE30B /* CategoriesCVCell.swift */; };
 		ECC6D23229D703D8002CE30B /* CategoriesCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECC6D23029D703D8002CE30B /* CategoriesCVCell.xib */; };
+		ECF0F3AF29DAC945006CDA42 /* WeddingPackageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF0F3AD29DAC945006CDA42 /* WeddingPackageVC.swift */; };
+		ECF0F3B029DAC945006CDA42 /* WeddingPackageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECF0F3AE29DAC945006CDA42 /* WeddingPackageVC.xib */; };
+		ECF0F3B429DAD081006CDA42 /* VenueDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF0F3B229DAD081006CDA42 /* VenueDetailsVC.swift */; };
+		ECF0F3B529DAD081006CDA42 /* VenueDetailsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECF0F3B329DAD081006CDA42 /* VenueDetailsVC.xib */; };
+		ECF0F3B929DAD1B4006CDA42 /* VenueDetailsFirstTBVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF0F3B729DAD1B4006CDA42 /* VenueDetailsFirstTBVCell.swift */; };
+		ECF0F3BA29DAD1B4006CDA42 /* VenueDetailsFirstTBVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECF0F3B829DAD1B4006CDA42 /* VenueDetailsFirstTBVCell.xib */; };
+		ECF0F3BE29DAD1DF006CDA42 /* VenueDetailsSecondTBVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF0F3BC29DAD1DF006CDA42 /* VenueDetailsSecondTBVCell.swift */; };
+		ECF0F3BF29DAD1DF006CDA42 /* VenueDetailsSecondTBVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECF0F3BD29DAD1DF006CDA42 /* VenueDetailsSecondTBVCell.xib */; };
+		ECF0F3C329DAD1FF006CDA42 /* VenueDetailsThirdTBVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF0F3C129DAD1FF006CDA42 /* VenueDetailsThirdTBVCell.swift */; };
+		ECF0F3C429DAD1FF006CDA42 /* VenueDetailsThirdTBVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECF0F3C229DAD1FF006CDA42 /* VenueDetailsThirdTBVCell.xib */; };
+		ECF0F3C829DAD21A006CDA42 /* VenueDetailsFourthTBVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF0F3C629DAD21A006CDA42 /* VenueDetailsFourthTBVCell.swift */; };
+		ECF0F3C929DAD21A006CDA42 /* VenueDetailsFourthTBVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECF0F3C729DAD21A006CDA42 /* VenueDetailsFourthTBVCell.xib */; };
+		ECF0F3CD29DAD23A006CDA42 /* VenueDetailsFiveTBVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF0F3CB29DAD23A006CDA42 /* VenueDetailsFiveTBVCell.swift */; };
+		ECF0F3CE29DAD23A006CDA42 /* VenueDetailsFiveTBVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECF0F3CC29DAD23A006CDA42 /* VenueDetailsFiveTBVCell.xib */; };
+		ECF0F3D229DAD250006CDA42 /* VenueDetailsSixTBVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF0F3D029DAD250006CDA42 /* VenueDetailsSixTBVCell.swift */; };
+		ECF0F3D329DAD250006CDA42 /* VenueDetailsSixTBVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECF0F3D129DAD250006CDA42 /* VenueDetailsSixTBVCell.xib */; };
+		ECF0F3D729DAD26C006CDA42 /* VenueDetailsSevenTBVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF0F3D529DAD26C006CDA42 /* VenueDetailsSevenTBVCell.swift */; };
+		ECF0F3D829DAD26C006CDA42 /* VenueDetailsSevenTBVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECF0F3D629DAD26C006CDA42 /* VenueDetailsSevenTBVCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -166,6 +184,24 @@
 		ECC6D22D29D70383002CE30B /* CollectionViewDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewDatasource.swift; sourceTree = "<group>"; };
 		ECC6D22F29D703D8002CE30B /* CategoriesCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCVCell.swift; sourceTree = "<group>"; };
 		ECC6D23029D703D8002CE30B /* CategoriesCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoriesCVCell.xib; sourceTree = "<group>"; };
+		ECF0F3AD29DAC945006CDA42 /* WeddingPackageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeddingPackageVC.swift; sourceTree = "<group>"; };
+		ECF0F3AE29DAC945006CDA42 /* WeddingPackageVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeddingPackageVC.xib; sourceTree = "<group>"; };
+		ECF0F3B229DAD081006CDA42 /* VenueDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueDetailsVC.swift; sourceTree = "<group>"; };
+		ECF0F3B329DAD081006CDA42 /* VenueDetailsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VenueDetailsVC.xib; sourceTree = "<group>"; };
+		ECF0F3B729DAD1B4006CDA42 /* VenueDetailsFirstTBVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueDetailsFirstTBVCell.swift; sourceTree = "<group>"; };
+		ECF0F3B829DAD1B4006CDA42 /* VenueDetailsFirstTBVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VenueDetailsFirstTBVCell.xib; sourceTree = "<group>"; };
+		ECF0F3BC29DAD1DF006CDA42 /* VenueDetailsSecondTBVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueDetailsSecondTBVCell.swift; sourceTree = "<group>"; };
+		ECF0F3BD29DAD1DF006CDA42 /* VenueDetailsSecondTBVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VenueDetailsSecondTBVCell.xib; sourceTree = "<group>"; };
+		ECF0F3C129DAD1FF006CDA42 /* VenueDetailsThirdTBVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueDetailsThirdTBVCell.swift; sourceTree = "<group>"; };
+		ECF0F3C229DAD1FF006CDA42 /* VenueDetailsThirdTBVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VenueDetailsThirdTBVCell.xib; sourceTree = "<group>"; };
+		ECF0F3C629DAD21A006CDA42 /* VenueDetailsFourthTBVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueDetailsFourthTBVCell.swift; sourceTree = "<group>"; };
+		ECF0F3C729DAD21A006CDA42 /* VenueDetailsFourthTBVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VenueDetailsFourthTBVCell.xib; sourceTree = "<group>"; };
+		ECF0F3CB29DAD23A006CDA42 /* VenueDetailsFiveTBVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueDetailsFiveTBVCell.swift; sourceTree = "<group>"; };
+		ECF0F3CC29DAD23A006CDA42 /* VenueDetailsFiveTBVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VenueDetailsFiveTBVCell.xib; sourceTree = "<group>"; };
+		ECF0F3D029DAD250006CDA42 /* VenueDetailsSixTBVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueDetailsSixTBVCell.swift; sourceTree = "<group>"; };
+		ECF0F3D129DAD250006CDA42 /* VenueDetailsSixTBVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VenueDetailsSixTBVCell.xib; sourceTree = "<group>"; };
+		ECF0F3D529DAD26C006CDA42 /* VenueDetailsSevenTBVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueDetailsSevenTBVCell.swift; sourceTree = "<group>"; };
+		ECF0F3D629DAD26C006CDA42 /* VenueDetailsSevenTBVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VenueDetailsSevenTBVCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -438,13 +474,9 @@
 		ECC6D0E129D6E866002CE30B /* HomeTAB */ = {
 			isa = PBXGroup;
 			children = (
-				ECC6D1F929D6E8B5002CE30B /* HomeVC.swift */,
-				ECC6D1FA29D6E8B5002CE30B /* HomeVC.xib */,
-				ECC6D21129D6F83B002CE30B /* HomeFirstTBVCell */,
-				ECC6D21C29D70185002CE30B /* CategoriesTBVCell */,
-				EC62A28429D70E08006048CE /* WeddingTBVCell */,
-				ECC6D22529D701DB002CE30B /* FamousTBVCell */,
-				ECC6D22629D70213002CE30B /* TrendingDecorTBVCell */,
+				ECF0F3AB29DAC8B1006CDA42 /* HomeVC */,
+				ECF0F3AC29DAC8FC006CDA42 /* WeddingPackageVC */,
+				ECF0F3B129DAD06D006CDA42 /* VenueDetailsVC */,
 			);
 			path = HomeTAB;
 			sourceTree = "<group>";
@@ -544,6 +576,108 @@
 			path = CategoriesCVCell;
 			sourceTree = "<group>";
 		};
+		ECF0F3AB29DAC8B1006CDA42 /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				ECC6D1F929D6E8B5002CE30B /* HomeVC.swift */,
+				ECC6D1FA29D6E8B5002CE30B /* HomeVC.xib */,
+				ECC6D21129D6F83B002CE30B /* HomeFirstTBVCell */,
+				ECC6D21C29D70185002CE30B /* CategoriesTBVCell */,
+				EC62A28429D70E08006048CE /* WeddingTBVCell */,
+				ECC6D22529D701DB002CE30B /* FamousTBVCell */,
+				ECC6D22629D70213002CE30B /* TrendingDecorTBVCell */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		ECF0F3AC29DAC8FC006CDA42 /* WeddingPackageVC */ = {
+			isa = PBXGroup;
+			children = (
+				ECF0F3AD29DAC945006CDA42 /* WeddingPackageVC.swift */,
+				ECF0F3AE29DAC945006CDA42 /* WeddingPackageVC.xib */,
+			);
+			path = WeddingPackageVC;
+			sourceTree = "<group>";
+		};
+		ECF0F3B129DAD06D006CDA42 /* VenueDetailsVC */ = {
+			isa = PBXGroup;
+			children = (
+				ECF0F3B229DAD081006CDA42 /* VenueDetailsVC.swift */,
+				ECF0F3B329DAD081006CDA42 /* VenueDetailsVC.xib */,
+				ECF0F3B629DAD195006CDA42 /* VenueDetailsFirstTBVCell */,
+				ECF0F3BB29DAD1CB006CDA42 /* VenueDetailsSecondTBVCell */,
+				ECF0F3C029DAD1EC006CDA42 /* VenueDetailsThirdTBVCell */,
+				ECF0F3C529DAD209006CDA42 /* VenueDetailsFourthTBVCell */,
+				ECF0F3CA29DAD22B006CDA42 /* VenueDetailsFiveTBVCell */,
+				ECF0F3CF29DAD241006CDA42 /* VenueDetailsSixTBVCell */,
+				ECF0F3D429DAD257006CDA42 /* VenueDetailsSevenTBVCell */,
+			);
+			path = VenueDetailsVC;
+			sourceTree = "<group>";
+		};
+		ECF0F3B629DAD195006CDA42 /* VenueDetailsFirstTBVCell */ = {
+			isa = PBXGroup;
+			children = (
+				ECF0F3B729DAD1B4006CDA42 /* VenueDetailsFirstTBVCell.swift */,
+				ECF0F3B829DAD1B4006CDA42 /* VenueDetailsFirstTBVCell.xib */,
+			);
+			path = VenueDetailsFirstTBVCell;
+			sourceTree = "<group>";
+		};
+		ECF0F3BB29DAD1CB006CDA42 /* VenueDetailsSecondTBVCell */ = {
+			isa = PBXGroup;
+			children = (
+				ECF0F3BC29DAD1DF006CDA42 /* VenueDetailsSecondTBVCell.swift */,
+				ECF0F3BD29DAD1DF006CDA42 /* VenueDetailsSecondTBVCell.xib */,
+			);
+			path = VenueDetailsSecondTBVCell;
+			sourceTree = "<group>";
+		};
+		ECF0F3C029DAD1EC006CDA42 /* VenueDetailsThirdTBVCell */ = {
+			isa = PBXGroup;
+			children = (
+				ECF0F3C129DAD1FF006CDA42 /* VenueDetailsThirdTBVCell.swift */,
+				ECF0F3C229DAD1FF006CDA42 /* VenueDetailsThirdTBVCell.xib */,
+			);
+			path = VenueDetailsThirdTBVCell;
+			sourceTree = "<group>";
+		};
+		ECF0F3C529DAD209006CDA42 /* VenueDetailsFourthTBVCell */ = {
+			isa = PBXGroup;
+			children = (
+				ECF0F3C629DAD21A006CDA42 /* VenueDetailsFourthTBVCell.swift */,
+				ECF0F3C729DAD21A006CDA42 /* VenueDetailsFourthTBVCell.xib */,
+			);
+			path = VenueDetailsFourthTBVCell;
+			sourceTree = "<group>";
+		};
+		ECF0F3CA29DAD22B006CDA42 /* VenueDetailsFiveTBVCell */ = {
+			isa = PBXGroup;
+			children = (
+				ECF0F3CB29DAD23A006CDA42 /* VenueDetailsFiveTBVCell.swift */,
+				ECF0F3CC29DAD23A006CDA42 /* VenueDetailsFiveTBVCell.xib */,
+			);
+			path = VenueDetailsFiveTBVCell;
+			sourceTree = "<group>";
+		};
+		ECF0F3CF29DAD241006CDA42 /* VenueDetailsSixTBVCell */ = {
+			isa = PBXGroup;
+			children = (
+				ECF0F3D029DAD250006CDA42 /* VenueDetailsSixTBVCell.swift */,
+				ECF0F3D129DAD250006CDA42 /* VenueDetailsSixTBVCell.xib */,
+			);
+			path = VenueDetailsSixTBVCell;
+			sourceTree = "<group>";
+		};
+		ECF0F3D429DAD257006CDA42 /* VenueDetailsSevenTBVCell */ = {
+			isa = PBXGroup;
+			children = (
+				ECF0F3D529DAD26C006CDA42 /* VenueDetailsSevenTBVCell.swift */,
+				ECF0F3D629DAD26C006CDA42 /* VenueDetailsSevenTBVCell.xib */,
+			);
+			path = VenueDetailsSevenTBVCell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -608,6 +742,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECF0F3D829DAD26C006CDA42 /* VenueDetailsSevenTBVCell.xib in Resources */,
 				EC786F5F29D6BD71005F5FD4 /* Montserrat-Bold.ttf in Resources */,
 				ECC6D0E029D6E200002CE30B /* RegisterVC.xib in Resources */,
 				ECC6D23229D703D8002CE30B /* CategoriesCVCell.xib in Resources */,
@@ -616,14 +751,19 @@
 				ECC6D20629D6E8F1002CE30B /* TaskVC.xib in Resources */,
 				EC786F5C29D6BD71005F5FD4 /* Montserrat-Regular.ttf in Resources */,
 				EC62A28329D70737006048CE /* FamousCVCell.xib in Resources */,
+				ECF0F3D329DAD250006CDA42 /* VenueDetailsSixTBVCell.xib in Resources */,
 				EC786F3929D6BB11005F5FD4 /* CustomTabCell.xib in Resources */,
+				ECF0F3C929DAD21A006CDA42 /* VenueDetailsFourthTBVCell.xib in Resources */,
 				ECC6D22029D7019D002CE30B /* CategoriesTBVCell.xib in Resources */,
 				EC786F3C29D6BB11005F5FD4 /* CommonTbvHeaderView.xib in Resources */,
 				EC786F3A29D6BB11005F5FD4 /* TabBarVC.xib in Resources */,
 				ECC6D20F29D6E92E002CE30B /* ProfileVC.xib in Resources */,
 				EC47F23629D6D253006AB45B /* Localizable.strings in Resources */,
 				ECC6D0D029D6DD84002CE30B /* OtpVerificationVC.xib in Resources */,
+				ECF0F3BF29DAD1DF006CDA42 /* VenueDetailsSecondTBVCell.xib in Resources */,
 				EC786F0029D6B0E5005F5FD4 /* LaunchScreen.storyboard in Resources */,
+				ECF0F3BA29DAD1B4006CDA42 /* VenueDetailsFirstTBVCell.xib in Resources */,
+				ECF0F3B029DAC945006CDA42 /* WeddingPackageVC.xib in Resources */,
 				EC786F3529D6BB11005F5FD4 /* CommonTbvFooterView.xib in Resources */,
 				EC786F0B29D6B8BE005F5FD4 /* IntroVC.xib in Resources */,
 				EC786F4329D6BB11005F5FD4 /* CommonCVFooterView.xib in Resources */,
@@ -633,9 +773,12 @@
 				EC786F4229D6BB11005F5FD4 /* CommonCVHeaderView.xib in Resources */,
 				EC786F4029D6BB11005F5FD4 /* TabNavigationBar.xib in Resources */,
 				EC786F4529D6BB11005F5FD4 /* HeaderTitleOfTableview.xib in Resources */,
+				ECF0F3CE29DAD23A006CDA42 /* VenueDetailsFiveTBVCell.xib in Resources */,
 				EC786F6129D6C230005F5FD4 /* NunitoSans-Bold.ttf in Resources */,
 				ECC6D20129D6E8D9002CE30B /* VendorsVC.xib in Resources */,
+				ECF0F3C429DAD1FF006CDA42 /* VenueDetailsThirdTBVCell.xib in Resources */,
 				ECC6D0D629D6DD84002CE30B /* LoginVC.xib in Resources */,
+				ECF0F3B529DAD081006CDA42 /* VenueDetailsVC.xib in Resources */,
 				ECC6D22429D701D4002CE30B /* FamousTBVCell.xib in Resources */,
 				ECC6D22A29D70228002CE30B /* TrendingDecorTBVCell.xib in Resources */,
 				EC786EFD29D6B0E5005F5FD4 /* Assets.xcassets in Resources */,
@@ -701,8 +844,12 @@
 				EC786F4829D6BB11005F5FD4 /* Model.swift in Sources */,
 				ECC6D1FB29D6E8B5002CE30B /* HomeVC.swift in Sources */,
 				ECC6D22329D701D4002CE30B /* FamousTBVCell.swift in Sources */,
+				ECF0F3C329DAD1FF006CDA42 /* VenueDetailsThirdTBVCell.swift in Sources */,
 				EC62A28729D70E24006048CE /* WeddingTBVCell.swift in Sources */,
+				ECF0F3CD29DAD23A006CDA42 /* VenueDetailsFiveTBVCell.swift in Sources */,
+				ECF0F3B929DAD1B4006CDA42 /* VenueDetailsFirstTBVCell.swift in Sources */,
 				ECC6D0CF29D6DD84002CE30B /* OtpVerificationVC.swift in Sources */,
+				ECF0F3B429DAD081006CDA42 /* VenueDetailsVC.swift in Sources */,
 				EC786F3629D6BB11005F5FD4 /* CommonTbvFooterView.swift in Sources */,
 				EC786F3F29D6BB11005F5FD4 /* TabNavigationBar.swift in Sources */,
 				EC786EF829D6B0E3005F5FD4 /* ViewController.swift in Sources */,
@@ -712,9 +859,12 @@
 				ECC6D0DF29D6E200002CE30B /* RegisterVC.swift in Sources */,
 				ECC6D20029D6E8D9002CE30B /* VendorsVC.swift in Sources */,
 				EC786F0A29D6B8BE005F5FD4 /* IntroVC.swift in Sources */,
+				ECF0F3BE29DAD1DF006CDA42 /* VenueDetailsSecondTBVCell.swift in Sources */,
 				EC786F3829D6BB11005F5FD4 /* CustomTabCell.swift in Sources */,
+				ECF0F3D229DAD250006CDA42 /* VenueDetailsSixTBVCell.swift in Sources */,
 				EC786F4A29D6BB11005F5FD4 /* BasicStuff.swift in Sources */,
 				EC786EF429D6B0E3005F5FD4 /* AppDelegate.swift in Sources */,
+				ECF0F3D729DAD26C006CDA42 /* VenueDetailsSevenTBVCell.swift in Sources */,
 				ECC6D20529D6E8F1002CE30B /* TaskVC.swift in Sources */,
 				EC786F4129D6BB11005F5FD4 /* CommonCVHeaderView.swift in Sources */,
 				ECC6D21729D6FC8C002CE30B /* AppClouser.swift in Sources */,
@@ -724,12 +874,14 @@
 				ECC6D23129D703D8002CE30B /* CategoriesCVCell.swift in Sources */,
 				EC786F4629D6BB11005F5FD4 /* HeaderTitleOfTableview.swift in Sources */,
 				EC786F3D29D6BB11005F5FD4 /* NavigationBar.swift in Sources */,
+				ECF0F3AF29DAC945006CDA42 /* WeddingPackageVC.swift in Sources */,
 				ECC6D21F29D7019D002CE30B /* CategoriesTBVCell.swift in Sources */,
 				EC786F4929D6BB11005F5FD4 /* Localize.swift in Sources */,
 				ECC6D22E29D70383002CE30B /* CollectionViewDatasource.swift in Sources */,
 				EC786F3B29D6BB11005F5FD4 /* CommonTbvHeaderView.swift in Sources */,
 				EC786F3729D6BB11005F5FD4 /* TabBarVC.swift in Sources */,
 				EC786EF629D6B0E3005F5FD4 /* SceneDelegate.swift in Sources */,
+				ECF0F3C829DAD21A006CDA42 /* VenueDetailsFourthTBVCell.swift in Sources */,
 				ECC6D21429D6F86B002CE30B /* HomeFirstTBVCell.swift in Sources */,
 				ECC6D21B29D6FF64002CE30B /* TableviewDatasource.swift in Sources */,
 				ECC6D0D529D6DD84002CE30B /* LoginVC.swift in Sources */,

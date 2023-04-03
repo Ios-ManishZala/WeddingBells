@@ -11,12 +11,12 @@
         <array key="Inter-SemiBold.ttf">
             <string>Inter-SemiBold</string>
         </array>
-        <array key="Mulish-Bold.ttf">
-            <string>Mulish-Bold</string>
+        <array key="Montserrat-SemiBold.ttf">
+            <string>Montserrat-SemiBold</string>
         </array>
     </customFonts>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TabNavigationBar" customModule="News" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TabNavigationBar" customModule="WeddingBells" customModuleProvider="target">
             <connections>
                 <outlet property="btnBack" destination="vAQ-eq-NWV" id="BId-ej-Oz2"/>
                 <outlet property="btnHeart" destination="9jx-Yp-Tt9" id="zyY-nW-7L4"/>
@@ -37,7 +37,7 @@
                             <rect key="frame" x="0.0" y="0.0" width="419" height="49"/>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vAQ-eq-NWV">
-                                    <rect key="frame" x="20" y="13.5" width="16" height="22"/>
+                                    <rect key="frame" x="20" y="12.5" width="24" height="24.5"/>
                                     <color key="tintColor" red="1" green="0.90980392160000001" blue="0.7843137255" alpha="1" colorSpace="calibratedRGB"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                     <state key="normal" image="ic_black"/>
@@ -45,9 +45,9 @@
                                         <action selector="btnBackAction:" destination="-1" eventType="touchUpInside" id="vWN-Kt-ie9"/>
                                     </connections>
                                 </button>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NavigationBar" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6zS-ia-Yib">
-                                    <rect key="frame" x="56" y="13" width="125.5" height="23"/>
-                                    <fontDescription key="fontDescription" name="Mulish-Bold" family="Mulish" pointSize="18"/>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NavigationBar" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6zS-ia-Yib">
+                                    <rect key="frame" x="59" y="13.5" width="133.5" height="22"/>
+                                    <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="18"/>
                                     <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <nil key="highlightedColor"/>
                                 </label>
@@ -59,7 +59,7 @@
                                     </constraints>
                                     <fontDescription key="fontDescription" name="Inter-SemiBold" family="Inter" pointSize="16"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                    <state key="normal" image="ic_navicon1"/>
+                                    <state key="normal" image="Group 458"/>
                                     <connections>
                                         <action selector="btnHeartAction:" destination="-1" eventType="touchUpInside" id="CLL-ie-k2P"/>
                                     </connections>
@@ -72,7 +72,7 @@
                                     </constraints>
                                     <fontDescription key="fontDescription" name="Inter-SemiBold" family="Inter" pointSize="16"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                    <state key="normal" image="ic_navicon2"/>
+                                    <state key="normal" image="ant-design_share-alt-outlined"/>
                                     <connections>
                                         <action selector="btnShareAction:" destination="-1" eventType="touchUpInside" id="7DA-Iy-bCC"/>
                                     </connections>
@@ -82,12 +82,12 @@
                             <constraints>
                                 <constraint firstItem="vAQ-eq-NWV" firstAttribute="leading" secondItem="MKr-Em-KoU" secondAttribute="leading" constant="20" id="4Vp-Yg-t4y"/>
                                 <constraint firstItem="vAQ-eq-NWV" firstAttribute="centerY" secondItem="MKr-Em-KoU" secondAttribute="centerY" id="8zh-8A-iHG"/>
-                                <constraint firstItem="Knp-jp-amb" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6zS-ia-Yib" secondAttribute="trailing" constant="20" id="B6H-sc-e6d"/>
+                                <constraint firstItem="Knp-jp-amb" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6zS-ia-Yib" secondAttribute="trailing" constant="10" id="B6H-sc-e6d"/>
                                 <constraint firstItem="9jx-Yp-Tt9" firstAttribute="centerY" secondItem="MKr-Em-KoU" secondAttribute="centerY" id="GcO-eJ-H3W"/>
                                 <constraint firstAttribute="trailing" secondItem="9jx-Yp-Tt9" secondAttribute="trailing" constant="15" id="RRe-8w-Z9g"/>
                                 <constraint firstItem="9jx-Yp-Tt9" firstAttribute="leading" secondItem="Knp-jp-amb" secondAttribute="trailing" constant="10" id="aZZ-bj-CtR"/>
                                 <constraint firstItem="Knp-jp-amb" firstAttribute="centerY" secondItem="MKr-Em-KoU" secondAttribute="centerY" id="ePT-kk-DCb"/>
-                                <constraint firstItem="6zS-ia-Yib" firstAttribute="leading" secondItem="vAQ-eq-NWV" secondAttribute="trailing" constant="20" id="rzM-OG-Fr9"/>
+                                <constraint firstItem="6zS-ia-Yib" firstAttribute="leading" secondItem="vAQ-eq-NWV" secondAttribute="trailing" constant="15" id="rzM-OG-Fr9"/>
                                 <constraint firstItem="6zS-ia-Yib" firstAttribute="centerY" secondItem="MKr-Em-KoU" secondAttribute="centerY" id="v6y-Fl-W1K"/>
                             </constraints>
                         </view>
@@ -114,8 +114,8 @@
         </view>
     </objects>
     <resources>
-        <image name="ic_black" width="16" height="16.5"/>
-        <image name="ic_navicon1" width="20" height="20.5"/>
-        <image name="ic_navicon2" width="20" height="20.5"/>
+        <image name="Group 458" width="20" height="20.5"/>
+        <image name="ant-design_share-alt-outlined" width="20" height="20.5"/>
+        <image name="ic_black" width="24" height="24.5"/>
     </resources>
 </document>

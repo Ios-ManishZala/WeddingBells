@@ -104,6 +104,39 @@ class WeddingDecorData{
         ]
         return trendingViewData
     }
+    
+    static func getAlbums() -> [DecorPackageModel] {
+        var famousViewData = [DecorPackageModel]()
+        famousViewData = [
+            DecorPackageModel.init(decorImageName: UIImage(named: "ic_album1"),
+                                   decorpackageName: "Main hall",
+                                   decorTime: "150 image",
+                                   decorAmount: "$56 onwards"),
+            DecorPackageModel.init(decorImageName: UIImage(named: "ic_album2"),
+                                   decorpackageName: "Dining area",
+                                   decorTime: "20 image",
+                                   decorAmount: "$56 onwards"),
+            DecorPackageModel.init(decorImageName: UIImage(named: "ic_album3"),
+                                   decorpackageName: "Serenity Grove",
+                                   decorTime: "20 image",
+                                   decorAmount: "$56 onwards"),
+            DecorPackageModel.init(decorImageName: UIImage(named: "ic_album4"),
+                                   decorpackageName: "Dining area",
+                                   decorTime: "200 image",
+                                   decorAmount: "$56 onwards")
+        ]
+        return famousViewData
+    }
+    
+    static func getUserReviewData() -> [ReviewModel] {
+        var trendingViewData = [ReviewModel]()
+        trendingViewData = [
+            ReviewModel.init(userImage: UIImage(named: "ic_review1"),userName: "Jerome Bell"),
+            ReviewModel.init(userImage: UIImage(named: "ic_review2"),userName: "Eleanor Pena"),
+            ReviewModel.init(userImage: UIImage(named: "ic_review3"),userName: "Ralph Edwards")
+        ]
+        return trendingViewData
+    }
 }
 
 

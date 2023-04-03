@@ -33,3 +33,13 @@ class DecorPackageModel {
         self.decorRating = decorRating
     }
 }
+
+class ReviewModel {
+    var userImage: UIImage?
+    var userName: String?
+    
+    init(userImage: UIImage? = nil, userName: String? = nil) {
+        self.userImage = userImage
+        self.userName = userName
+    }
+}
