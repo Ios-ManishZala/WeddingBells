@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 
+
 class WeddingDataModel{
     var headerName: String?
     var decorPackageDetails:[DecorPackageModel]
@@ -34,6 +35,7 @@ class DecorPackageModel {
     }
 }
 
+
 class ReviewModel {
     var userImage: UIImage?
     var userName: String?
@@ -42,4 +44,36 @@ class ReviewModel {
         self.userImage = userImage
         self.userName = userName
     }
+}
+
+
+struct NotificationDetails{
+    var title:String
+    var Description:String
+    var time:String
+}
+
+class VendorModel {
+    var vendorImage: UIImage?
+    var vendorName: String?
+    var vendorType: String?
+    
+    init(vendorImage: UIImage? = nil, vendorName: String? = nil, vendorType: String? = nil) {
+        self.vendorImage = vendorImage
+        self.vendorName = vendorName
+        self.vendorType = vendorType
+    }
+}
+
+struct ChatDetails{
+    var name:String
+    var image:UIImage
+    var message:String
+    var time:String
+    var unReadMessage:String
+}
+
+struct Message{
+    var message:String
+    var Time:String
 }

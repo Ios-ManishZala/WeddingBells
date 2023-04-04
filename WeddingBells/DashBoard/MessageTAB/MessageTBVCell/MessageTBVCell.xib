@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Medium.ttf">
+            <string>Montserrat-Medium</string>
+        </array>
+        <array key="Montserrat-Regular.ttf">
+            <string>Montserrat-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="MessageTBVCell" rowHeight="198" id="KGk-i7-Jjw" customClass="MessageTBVCell" customModule="WeddingBells" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="401" height="198"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="401" height="198"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nN0-IN-iYK">
+                        <rect key="frame" x="0.0" y="0.0" width="401" height="198"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c9V-o9-1mm">
+                                <rect key="frame" x="20" y="10" width="361" height="50"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="27Q-iV-zg5">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="27Q-iV-zg5" secondAttribute="height" multiplier="1:1" id="78y-v4-2wp"/>
+                                            <constraint firstAttribute="height" constant="50" id="lCI-dY-kxm"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wade Warren" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oX7-WO-ebE">
+                                        <rect key="frame" x="60" y="2" width="112" height="20"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="16"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="hello, thank you" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6y0-cR-V5P">
+                                        <rect key="frame" x="60" y="26" width="291" height="17.666666666666671"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="14"/>
+                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2.00am" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wlF-mw-pDE">
+                                        <rect key="frame" x="308" y="0.0" width="53" height="17.666666666666668"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
+                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="27Q-iV-zg5" secondAttribute="bottom" id="0nq-Sh-AO3"/>
+                                    <constraint firstItem="27Q-iV-zg5" firstAttribute="leading" secondItem="c9V-o9-1mm" secondAttribute="leading" id="Po6-me-Kim"/>
+                                    <constraint firstItem="6y0-cR-V5P" firstAttribute="top" secondItem="oX7-WO-ebE" secondAttribute="bottom" constant="4" id="QsC-BE-xLC"/>
+                                    <constraint firstItem="wlF-mw-pDE" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="oX7-WO-ebE" secondAttribute="trailing" constant="20" id="Ye8-cz-z84"/>
+                                    <constraint firstItem="6y0-cR-V5P" firstAttribute="leading" secondItem="27Q-iV-zg5" secondAttribute="trailing" constant="10" id="bvF-mQ-fOp"/>
+                                    <constraint firstItem="27Q-iV-zg5" firstAttribute="top" secondItem="c9V-o9-1mm" secondAttribute="top" id="cNZ-NX-YSi"/>
+                                    <constraint firstAttribute="trailing" secondItem="6y0-cR-V5P" secondAttribute="trailing" constant="10" id="cOr-qd-2LC"/>
+                                    <constraint firstItem="27Q-iV-zg5" firstAttribute="leading" secondItem="c9V-o9-1mm" secondAttribute="leading" id="cuh-jH-aGx"/>
+                                    <constraint firstItem="wlF-mw-pDE" firstAttribute="top" secondItem="c9V-o9-1mm" secondAttribute="top" id="is6-ap-FUB"/>
+                                    <constraint firstItem="oX7-WO-ebE" firstAttribute="top" secondItem="c9V-o9-1mm" secondAttribute="top" constant="2" id="rE2-eX-jVH"/>
+                                    <constraint firstItem="oX7-WO-ebE" firstAttribute="leading" secondItem="27Q-iV-zg5" secondAttribute="trailing" constant="10" id="vCR-w6-96H"/>
+                                    <constraint firstAttribute="trailing" secondItem="wlF-mw-pDE" secondAttribute="trailing" id="yne-yI-N95"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="c9V-o9-1mm" secondAttribute="trailing" constant="20" id="EZ5-qY-TVK"/>
+                            <constraint firstItem="c9V-o9-1mm" firstAttribute="top" secondItem="nN0-IN-iYK" secondAttribute="top" constant="10" id="UP2-hU-ykf"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="c9V-o9-1mm" secondAttribute="bottom" constant="15" id="e37-qV-Di3"/>
+                            <constraint firstItem="c9V-o9-1mm" firstAttribute="leading" secondItem="nN0-IN-iYK" secondAttribute="leading" constant="20" id="fhI-nA-aFF"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="nN0-IN-iYK" secondAttribute="bottom" id="7nU-sZ-dCR"/>
+                    <constraint firstAttribute="trailing" secondItem="nN0-IN-iYK" secondAttribute="trailing" id="HxH-d3-7NB"/>
+                    <constraint firstItem="nN0-IN-iYK" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Vof-5Z-ItL"/>
+                    <constraint firstItem="nN0-IN-iYK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="prM-IK-Dyf"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="lblLastMessage" destination="6y0-cR-V5P" id="oeo-rR-9lB"/>
+                <outlet property="lblTime" destination="wlF-mw-pDE" id="H3I-DP-5vD"/>
+                <outlet property="lblUserName" destination="oX7-WO-ebE" id="V2J-8a-DbD"/>
+                <outlet property="userImage" destination="27Q-iV-zg5" id="KkP-5k-l65"/>
+            </connections>
+            <point key="canvasLocation" x="193.12977099236642" y="42.95774647887324"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

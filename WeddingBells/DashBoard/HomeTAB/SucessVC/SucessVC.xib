@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Medium.ttf">
+            <string>Montserrat-Medium</string>
+        </array>
+        <array key="Montserrat-SemiBold.ttf">
+            <string>Montserrat-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SucessVC" customModule="WeddingBells" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ErX-tW-Hah">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Of9-dk-Bfc">
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_booknow" translatesAutoresizingMaskIntoConstraints="NO" id="lQZ-LP-an4">
+                                    <rect key="frame" x="117.66666666666669" y="317" width="158" height="158"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="lQZ-LP-an4" secondAttribute="height" multiplier="1:1" id="Xqy-MQ-GkH"/>
+                                        <constraint firstAttribute="height" constant="158" id="hns-8J-2W2"/>
+                                    </constraints>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="akp-ky-Xsg">
+                                    <rect key="frame" x="138.66666666666666" y="800" width="116" height="32"/>
+                                    <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="16"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="Back to home">
+                                        <color key="titleColor" name="maincolor"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="btnBacktoHomeAction:" destination="-1" eventType="touchUpInside" id="bwa-dm-bqd"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Booking successfull" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DWE-pQ-Inc">
+                                    <rect key="frame" x="20" y="495" width="353" height="25"/>
+                                    <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="20"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstItem="lQZ-LP-an4" firstAttribute="centerX" secondItem="Of9-dk-Bfc" secondAttribute="centerX" id="4is-XN-5zf"/>
+                                <constraint firstItem="akp-ky-Xsg" firstAttribute="centerX" secondItem="Of9-dk-Bfc" secondAttribute="centerX" id="FXD-b3-ZfB"/>
+                                <constraint firstItem="DWE-pQ-Inc" firstAttribute="top" secondItem="lQZ-LP-an4" secondAttribute="bottom" constant="20" id="KIk-bS-f5T"/>
+                                <constraint firstItem="lQZ-LP-an4" firstAttribute="centerY" secondItem="Of9-dk-Bfc" secondAttribute="centerY" constant="-30" id="Nhv-xp-5s1"/>
+                                <constraint firstAttribute="trailing" secondItem="DWE-pQ-Inc" secondAttribute="trailing" constant="20" id="kZY-rm-7Vt"/>
+                                <constraint firstAttribute="bottom" secondItem="akp-ky-Xsg" secondAttribute="bottom" constant="20" id="lvO-EJ-bPT"/>
+                                <constraint firstItem="DWE-pQ-Inc" firstAttribute="leading" secondItem="Of9-dk-Bfc" secondAttribute="leading" constant="20" id="mj0-X4-GYu"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="Of9-dk-Bfc" firstAttribute="top" secondItem="ErX-tW-Hah" secondAttribute="top" id="Lzk-it-wWV"/>
+                        <constraint firstAttribute="trailing" secondItem="Of9-dk-Bfc" secondAttribute="trailing" id="Qfd-Bk-LW9"/>
+                        <constraint firstAttribute="bottom" secondItem="Of9-dk-Bfc" secondAttribute="bottom" id="Sow-kr-GuU"/>
+                        <constraint firstItem="Of9-dk-Bfc" firstAttribute="leading" secondItem="ErX-tW-Hah" secondAttribute="leading" id="cq7-ex-V7W"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="ErX-tW-Hah" secondAttribute="bottom" id="LAc-aO-Czf"/>
+                <constraint firstItem="ErX-tW-Hah" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Ya1-LM-9ac"/>
+                <constraint firstAttribute="trailing" secondItem="ErX-tW-Hah" secondAttribute="trailing" id="nZA-Rp-Wh6"/>
+                <constraint firstItem="ErX-tW-Hah" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="oX8-AS-Ve2"/>
+            </constraints>
+            <point key="canvasLocation" x="132" y="-11"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_booknow" width="158.33332824707031" height="158"/>
+        <namedColor name="maincolor">
+            <color red="0.78431372549019607" green="0.35294117647058826" blue="0.32941176470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

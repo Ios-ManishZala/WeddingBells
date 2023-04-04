@@ -17,7 +17,7 @@ class TabNavigationBar: UIView {
     @IBOutlet public weak var titleLabel: UILabel!
     var onTapBackAction:(()->())? = nil
     @IBOutlet var contentView: UIView!
-    var onTapHeartAction:(()->())? = nil
+    var onTapHeartAction:((UIButton)->())? = nil
     var onTapShareAction:(()->())? = nil
 
     
@@ -53,7 +53,7 @@ class TabNavigationBar: UIView {
     
     @IBAction func btnHeartAction(_ sender: UIButton) {
         if let getAct = self.onTapHeartAction {
-            getAct()
+            getAct(sender)
         }
     }
     

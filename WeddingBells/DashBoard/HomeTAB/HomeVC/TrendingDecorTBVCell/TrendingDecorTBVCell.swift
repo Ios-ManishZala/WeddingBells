@@ -13,6 +13,7 @@ class TrendingDecorTBVCell: UITableViewCell {
     var weddingdecorData = WeddingDecorData.getTrendingDecorData()
     var onTapTrendingIndex:(()->()) = { }
     
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         

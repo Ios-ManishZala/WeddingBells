@@ -10,6 +10,9 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
+        <array key="Montserrat-Bold.ttf">
+            <string>Montserrat-Bold</string>
+        </array>
         <array key="Montserrat-SemiBold.ttf">
             <string>Montserrat-SemiBold</string>
         </array>
@@ -18,6 +21,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="VenueDetailsVC" customModule="WeddingBells" customModuleProvider="target">
             <connections>
                 <outlet property="customNav" destination="JQu-1I-OQJ" id="LZ8-rt-MlK"/>
+                <outlet property="imageview" destination="TFx-M6-jR2" id="hip-86-TLs"/>
                 <outlet property="leftCornerView" destination="vv5-px-QwA" id="PXl-sd-vUX"/>
                 <outlet property="tableView" destination="e8K-5z-SlQ" id="M6k-3s-pgw"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
@@ -34,7 +38,7 @@
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hyu-YI-BLh">
                             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             <subviews>
-                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_venuefront" translatesAutoresizingMaskIntoConstraints="NO" id="TFx-M6-jR2">
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_venuefront" translatesAutoresizingMaskIntoConstraints="NO" id="TFx-M6-jR2">
                                     <rect key="frame" x="0.0" y="0.0" width="393" height="270"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="270" id="rzh-51-m5r"/>
@@ -71,11 +75,28 @@
                                     <rect key="frame" x="0.0" y="270" width="393" height="582"/>
                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 </tableView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Luj-qG-ZbQ">
+                                    <rect key="frame" x="0.0" y="802" width="393" height="50"/>
+                                    <color key="backgroundColor" name="maincolor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="G9P-TT-oEl"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="18"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="Check availablity">
+                                        <color key="titleColor" name="FontWhiteColor"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="btnCheckAvailblityAction:" destination="-1" eventType="touchUpInside" id="b8w-HI-vB2"/>
+                                    </connections>
+                                </button>
                             </subviews>
                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             <constraints>
+                                <constraint firstAttribute="trailing" secondItem="Luj-qG-ZbQ" secondAttribute="trailing" id="5np-wa-Pqk"/>
                                 <constraint firstItem="e8K-5z-SlQ" firstAttribute="leading" secondItem="Hyu-YI-BLh" secondAttribute="leading" id="DyV-Gf-ThL"/>
                                 <constraint firstItem="TFx-M6-jR2" firstAttribute="top" secondItem="Hyu-YI-BLh" secondAttribute="top" id="ENu-vj-JdZ"/>
+                                <constraint firstAttribute="bottom" secondItem="Luj-qG-ZbQ" secondAttribute="bottom" id="J0t-g4-48u"/>
                                 <constraint firstItem="e8K-5z-SlQ" firstAttribute="top" secondItem="TFx-M6-jR2" secondAttribute="bottom" id="M7P-SI-PE0"/>
                                 <constraint firstItem="JQu-1I-OQJ" firstAttribute="top" secondItem="Hyu-YI-BLh" secondAttribute="top" constant="40" id="PEy-jV-2KD"/>
                                 <constraint firstAttribute="trailing" secondItem="vv5-px-QwA" secondAttribute="trailing" id="SEJ-1D-ADR"/>
@@ -83,6 +104,7 @@
                                 <constraint firstItem="JQu-1I-OQJ" firstAttribute="leading" secondItem="Hyu-YI-BLh" secondAttribute="leading" id="VdC-Xc-1xG"/>
                                 <constraint firstAttribute="trailing" secondItem="JQu-1I-OQJ" secondAttribute="trailing" id="a3M-d8-IMq"/>
                                 <constraint firstAttribute="bottom" secondItem="e8K-5z-SlQ" secondAttribute="bottom" id="acu-GN-iw7"/>
+                                <constraint firstItem="Luj-qG-ZbQ" firstAttribute="leading" secondItem="Hyu-YI-BLh" secondAttribute="leading" id="eDH-TP-EhC"/>
                                 <constraint firstAttribute="trailing" secondItem="e8K-5z-SlQ" secondAttribute="trailing" id="f8Z-2n-mwg"/>
                                 <constraint firstItem="TFx-M6-jR2" firstAttribute="leading" secondItem="Hyu-YI-BLh" secondAttribute="leading" id="jPL-Jv-3um"/>
                                 <constraint firstAttribute="trailing" secondItem="TFx-M6-jR2" secondAttribute="trailing" id="l87-zH-Kav"/>
@@ -111,6 +133,9 @@
     </objects>
     <resources>
         <image name="ic_venuefront" width="414" height="267"/>
+        <namedColor name="FontWhiteColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="maincolor">
             <color red="0.78431372549019607" green="0.35294117647058826" blue="0.32941176470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

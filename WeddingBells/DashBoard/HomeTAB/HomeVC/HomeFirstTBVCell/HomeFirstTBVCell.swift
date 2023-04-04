@@ -13,6 +13,10 @@ class HomeFirstTBVCell: UITableViewCell {
     @IBOutlet weak var txtSearch: UITextField!
     @IBOutlet weak var searchView: UIView!
     @IBOutlet weak var imageViewHeight: NSLayoutConstraint!
+    var onTapNotificationAction:(()->()) = { }
+    var onTapSelectCountryAction:(()->()) = { }
+    var onTapSearchAction:(()->()) = { }
+    
     
     override func awakeFromNib() {
         super.awakeFromNib()

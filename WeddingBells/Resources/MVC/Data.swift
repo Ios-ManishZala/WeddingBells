@@ -123,6 +123,14 @@ class WeddingDecorData{
             DecorPackageModel.init(decorImageName: UIImage(named: "ic_album4"),
                                    decorpackageName: "Dining area",
                                    decorTime: "200 image",
+                                   decorAmount: "$56 onwards"),
+            DecorPackageModel.init(decorImageName: UIImage(named: "ic_album3"),
+                                   decorpackageName: "Serenity Grove",
+                                   decorTime: "20 image",
+                                   decorAmount: "$56 onwards"),
+            DecorPackageModel.init(decorImageName: UIImage(named: "ic_album4"),
+                                   decorpackageName: "Dining area",
+                                   decorTime: "200 image",
                                    decorAmount: "$56 onwards")
         ]
         return famousViewData
@@ -133,9 +141,87 @@ class WeddingDecorData{
         trendingViewData = [
             ReviewModel.init(userImage: UIImage(named: "ic_review1"),userName: "Jerome Bell"),
             ReviewModel.init(userImage: UIImage(named: "ic_review2"),userName: "Eleanor Pena"),
-            ReviewModel.init(userImage: UIImage(named: "ic_review3"),userName: "Ralph Edwards")
+            ReviewModel.init(userImage: UIImage(named: "ic_review3"),userName: "Ralph Edwards"),
+            ReviewModel.init(userImage: UIImage(named: "ic_review3"),userName: "Ralph Edwards"),
+            ReviewModel.init(userImage: UIImage(named: "ic_review1"),userName: "Jerome Bell")
         ]
         return trendingViewData
+    }
+    
+    static func NotificationData() -> [NotificationDetails] {
+        var notificationDetaillist = [NotificationDetails]()
+        notificationDetaillist = [
+                               NotificationDetails(title: "Venue Booking ".localized(),
+                                                   Description: "Your venue Blue Sea Banquets booking successfully.".localized(),
+                                                   time: "2 min ago".localized()),
+                                NotificationDetails(title: "Makup artist".localized(),
+                                                    Description: "Your bridal makup booking is confirm at 22 jan 2022".localized(),
+                                                    time: "2 min ago".localized()),
+                                NotificationDetails(title: "Photographers".localized(),
+                                                    Description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero mattis a netus morbi".localized(),
+                                                    time: "2 min ago".localized()),
+                                NotificationDetails(title: "Mahendi artist".localized(),
+                                                    Description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero mattis a netus morbi".localized(),
+                                                    time: "2 min ago".localized()),
+                                NotificationDetails(title: "Caterers".localized(),
+                                                    Description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero mattis a netus morbi".localized(),
+                                                    time: "2 min ago".localized()),
+                               NotificationDetails(title: "Budget plan".localized(),
+                                                   Description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero mattis a netus morbi".localized(),
+                                                   time: "2 min ago".localized())
+                            ]
+        return notificationDetaillist
+    }
+    
+    static func VenoreData() -> [VendorModel]{
+        var venorDetails = [VendorModel]()
+        venorDetails = [
+            VendorModel.init(vendorImage: UIImage(named: "ic_vendor1"),vendorName: "Venue",vendorType: "Farmhose, lawn, banquets hall"),
+            VendorModel.init(vendorImage: UIImage(named: "ic_vendor2"),vendorName: "Decor",vendorType: "Wedding planners, decoration"),
+            VendorModel.init(vendorImage: UIImage(named: "ic_vendor3"),vendorName: "Catering",vendorType: "Catering service, cake"),
+            VendorModel.init(vendorImage: UIImage(named: "ic_vendor4"),vendorName: "Makup artist",vendorType: "Bridal makup, family makup"),
+            VendorModel.init(vendorImage: UIImage(named: "ic_vendor5"),vendorName: "Bridal wear",vendorType: "Bridal lehengas, Gowns"),
+            VendorModel.init(vendorImage: UIImage(named: "ic_vendor6"),vendorName: "Groom wear",vendorType: "Shervani, wedding suits"),
+            VendorModel.init(vendorImage: UIImage(named: "ic_vendor7"),vendorName: "Photographers",vendorType: "Video, photographer"),
+            VendorModel.init(vendorImage: UIImage(named: "ic_vendor8"),vendorName: "Jewellery",vendorType: "Bridal jewellery"),
+            VendorModel.init(vendorImage: UIImage(named: "ic_vendor9"),vendorName: "Invitation",vendorType: "Invitation card")
+        ]
+        return venorDetails
+    }
+    
+    static func MessageData() -> [ChatDetails] {
+        let userChatDetails = [
+                            ChatDetails.init(name: "Savannah Nguyen", image: UIImage(named: "Ellipse 19")!, message: "Nice! Get well soon", time: "2.00am", unReadMessage: "1"),
+                            ChatDetails.init(name: "Sweet Family", image: UIImage(named: "Ellipse 19-1")!, message: "Nice! Get well soon", time: "1.00am", unReadMessage: "10"),
+                            ChatDetails.init(name: "jeklin Shah", image: UIImage(named: "Ellipse 19-2")!, message: "Oww! so sweet of you", time: "2.00am", unReadMessage: ""),
+                            ChatDetails.init(name: "Cameron Williamson", image: UIImage(named: "Ellipse 19-3")!, message: "Oww! so sweet of you", time: "4.00am", unReadMessage: ""),
+                            ChatDetails.init(name: "Friends forever", image: UIImage(named: "Ellipse 19-4")!, message: "Hello", time: "2.00am", unReadMessage: "5"),
+                            ChatDetails.init(name: "Robert Fox", image: UIImage(named: "Ellipse 19-5")!, message: "Hello", time: "2.00am", unReadMessage: ""),
+                            ChatDetails.init(name: "Cody Fisher", image: UIImage(named: "Ellipse 19-6")!, message: "Oww! so sweet of you", time: "2.00am", unReadMessage: "2"),
+                            ChatDetails.init(name: "Bessie Cooper", image: UIImage(named: "Ellipse 19-7")!, message: "Nice! Get well soon", time: "5.00am", unReadMessage: ""),
+                            ChatDetails.init(name: "School friends", image: UIImage(named: "Ellipse 19-8")!, message: "Nice! Get well soon", time: "2.00am", unReadMessage: ""),
+                            ChatDetails.init(name: "Albert Flores", image: UIImage(named: "Ellipse 19-9")!, message: "Nice! Get well soon", time: "2.00am", unReadMessage: ""),
+                            ChatDetails.init(name: "Albert Flores", image: UIImage(named: "Ellipse 19-10")!, message: "Nice! Get well soon", time: "2.00am", unReadMessage: ""),
+                            ChatDetails.init(name: "Jerome Bell", image: UIImage(named: "Ellipse 19-11")!, message: "Nice! Get well soon", time: "2.00am", unReadMessage: ""),
+                            ChatDetails.init(name: "Devon Lane", image: UIImage(named: "Ellipse 19-12")!, message: "Nice! Get well soon", time: "2.00am", unReadMessage: ""),
+                            ChatDetails.init(name: "Marvin McKinney", image: UIImage(named: "Ellipse 19-13")!, message: "Nice! Get well soon", time: "2.00am", unReadMessage: "")
+                          ]
+        return userChatDetails
+    }
+    
+    static func MessageListData() -> [Message] {
+        var messageList:[Message] = []
+        
+        messageList = [
+                                Message.init(message: "Hii Galina", Time: "1:30 pm"),
+                                Message.init(message: "Hii, how are you ?", Time: "1:30 pm"),
+                                Message.init(message: "Fine..Canyou send me pic", Time: "1:30 pm"),
+                                Message.init(message: "Ok. wait a minute", Time: "1:30 pm"),
+                                Message.init(message: "Okay..plz dont forget", Time: "1:30 pm"),
+                                Message.init(message: "Okay..Thank you😍😍", Time: "1:30 pm"),
+                                Message.init(message: "😍😍😍😍😍", Time: "1:30 pm")
+                            ]
+        return messageList
     }
 }
 

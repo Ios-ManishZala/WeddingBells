@@ -190,4 +190,16 @@
 
 "logout_subtitle" =  "Are you sure you want to logout?";
 "cancel" = "Cancel";
+*/
+ 
+ //MARK: - payment
 
+ "cvv_code" = "CVV Code";
+ "expire_date" = "Expire date";
+ "card_number" = "Card Number";
+ "card_holder_name" = "Name on card";
+ "xxxxxxxxxxxxx" = "XXXX XXXX XXXX XXXX";
+ "xx/xx" = "XX/XX";
+ "xxx" = "XXX";
+ "payment" = "Payment";
+"paymet_informaion" = "Payment information";

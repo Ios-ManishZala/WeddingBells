@@ -14,6 +14,7 @@ class WeddingPackageVC: UIViewController {
     var weddingdecorData:[DecorPackageModel] = []
     var isFromFamousDecor:Bool = false
     var isFromTrendingDecor:Bool = false
+    var isFromWeddingPackagedetails:Bool = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -60,4 +61,14 @@ extension WeddingPackageVC: UICollectionViewDelegate,UICollectionViewDataSource,
         return .init(width: width, height: 222)
     }
 
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        if (isFromFamousDecor == true) || (isFromTrendingDecor == true) {
+            self.pushVC(VenueDetailsVC())
+        }else{
+            let vc = VenueDetailsVC()
+            self.isFromWeddingPackagedetails = true
+            vc.isFromWeddingPackagedetails = self.isFromWeddingPackagedetails
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
+    }
 }
