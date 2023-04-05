@@ -20,8 +20,8 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TabNavigationBar" customModule="WeddingBells" customModuleProvider="target">
             <connections>
                 <outlet property="btnBack" destination="vAQ-eq-NWV" id="BId-ej-Oz2"/>
-                <outlet property="btnHeart" destination="9jx-Yp-Tt9" id="zyY-nW-7L4"/>
-                <outlet property="btnShare" destination="Knp-jp-amb" id="U0T-st-y7T"/>
+                <outlet property="btnHeart" destination="Knp-jp-amb" id="lIA-Yi-lDG"/>
+                <outlet property="btnShare" destination="9jx-Yp-Tt9" id="x4P-br-EhO"/>
                 <outlet property="contentView" destination="iN0-l3-epB" id="bNP-Qi-tb5"/>
                 <outlet property="titleLabel" destination="6zS-ia-Yib" id="zNN-s6-rPR"/>
             </connections>

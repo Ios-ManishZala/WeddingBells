@@ -20,6 +20,7 @@
                 <outlet property="customNav" destination="QLL-H8-5V7" id="Qs4-n2-yMH"/>
                 <outlet property="searchView" destination="9wW-eF-J5F" id="vfp-sZ-o8e"/>
                 <outlet property="tableView" destination="Pyg-W0-BNy" id="wcx-zk-6m5"/>
+                <outlet property="txtSearch" destination="uBu-l6-JXw" id="44c-85-R41"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -65,6 +66,9 @@
                                                     <real key="value" value="10"/>
                                                 </userDefinedRuntimeAttribute>
                                             </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="txtSearchAction:" destination="-1" eventType="editingChanged" id="7rL-NX-u4G"/>
+                                            </connections>
                                         </textField>
                                     </subviews>
                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>

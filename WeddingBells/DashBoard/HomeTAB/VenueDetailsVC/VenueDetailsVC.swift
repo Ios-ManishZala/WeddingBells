@@ -77,6 +77,12 @@ extension VenueDetailsVC: UITableViewDelegate, UITableViewDataSource,UITextViewD
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if indexPath.section == 0 {
             let venueFirstCell = self.tableView.dequeueReusableCell(withType: VenueDetailsFirstTBVCell.self)
+            venueFirstCell.onTapPhoneAction = {
+                self.pushVC(CallVC())
+            }
+            venueFirstCell.onTapMessageAction = {
+                self.pushVC(UserChatVC())
+            }
             return venueFirstCell
         }else if indexPath.section == 1{
             let venueSecondCell = self.tableView.dequeueReusableCell(withType: VenueDetailsSecondTBVCell.self)

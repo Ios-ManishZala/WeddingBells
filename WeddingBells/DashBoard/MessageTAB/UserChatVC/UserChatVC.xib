@@ -16,6 +16,7 @@
                 <outlet property="messageView" destination="3os-oB-5NY" id="LBz-53-aU4"/>
                 <outlet property="sendeView" destination="lM5-xu-HqK" id="WNj-v6-bdd"/>
                 <outlet property="tableView" destination="IYk-ak-JiA" id="Hjm-r7-MdP"/>
+                <outlet property="txtMessage" destination="v3o-m4-7yc" id="eRi-6S-wRh"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -63,6 +64,9 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                     <state key="normal" image="ic_send"/>
+                                                    <connections>
+                                                        <action selector="btnSendAction:" destination="-1" eventType="touchUpInside" id="4aV-e0-BX2"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>

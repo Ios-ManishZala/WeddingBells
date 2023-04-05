@@ -16,9 +16,27 @@
 		EC12D62829DC550F00FEF5EB /* ReciverMessageTBVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC12D62629DC550F00FEF5EB /* ReciverMessageTBVCell.xib */; };
 		EC12D62C29DC569D00FEF5EB /* SenderMessageTBVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC12D62A29DC569D00FEF5EB /* SenderMessageTBVCell.swift */; };
 		EC12D62D29DC569D00FEF5EB /* SenderMessageTBVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC12D62B29DC569D00FEF5EB /* SenderMessageTBVCell.xib */; };
+		EC26D88B29DD444500F23F44 /* EditPlanningVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC26D88929DD444500F23F44 /* EditPlanningVC.swift */; };
+		EC26D88C29DD444500F23F44 /* EditPlanningVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC26D88A29DD444500F23F44 /* EditPlanningVC.xib */; };
+		EC26D89029DD4B4B00F23F44 /* TodoListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC26D88E29DD4B4B00F23F44 /* TodoListVC.swift */; };
+		EC26D89129DD4B4B00F23F44 /* TodoListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC26D88F29DD4B4B00F23F44 /* TodoListVC.xib */; };
+		EC26D89529DD551300F23F44 /* TodolistTBVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC26D89329DD551300F23F44 /* TodolistTBVCell.swift */; };
+		EC26D89629DD551300F23F44 /* TodolistTBVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC26D89429DD551300F23F44 /* TodolistTBVCell.xib */; };
+		EC26D89A29DD65B700F23F44 /* VendorShorlistVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC26D89829DD65B700F23F44 /* VendorShorlistVC.swift */; };
+		EC26D89B29DD65B700F23F44 /* VendorShorlistVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC26D89929DD65B700F23F44 /* VendorShorlistVC.xib */; };
+		EC26D89F29DD750600F23F44 /* VendorShortlistTBVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC26D89D29DD750600F23F44 /* VendorShortlistTBVCell.swift */; };
+		EC26D8A029DD750600F23F44 /* VendorShortlistTBVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC26D89E29DD750600F23F44 /* VendorShortlistTBVCell.xib */; };
+		EC26D8A429DD7BF100F23F44 /* VenueShortListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC26D8A229DD7BF100F23F44 /* VenueShortListVC.swift */; };
+		EC26D8A529DD7BF100F23F44 /* VenueShortListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC26D8A329DD7BF100F23F44 /* VenueShortListVC.xib */; };
+		EC26D8A929DD7D1600F23F44 /* VenueShortlistTBVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC26D8A729DD7D1600F23F44 /* VenueShortlistTBVCell.swift */; };
+		EC26D8AA29DD7D1600F23F44 /* VenueShortlistTBVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC26D8A829DD7D1600F23F44 /* VenueShortlistTBVCell.xib */; };
 		EC3AEA9F29DBE8A200C38C32 /* SelectLanguageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC3AEA9D29DBE8A200C38C32 /* SelectLanguageCell.xib */; };
 		EC3AEAA029DBE8A200C38C32 /* SelectLanguageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3AEA9E29DBE8A200C38C32 /* SelectLanguageCell.swift */; };
 		EC47F23629D6D253006AB45B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC47F23829D6D253006AB45B /* Localizable.strings */; };
+		EC58405B29DD32C9001A3662 /* CallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC58405929DD32C9001A3662 /* CallVC.swift */; };
+		EC58405C29DD32C9001A3662 /* CallVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC58405A29DD32C9001A3662 /* CallVC.xib */; };
+		EC58406029DD3E3A001A3662 /* TaskTBVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC58405E29DD3E3A001A3662 /* TaskTBVCell.swift */; };
+		EC58406129DD3E3A001A3662 /* TaskTBVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC58405F29DD3E3A001A3662 /* TaskTBVCell.xib */; };
 		EC62A28229D70737006048CE /* FamousCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC62A28029D70737006048CE /* FamousCVCell.swift */; };
 		EC62A28329D70737006048CE /* FamousCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC62A28129D70737006048CE /* FamousCVCell.xib */; };
 		EC62A28729D70E24006048CE /* WeddingTBVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC62A28529D70E24006048CE /* WeddingTBVCell.swift */; };
@@ -142,6 +160,17 @@
 		ECF0F3D329DAD250006CDA42 /* VenueDetailsSixTBVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECF0F3D129DAD250006CDA42 /* VenueDetailsSixTBVCell.xib */; };
 		ECF0F3D729DAD26C006CDA42 /* VenueDetailsSevenTBVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF0F3D529DAD26C006CDA42 /* VenueDetailsSevenTBVCell.swift */; };
 		ECF0F3D829DAD26C006CDA42 /* VenueDetailsSevenTBVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECF0F3D629DAD26C006CDA42 /* VenueDetailsSevenTBVCell.xib */; };
+		ECF48F5229DD841C005D9471 /* GuestListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF48F5029DD841C005D9471 /* GuestListVC.swift */; };
+		ECF48F5329DD841C005D9471 /* GuestListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECF48F5129DD841C005D9471 /* GuestListVC.xib */; };
+		ECF48F5729DD8563005D9471 /* GuestTBVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF48F5529DD8563005D9471 /* GuestTBVCell.swift */; };
+		ECF48F5829DD8563005D9471 /* GuestTBVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECF48F5629DD8563005D9471 /* GuestTBVCell.xib */; };
+		ECF48F5C29DD9081005D9471 /* BudgetsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF48F5A29DD9081005D9471 /* BudgetsVC.swift */; };
+		ECF48F5D29DD9081005D9471 /* BudgetsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECF48F5B29DD9081005D9471 /* BudgetsVC.xib */; };
+		ECF48F5F29DD95E9005D9471 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF48F5E29DD95E9005D9471 /* CircularProgressView.swift */; };
+		ECF48F6329DD98F4005D9471 /* BudgetTBVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF48F6129DD98F4005D9471 /* BudgetTBVCell.swift */; };
+		ECF48F6429DD98F4005D9471 /* BudgetTBVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECF48F6229DD98F4005D9471 /* BudgetTBVCell.xib */; };
+		ECF48F6829DD9F42005D9471 /* AddGuestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF48F6629DD9F42005D9471 /* AddGuestVC.swift */; };
+		ECF48F6929DD9F42005D9471 /* AddGuestVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECF48F6729DD9F42005D9471 /* AddGuestVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -156,6 +185,20 @@
 		EC12D62629DC550F00FEF5EB /* ReciverMessageTBVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReciverMessageTBVCell.xib; sourceTree = "<group>"; };
 		EC12D62A29DC569D00FEF5EB /* SenderMessageTBVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenderMessageTBVCell.swift; sourceTree = "<group>"; };
 		EC12D62B29DC569D00FEF5EB /* SenderMessageTBVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SenderMessageTBVCell.xib; sourceTree = "<group>"; };
+		EC26D88929DD444500F23F44 /* EditPlanningVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPlanningVC.swift; sourceTree = "<group>"; };
+		EC26D88A29DD444500F23F44 /* EditPlanningVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditPlanningVC.xib; sourceTree = "<group>"; };
+		EC26D88E29DD4B4B00F23F44 /* TodoListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListVC.swift; sourceTree = "<group>"; };
+		EC26D88F29DD4B4B00F23F44 /* TodoListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TodoListVC.xib; sourceTree = "<group>"; };
+		EC26D89329DD551300F23F44 /* TodolistTBVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodolistTBVCell.swift; sourceTree = "<group>"; };
+		EC26D89429DD551300F23F44 /* TodolistTBVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TodolistTBVCell.xib; sourceTree = "<group>"; };
+		EC26D89829DD65B700F23F44 /* VendorShorlistVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendorShorlistVC.swift; sourceTree = "<group>"; };
+		EC26D89929DD65B700F23F44 /* VendorShorlistVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VendorShorlistVC.xib; sourceTree = "<group>"; };
+		EC26D89D29DD750600F23F44 /* VendorShortlistTBVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendorShortlistTBVCell.swift; sourceTree = "<group>"; };
+		EC26D89E29DD750600F23F44 /* VendorShortlistTBVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VendorShortlistTBVCell.xib; sourceTree = "<group>"; };
+		EC26D8A229DD7BF100F23F44 /* VenueShortListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueShortListVC.swift; sourceTree = "<group>"; };
+		EC26D8A329DD7BF100F23F44 /* VenueShortListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VenueShortListVC.xib; sourceTree = "<group>"; };
+		EC26D8A729DD7D1600F23F44 /* VenueShortlistTBVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueShortlistTBVCell.swift; sourceTree = "<group>"; };
+		EC26D8A829DD7D1600F23F44 /* VenueShortlistTBVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VenueShortlistTBVCell.xib; sourceTree = "<group>"; };
 		EC3AEA9D29DBE8A200C38C32 /* SelectLanguageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectLanguageCell.xib; sourceTree = "<group>"; };
 		EC3AEA9E29DBE8A200C38C32 /* SelectLanguageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectLanguageCell.swift; sourceTree = "<group>"; };
 		EC47F23729D6D253006AB45B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -163,6 +206,10 @@
 		EC47F23A29D6D25B006AB45B /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		EC47F23B29D6D25C006AB45B /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = "<group>"; };
 		EC47F23C29D6D25D006AB45B /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EC58405929DD32C9001A3662 /* CallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallVC.swift; sourceTree = "<group>"; };
+		EC58405A29DD32C9001A3662 /* CallVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CallVC.xib; sourceTree = "<group>"; };
+		EC58405E29DD3E3A001A3662 /* TaskTBVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTBVCell.swift; sourceTree = "<group>"; };
+		EC58405F29DD3E3A001A3662 /* TaskTBVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskTBVCell.xib; sourceTree = "<group>"; };
 		EC62A28029D70737006048CE /* FamousCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamousCVCell.swift; sourceTree = "<group>"; };
 		EC62A28129D70737006048CE /* FamousCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FamousCVCell.xib; sourceTree = "<group>"; };
 		EC62A28529D70E24006048CE /* WeddingTBVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeddingTBVCell.swift; sourceTree = "<group>"; };
@@ -288,6 +335,17 @@
 		ECF0F3D129DAD250006CDA42 /* VenueDetailsSixTBVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VenueDetailsSixTBVCell.xib; sourceTree = "<group>"; };
 		ECF0F3D529DAD26C006CDA42 /* VenueDetailsSevenTBVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueDetailsSevenTBVCell.swift; sourceTree = "<group>"; };
 		ECF0F3D629DAD26C006CDA42 /* VenueDetailsSevenTBVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VenueDetailsSevenTBVCell.xib; sourceTree = "<group>"; };
+		ECF48F5029DD841C005D9471 /* GuestListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestListVC.swift; sourceTree = "<group>"; };
+		ECF48F5129DD841C005D9471 /* GuestListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GuestListVC.xib; sourceTree = "<group>"; };
+		ECF48F5529DD8563005D9471 /* GuestTBVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestTBVCell.swift; sourceTree = "<group>"; };
+		ECF48F5629DD8563005D9471 /* GuestTBVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GuestTBVCell.xib; sourceTree = "<group>"; };
+		ECF48F5A29DD9081005D9471 /* BudgetsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetsVC.swift; sourceTree = "<group>"; };
+		ECF48F5B29DD9081005D9471 /* BudgetsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BudgetsVC.xib; sourceTree = "<group>"; };
+		ECF48F5E29DD95E9005D9471 /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		ECF48F6129DD98F4005D9471 /* BudgetTBVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetTBVCell.swift; sourceTree = "<group>"; };
+		ECF48F6229DD98F4005D9471 /* BudgetTBVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BudgetTBVCell.xib; sourceTree = "<group>"; };
+		ECF48F6629DD9F42005D9471 /* AddGuestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGuestVC.swift; sourceTree = "<group>"; };
+		ECF48F6729DD9F42005D9471 /* AddGuestVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddGuestVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -348,6 +406,72 @@
 			path = SenderMessageTBVCell;
 			sourceTree = "<group>";
 		};
+		EC26D88829DD442700F23F44 /* EditPlanningVC */ = {
+			isa = PBXGroup;
+			children = (
+				EC26D88929DD444500F23F44 /* EditPlanningVC.swift */,
+				EC26D88A29DD444500F23F44 /* EditPlanningVC.xib */,
+			);
+			path = EditPlanningVC;
+			sourceTree = "<group>";
+		};
+		EC26D88D29DD4B3D00F23F44 /* TodoListVC */ = {
+			isa = PBXGroup;
+			children = (
+				EC26D88E29DD4B4B00F23F44 /* TodoListVC.swift */,
+				EC26D88F29DD4B4B00F23F44 /* TodoListVC.xib */,
+				EC26D89229DD54F700F23F44 /* TodolistTBVCell */,
+			);
+			path = TodoListVC;
+			sourceTree = "<group>";
+		};
+		EC26D89229DD54F700F23F44 /* TodolistTBVCell */ = {
+			isa = PBXGroup;
+			children = (
+				EC26D89329DD551300F23F44 /* TodolistTBVCell.swift */,
+				EC26D89429DD551300F23F44 /* TodolistTBVCell.xib */,
+			);
+			path = TodolistTBVCell;
+			sourceTree = "<group>";
+		};
+		EC26D89729DD659700F23F44 /* VendorShorlistVC */ = {
+			isa = PBXGroup;
+			children = (
+				EC26D89829DD65B700F23F44 /* VendorShorlistVC.swift */,
+				EC26D89929DD65B700F23F44 /* VendorShorlistVC.xib */,
+				EC26D89C29DD74D300F23F44 /* VendorShortlistTBVCell */,
+			);
+			path = VendorShorlistVC;
+			sourceTree = "<group>";
+		};
+		EC26D89C29DD74D300F23F44 /* VendorShortlistTBVCell */ = {
+			isa = PBXGroup;
+			children = (
+				EC26D89D29DD750600F23F44 /* VendorShortlistTBVCell.swift */,
+				EC26D89E29DD750600F23F44 /* VendorShortlistTBVCell.xib */,
+			);
+			path = VendorShortlistTBVCell;
+			sourceTree = "<group>";
+		};
+		EC26D8A129DD7BDA00F23F44 /* VenueShortListVC */ = {
+			isa = PBXGroup;
+			children = (
+				EC26D8A229DD7BF100F23F44 /* VenueShortListVC.swift */,
+				EC26D8A329DD7BF100F23F44 /* VenueShortListVC.xib */,
+				EC26D8A629DD7CFC00F23F44 /* VenueShortlistTBVCell */,
+			);
+			path = VenueShortListVC;
+			sourceTree = "<group>";
+		};
+		EC26D8A629DD7CFC00F23F44 /* VenueShortlistTBVCell */ = {
+			isa = PBXGroup;
+			children = (
+				EC26D8A729DD7D1600F23F44 /* VenueShortlistTBVCell.swift */,
+				EC26D8A829DD7D1600F23F44 /* VenueShortlistTBVCell.xib */,
+			);
+			path = VenueShortlistTBVCell;
+			sourceTree = "<group>";
+		};
 		EC3AEA9C29DBE8A200C38C32 /* SelectLanguageCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -355,6 +479,24 @@
 				EC3AEA9E29DBE8A200C38C32 /* SelectLanguageCell.swift */,
 			);
 			path = SelectLanguageCell;
+			sourceTree = "<group>";
+		};
+		EC58405829DD32B6001A3662 /* CallVC */ = {
+			isa = PBXGroup;
+			children = (
+				EC58405929DD32C9001A3662 /* CallVC.swift */,
+				EC58405A29DD32C9001A3662 /* CallVC.xib */,
+			);
+			path = CallVC;
+			sourceTree = "<group>";
+		};
+		EC58405D29DD3E25001A3662 /* TaskTBVCell */ = {
+			isa = PBXGroup;
+			children = (
+				EC58405E29DD3E3A001A3662 /* TaskTBVCell.swift */,
+				EC58405F29DD3E3A001A3662 /* TaskTBVCell.xib */,
+			);
+			path = TaskTBVCell;
 			sourceTree = "<group>";
 		};
 		EC62A27F29D70723006048CE /* FamousCVCell */ = {
@@ -666,6 +808,7 @@
 				ECE5672729DC23F10051A0B6 /* SucessVC */,
 				ECE5673629DC2B2C0051A0B6 /* SerchBookVC */,
 				ECE5672C29DC25940051A0B6 /* NotifiactionVC */,
+				EC58405829DD32B6001A3662 /* CallVC */,
 				ECE5674A29DC2EB20051A0B6 /* CustomerReviewVC */,
 			);
 			path = HomeTAB;
@@ -696,6 +839,14 @@
 			children = (
 				ECC6D20329D6E8F1002CE30B /* TaskVC.swift */,
 				ECC6D20429D6E8F1002CE30B /* TaskVC.xib */,
+				EC58405D29DD3E25001A3662 /* TaskTBVCell */,
+				EC26D88829DD442700F23F44 /* EditPlanningVC */,
+				EC26D88D29DD4B3D00F23F44 /* TodoListVC */,
+				EC26D89729DD659700F23F44 /* VendorShorlistVC */,
+				EC26D8A129DD7BDA00F23F44 /* VenueShortListVC */,
+				ECF48F4F29DD83E2005D9471 /* GuestListVC */,
+				ECF48F5929DD9068005D9471 /* BudgetsVC */,
+				ECF48F6529DD9F2B005D9471 /* AddGuestVC */,
 			);
 			path = TaskTAB;
 			sourceTree = "<group>";
@@ -983,6 +1134,54 @@
 			path = VenueDetailsSevenTBVCell;
 			sourceTree = "<group>";
 		};
+		ECF48F4F29DD83E2005D9471 /* GuestListVC */ = {
+			isa = PBXGroup;
+			children = (
+				ECF48F5029DD841C005D9471 /* GuestListVC.swift */,
+				ECF48F5129DD841C005D9471 /* GuestListVC.xib */,
+				ECF48F5429DD854B005D9471 /* GuestTBVCell */,
+			);
+			path = GuestListVC;
+			sourceTree = "<group>";
+		};
+		ECF48F5429DD854B005D9471 /* GuestTBVCell */ = {
+			isa = PBXGroup;
+			children = (
+				ECF48F5529DD8563005D9471 /* GuestTBVCell.swift */,
+				ECF48F5629DD8563005D9471 /* GuestTBVCell.xib */,
+			);
+			path = GuestTBVCell;
+			sourceTree = "<group>";
+		};
+		ECF48F5929DD9068005D9471 /* BudgetsVC */ = {
+			isa = PBXGroup;
+			children = (
+				ECF48F5A29DD9081005D9471 /* BudgetsVC.swift */,
+				ECF48F5B29DD9081005D9471 /* BudgetsVC.xib */,
+				ECF48F5E29DD95E9005D9471 /* CircularProgressView.swift */,
+				ECF48F6029DD98DB005D9471 /* BudgetTBVCell */,
+			);
+			path = BudgetsVC;
+			sourceTree = "<group>";
+		};
+		ECF48F6029DD98DB005D9471 /* BudgetTBVCell */ = {
+			isa = PBXGroup;
+			children = (
+				ECF48F6129DD98F4005D9471 /* BudgetTBVCell.swift */,
+				ECF48F6229DD98F4005D9471 /* BudgetTBVCell.xib */,
+			);
+			path = BudgetTBVCell;
+			sourceTree = "<group>";
+		};
+		ECF48F6529DD9F2B005D9471 /* AddGuestVC */ = {
+			isa = PBXGroup;
+			children = (
+				ECF48F6629DD9F42005D9471 /* AddGuestVC.swift */,
+				ECF48F6729DD9F42005D9471 /* AddGuestVC.xib */,
+			);
+			path = AddGuestVC;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1050,6 +1249,7 @@
 				ECF0F3D829DAD26C006CDA42 /* VenueDetailsSevenTBVCell.xib in Resources */,
 				ECDF897229DC16C0008B6297 /* BookNowVC.xib in Resources */,
 				EC8CE2A029DBF8A100EF4632 /* CheckavailabiltyVC.xib in Resources */,
+				EC26D88C29DD444500F23F44 /* EditPlanningVC.xib in Resources */,
 				EC786F5F29D6BD71005F5FD4 /* Montserrat-Bold.ttf in Resources */,
 				ECE5673229DC25940051A0B6 /* NotificationCell.xib in Resources */,
 				ECC6D0E029D6E200002CE30B /* RegisterVC.xib in Resources */,
@@ -1059,7 +1259,9 @@
 				ECC6D20629D6E8F1002CE30B /* TaskVC.xib in Resources */,
 				EC786F5C29D6BD71005F5FD4 /* Montserrat-Regular.ttf in Resources */,
 				EC62A28329D70737006048CE /* FamousCVCell.xib in Resources */,
+				EC58405C29DD32C9001A3662 /* CallVC.xib in Resources */,
 				ECF0F3D329DAD250006CDA42 /* VenueDetailsSixTBVCell.xib in Resources */,
+				ECF48F5329DD841C005D9471 /* GuestListVC.xib in Resources */,
 				EC786F3929D6BB11005F5FD4 /* CustomTabCell.xib in Resources */,
 				ECF0F3C929DAD21A006CDA42 /* VenueDetailsFourthTBVCell.xib in Resources */,
 				ECC6D22029D7019D002CE30B /* CategoriesTBVCell.xib in Resources */,
@@ -1083,10 +1285,13 @@
 				EC3AEA9F29DBE8A200C38C32 /* SelectLanguageCell.xib in Resources */,
 				EC786F0B29D6B8BE005F5FD4 /* IntroVC.xib in Resources */,
 				EC786F4329D6BB11005F5FD4 /* CommonCVFooterView.xib in Resources */,
+				EC26D89129DD4B4B00F23F44 /* TodoListVC.xib in Resources */,
 				EC8CE29129DBEF9100EF4632 /* AlbumsVC.xib in Resources */,
 				ECC6D21529D6F86B002CE30B /* HomeFirstTBVCell.xib in Resources */,
 				EC12D62D29DC569D00FEF5EB /* SenderMessageTBVCell.xib in Resources */,
+				EC26D89629DD551300F23F44 /* TodolistTBVCell.xib in Resources */,
 				ECC6D20B29D6E90F002CE30B /* MessageVC.xib in Resources */,
+				EC26D89B29DD65B700F23F44 /* VendorShorlistVC.xib in Resources */,
 				EC62A28829D70E24006048CE /* WeddingTBVCell.xib in Resources */,
 				EC786F4229D6BB11005F5FD4 /* CommonCVHeaderView.xib in Resources */,
 				EC786F4029D6BB11005F5FD4 /* TabNavigationBar.xib in Resources */,
@@ -1095,12 +1300,18 @@
 				ECF0F3CE29DAD23A006CDA42 /* VenueDetailsFiveTBVCell.xib in Resources */,
 				EC8CE29B29DBF1BF00EF4632 /* DiningCVCell.xib in Resources */,
 				EC786F6129D6C230005F5FD4 /* NunitoSans-Bold.ttf in Resources */,
+				EC26D8AA29DD7D1600F23F44 /* VenueShortlistTBVCell.xib in Resources */,
+				EC26D8A529DD7BF100F23F44 /* VenueShortListVC.xib in Resources */,
 				EC8CE28C29DBEB3500EF4632 /* SelectCityVC.xib in Resources */,
+				ECF48F6429DD98F4005D9471 /* BudgetTBVCell.xib in Resources */,
 				ECC6D20129D6E8D9002CE30B /* VendorsVC.xib in Resources */,
+				ECF48F5D29DD9081005D9471 /* BudgetsVC.xib in Resources */,
 				EC8CE2A529DC067D00EF4632 /* FunctionTypeVC.xib in Resources */,
+				ECF48F5829DD8563005D9471 /* GuestTBVCell.xib in Resources */,
 				ECF0F3C429DAD1FF006CDA42 /* VenueDetailsThirdTBVCell.xib in Resources */,
 				ECE5673429DC25940051A0B6 /* NotifiactionVC.xib in Resources */,
 				ECC6D0D629D6DD84002CE30B /* LoginVC.xib in Resources */,
+				EC26D8A029DD750600F23F44 /* VendorShortlistTBVCell.xib in Resources */,
 				ECF0F3B529DAD081006CDA42 /* VenueDetailsVC.xib in Resources */,
 				EC12D60429DC4A6000FEF5EB /* MessageTBVCell.xib in Resources */,
 				ECE5674629DC2B2C0051A0B6 /* RecentSerchCell.xib in Resources */,
@@ -1113,7 +1324,9 @@
 				EC786F5E29D6BD71005F5FD4 /* Montserrat-ExtraBold.ttf in Resources */,
 				ECE5674329DC2B2C0051A0B6 /* SerchBookVC.xib in Resources */,
 				ECC6D1FC29D6E8B5002CE30B /* HomeVC.xib in Resources */,
+				EC58406129DD3E3A001A3662 /* TaskTBVCell.xib in Resources */,
 				EC786EFB29D6B0E3005F5FD4 /* Main.storyboard in Resources */,
+				ECF48F6929DD9F42005D9471 /* AddGuestVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1167,13 +1380,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC62A28229D70737006048CE /* FamousCVCell.swift in Sources */,
+				ECF48F5729DD8563005D9471 /* GuestTBVCell.swift in Sources */,
+				EC26D8A929DD7D1600F23F44 /* VenueShortlistTBVCell.swift in Sources */,
 				EC12D62729DC550F00FEF5EB /* ReciverMessageTBVCell.swift in Sources */,
 				ECC6D20A29D6E90F002CE30B /* MessageVC.swift in Sources */,
+				EC26D8A429DD7BF100F23F44 /* VenueShortListVC.swift in Sources */,
 				EC786F4829D6BB11005F5FD4 /* Model.swift in Sources */,
 				ECC6D1FB29D6E8B5002CE30B /* HomeVC.swift in Sources */,
 				ECC6D22329D701D4002CE30B /* FamousTBVCell.swift in Sources */,
 				EC8CE29F29DBF8A100EF4632 /* CheckavailabiltyVC.swift in Sources */,
+				EC26D89029DD4B4B00F23F44 /* TodoListVC.swift in Sources */,
 				ECF0F3C329DAD1FF006CDA42 /* VenueDetailsThirdTBVCell.swift in Sources */,
+				EC58405B29DD32C9001A3662 /* CallVC.swift in Sources */,
 				EC8CE29529DBF10C00EF4632 /* DiningAreaVC.swift in Sources */,
 				EC8CE29029DBEF9100EF4632 /* AlbumsVC.swift in Sources */,
 				ECDF897129DC16C0008B6297 /* BookNowVC.swift in Sources */,
@@ -1202,7 +1420,9 @@
 				EC786F3829D6BB11005F5FD4 /* CustomTabCell.swift in Sources */,
 				ECF0F3D229DAD250006CDA42 /* VenueDetailsSixTBVCell.swift in Sources */,
 				EC12D60329DC4A6000FEF5EB /* MessageTBVCell.swift in Sources */,
+				EC26D88B29DD444500F23F44 /* EditPlanningVC.swift in Sources */,
 				EC786F4A29D6BB11005F5FD4 /* BasicStuff.swift in Sources */,
+				ECF48F5C29DD9081005D9471 /* BudgetsVC.swift in Sources */,
 				EC786EF429D6B0E3005F5FD4 /* AppDelegate.swift in Sources */,
 				ECE5674229DC2B2C0051A0B6 /* SerchBookVC.swift in Sources */,
 				ECF0F3D729DAD26C006CDA42 /* VenueDetailsSevenTBVCell.swift in Sources */,
@@ -1212,16 +1432,21 @@
 				ECE5674729DC2B2C0051A0B6 /* RecentSerchCell.swift in Sources */,
 				EC786F4129D6BB11005F5FD4 /* CommonCVHeaderView.swift in Sources */,
 				EC786F4729D6BB11005F5FD4 /* CollectionView+Extension.swift in Sources */,
+				ECF48F5229DD841C005D9471 /* GuestListVC.swift in Sources */,
 				EC786F4B29D6BB11005F5FD4 /* UITableView+Extension.swift in Sources */,
 				EC7E10EF29D7EC7700DEC3A8 /* Data.swift in Sources */,
 				ECC6D23129D703D8002CE30B /* CategoriesCVCell.swift in Sources */,
 				EC786F4629D6BB11005F5FD4 /* HeaderTitleOfTableview.swift in Sources */,
+				ECF48F5F29DD95E9005D9471 /* CircularProgressView.swift in Sources */,
+				ECF48F6329DD98F4005D9471 /* BudgetTBVCell.swift in Sources */,
 				EC786F3D29D6BB11005F5FD4 /* NavigationBar.swift in Sources */,
+				EC26D89A29DD65B700F23F44 /* VendorShorlistVC.swift in Sources */,
 				ECF0F3AF29DAC945006CDA42 /* WeddingPackageVC.swift in Sources */,
 				EC8CE2A429DC067D00EF4632 /* FunctionTypeVC.swift in Sources */,
 				ECC6D21F29D7019D002CE30B /* CategoriesTBVCell.swift in Sources */,
 				EC786F4929D6BB11005F5FD4 /* Localize.swift in Sources */,
 				ECC6D22E29D70383002CE30B /* CollectionViewDatasource.swift in Sources */,
+				ECF48F6829DD9F42005D9471 /* AddGuestVC.swift in Sources */,
 				EC786F3B29D6BB11005F5FD4 /* CommonTbvHeaderView.swift in Sources */,
 				ECD349B829DC40DB0000C1A2 /* VenueVC.swift in Sources */,
 				ECE5673329DC25940051A0B6 /* NotificationCell.swift in Sources */,
@@ -1231,8 +1456,11 @@
 				ECF0F3C829DAD21A006CDA42 /* VenueDetailsFourthTBVCell.swift in Sources */,
 				ECC6D21429D6F86B002CE30B /* HomeFirstTBVCell.swift in Sources */,
 				ECC6D21B29D6FF64002CE30B /* TableviewDatasource.swift in Sources */,
+				EC58406029DD3E3A001A3662 /* TaskTBVCell.swift in Sources */,
 				ECC6D0D529D6DD84002CE30B /* LoginVC.swift in Sources */,
+				EC26D89529DD551300F23F44 /* TodolistTBVCell.swift in Sources */,
 				EC3AEAA029DBE8A200C38C32 /* SelectLanguageCell.swift in Sources */,
+				EC26D89F29DD750600F23F44 /* VendorShortlistTBVCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

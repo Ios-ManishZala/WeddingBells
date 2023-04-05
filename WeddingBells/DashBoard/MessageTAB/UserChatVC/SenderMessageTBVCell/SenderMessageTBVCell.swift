@@ -9,11 +9,19 @@ import UIKit
 
 class SenderMessageTBVCell: UITableViewCell {
 
+    @IBOutlet weak var lblMessage: UILabel!
+    @IBOutlet weak var messageView: UIView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
+        self.messageView.addShadow()
     }
 
+    func setup(_ data:Message){
+        self.lblMessage.text = data.message
+    }
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 

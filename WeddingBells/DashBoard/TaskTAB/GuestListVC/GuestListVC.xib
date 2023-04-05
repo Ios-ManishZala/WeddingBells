@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-SemiBold.ttf">
+            <string>Montserrat-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GuestListVC" customModule="WeddingBells" customModuleProvider="target">
+            <connections>
+                <outlet property="customNav" destination="wFu-dW-47r" id="h2n-Bo-xFE"/>
+                <outlet property="tableView" destination="Ojd-Wo-xmq" id="Elb-2V-WdG"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5PZ-oe-UvT">
+                    <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eMU-kJ-smn">
+                            <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wFu-dW-47r" customClass="TabNavigationBar" customModule="WeddingBells" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="40" width="430" height="40"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="40" id="q5A-l9-twb"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rVV-5t-qLc">
+                                    <rect key="frame" x="0.0" y="90" width="430" height="842"/>
+                                    <subviews>
+                                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" allowsMultipleSelection="YES" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Ojd-Wo-xmq">
+                                            <rect key="frame" x="0.0" y="0.0" width="430" height="742"/>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        </tableView>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dWK-3V-WfN">
+                                            <rect key="frame" x="0.0" y="742" width="430" height="100"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FKa-tc-B5B">
+                                                    <rect key="frame" x="20" y="25" width="390" height="50"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="50" id="Jg9-aq-dn9"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="16"/>
+                                                    <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="Add guest" image="akar-icons_circle-plus">
+                                                        <color key="titleColor" name="maincolor"/>
+                                                    </state>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <real key="value" value="10"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                            <color key="value" name="maincolor"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                            <real key="value" value="1"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                    <connections>
+                                                        <action selector="btnAddguestAction:" destination="-1" eventType="touchUpInside" id="4Y1-iI-5Hv"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstItem="FKa-tc-B5B" firstAttribute="leading" secondItem="dWK-3V-WfN" secondAttribute="leading" constant="20" id="2nR-55-wyR"/>
+                                                <constraint firstAttribute="height" constant="100" id="7pJ-El-pfg"/>
+                                                <constraint firstAttribute="trailing" secondItem="FKa-tc-B5B" secondAttribute="trailing" constant="20" id="PDh-VN-sD6"/>
+                                                <constraint firstAttribute="bottom" secondItem="FKa-tc-B5B" secondAttribute="bottom" constant="25" id="s3r-pI-pfg"/>
+                                                <constraint firstItem="FKa-tc-B5B" firstAttribute="top" secondItem="dWK-3V-WfN" secondAttribute="top" constant="25" id="vmo-Qo-rIn"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="Ojd-Wo-xmq" secondAttribute="trailing" id="3ur-WR-SM3"/>
+                                        <constraint firstItem="dWK-3V-WfN" firstAttribute="top" secondItem="Ojd-Wo-xmq" secondAttribute="bottom" id="Fv5-qy-jIy"/>
+                                        <constraint firstItem="Ojd-Wo-xmq" firstAttribute="top" secondItem="rVV-5t-qLc" secondAttribute="top" id="IAh-f8-fM5"/>
+                                        <constraint firstItem="dWK-3V-WfN" firstAttribute="leading" secondItem="rVV-5t-qLc" secondAttribute="leading" id="MfY-oK-57c"/>
+                                        <constraint firstAttribute="trailing" secondItem="dWK-3V-WfN" secondAttribute="trailing" id="eGT-JZ-mgK"/>
+                                        <constraint firstAttribute="bottom" secondItem="dWK-3V-WfN" secondAttribute="bottom" id="ead-x1-vA3"/>
+                                        <constraint firstItem="Ojd-Wo-xmq" firstAttribute="leading" secondItem="rVV-5t-qLc" secondAttribute="leading" id="y2h-x9-nAT"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstItem="wFu-dW-47r" firstAttribute="leading" secondItem="eMU-kJ-smn" secondAttribute="leading" id="0oK-Y4-M4l"/>
+                                <constraint firstAttribute="bottom" secondItem="rVV-5t-qLc" secondAttribute="bottom" id="SnU-gA-jCe"/>
+                                <constraint firstAttribute="trailing" secondItem="rVV-5t-qLc" secondAttribute="trailing" id="Suo-lb-QIy"/>
+                                <constraint firstItem="wFu-dW-47r" firstAttribute="top" secondItem="eMU-kJ-smn" secondAttribute="top" constant="40" id="dLw-pf-r7I"/>
+                                <constraint firstItem="rVV-5t-qLc" firstAttribute="top" secondItem="wFu-dW-47r" secondAttribute="bottom" constant="10" id="miU-TT-lYA"/>
+                                <constraint firstAttribute="trailing" secondItem="wFu-dW-47r" secondAttribute="trailing" id="sIV-wK-1pN"/>
+                                <constraint firstItem="rVV-5t-qLc" firstAttribute="leading" secondItem="eMU-kJ-smn" secondAttribute="leading" id="upU-GB-WeC"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="eMU-kJ-smn" firstAttribute="leading" secondItem="5PZ-oe-UvT" secondAttribute="leading" id="HAC-GC-QHd"/>
+                        <constraint firstAttribute="trailing" secondItem="eMU-kJ-smn" secondAttribute="trailing" id="SgA-CH-JDI"/>
+                        <constraint firstItem="eMU-kJ-smn" firstAttribute="top" secondItem="5PZ-oe-UvT" secondAttribute="top" id="Z3L-qu-4NP"/>
+                        <constraint firstAttribute="bottom" secondItem="eMU-kJ-smn" secondAttribute="bottom" id="nqB-6f-lHn"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="5PZ-oe-UvT" secondAttribute="trailing" id="3M9-11-jTO"/>
+                <constraint firstItem="5PZ-oe-UvT" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="9qv-DA-22f"/>
+                <constraint firstItem="5PZ-oe-UvT" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="AR3-UH-WVW"/>
+                <constraint firstAttribute="bottom" secondItem="5PZ-oe-UvT" secondAttribute="bottom" id="tF4-js-0Mf"/>
+            </constraints>
+            <point key="canvasLocation" x="132" y="-11"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="akar-icons_circle-plus" width="24.333333969116211" height="24.333333969116211"/>
+        <namedColor name="maincolor">
+            <color red="0.78431372549019607" green="0.35294117647058826" blue="0.32941176470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

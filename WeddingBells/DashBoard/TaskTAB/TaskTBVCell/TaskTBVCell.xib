@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-SemiBold.ttf">
+            <string>Montserrat-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="TaskTBVCell" rowHeight="199" id="KGk-i7-Jjw" customClass="TaskTBVCell" customModule="WeddingBells" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="409" height="199"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="409" height="199"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dee-Lk-4ls">
+                        <rect key="frame" x="0.0" y="0.0" width="409" height="199"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EdG-bc-QmF">
+                                <rect key="frame" x="20" y="10" width="369" height="61"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FCh-px-ZKM">
+                                        <rect key="frame" x="8" y="18" width="25" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="FCh-px-ZKM" secondAttribute="height" multiplier="1:1" id="NyV-zD-tZ9"/>
+                                            <constraint firstAttribute="height" constant="25" id="gnc-UZ-GaD"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To do list" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ppT-pJ-0c0">
+                                        <rect key="frame" x="43" y="20.666666666666668" width="74" height="20.000000000000004"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="16"/>
+                                        <color key="textColor" name="FontBlackcolor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="05/10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QLo-vq-XN5">
+                                        <rect key="frame" x="315.33333333333331" y="20.666666666666664" width="43.666666666666686" height="19.666666666666664"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="16"/>
+                                        <color key="textColor" name="fontgraycolor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="FCh-px-ZKM" firstAttribute="top" secondItem="EdG-bc-QmF" secondAttribute="top" constant="18" id="6c7-Z1-HHE"/>
+                                    <constraint firstItem="FCh-px-ZKM" firstAttribute="leading" secondItem="EdG-bc-QmF" secondAttribute="leading" constant="8" id="7Ct-eG-0Sd"/>
+                                    <constraint firstAttribute="bottom" secondItem="FCh-px-ZKM" secondAttribute="bottom" constant="18" id="Cq2-4q-oCk"/>
+                                    <constraint firstItem="QLo-vq-XN5" firstAttribute="centerY" secondItem="FCh-px-ZKM" secondAttribute="centerY" id="NyN-tC-0sP"/>
+                                    <constraint firstAttribute="trailing" secondItem="QLo-vq-XN5" secondAttribute="trailing" constant="10" id="fQN-hK-YuE"/>
+                                    <constraint firstItem="ppT-pJ-0c0" firstAttribute="leading" secondItem="FCh-px-ZKM" secondAttribute="trailing" constant="10" id="n0a-Yr-NM3"/>
+                                    <constraint firstItem="ppT-pJ-0c0" firstAttribute="centerY" secondItem="FCh-px-ZKM" secondAttribute="centerY" id="wyA-zb-2XH"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="EdG-bc-QmF" firstAttribute="top" secondItem="Dee-Lk-4ls" secondAttribute="top" constant="10" id="UXQ-dA-W9i"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="EdG-bc-QmF" secondAttribute="bottom" constant="10" id="aX2-7p-WTX"/>
+                            <constraint firstAttribute="trailing" secondItem="EdG-bc-QmF" secondAttribute="trailing" constant="20" id="eqT-dy-VoF"/>
+                            <constraint firstItem="EdG-bc-QmF" firstAttribute="leading" secondItem="Dee-Lk-4ls" secondAttribute="leading" constant="20" id="mSC-1r-0hq"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Dee-Lk-4ls" secondAttribute="bottom" id="9Rj-qh-y8a"/>
+                    <constraint firstItem="Dee-Lk-4ls" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Fxc-K7-Gfa"/>
+                    <constraint firstAttribute="trailing" secondItem="Dee-Lk-4ls" secondAttribute="trailing" id="J1Y-Zf-irq"/>
+                    <constraint firstItem="Dee-Lk-4ls" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="vIH-dv-NoC"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="lblTaskDes" destination="QLo-vq-XN5" id="NTc-cp-cmp"/>
+                <outlet property="lblTaskListName" destination="ppT-pJ-0c0" id="6L9-EO-Oy3"/>
+                <outlet property="taskImage" destination="FCh-px-ZKM" id="fou-FI-xev"/>
+                <outlet property="taskView" destination="EdG-bc-QmF" id="Icm-kK-6CG"/>
+            </connections>
+            <point key="canvasLocation" x="139.69465648854961" y="36.971830985915496"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="FontBlackcolor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="fontgraycolor">
+            <color red="0.58039215686274515" green="0.58039215686274515" blue="0.58039215686274515" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

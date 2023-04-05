@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "successful-execution-tasks-from-list-positive-businessman-with-pen-clipboard-completion-tasks-vector-illustration-flat-design-isolated-white-background-getting-things-done_153097-2951 1@1x.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "successful-execution-tasks-from-list-positive-businessman-with-pen-clipboard-completion-tasks-vector-illustration-flat-design-isolated-white-background-getting-things-done_153097-2951 1@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "successful-execution-tasks-from-list-positive-businessman-with-pen-clipboard-completion-tasks-vector-illustration-flat-design-isolated-white-background-getting-things-done_153097-2951 1@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

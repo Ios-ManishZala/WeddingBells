@@ -15,6 +15,8 @@ class VenueTBVCell: UITableViewCell {
     @IBOutlet weak var lblAmount: UILabel!
     @IBOutlet weak var lblVenueLocationName: UILabel!
     @IBOutlet weak var venueImage: UIImageView!
+    var onTapMessageAction:(()->()) = { }
+    var onTapPhoneAction:(()->()) = { }
     var famousDecorData:DecorPackageModel?{
         didSet{
             self.lblVenueLocationName.text = famousDecorData?.decorpackageName
@@ -33,6 +35,14 @@ class VenueTBVCell: UITableViewCell {
         self.messageView.addShadow()
     }
 
+    @IBAction func phoneTapAction(_ sender: UIControl) {
+        onTapPhoneAction()
+    }
+    
+    @IBAction func messageTapAction(_ sender: UIControl) {
+        onTapMessageAction()
+    }
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 

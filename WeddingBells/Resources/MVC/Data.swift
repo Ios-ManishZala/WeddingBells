@@ -211,17 +211,55 @@ class WeddingDecorData{
     
     static func MessageListData() -> [Message] {
         var messageList:[Message] = []
-        
         messageList = [
-                                Message.init(message: "Hii Galina", Time: "1:30 pm"),
-                                Message.init(message: "Hii, how are you ?", Time: "1:30 pm"),
+                                Message.init(message: "Hello I want book this hall", Time: "1:30 pm"),
+                                Message.init(message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis sed sodales purus", Time: "1:30 pm"),
                                 Message.init(message: "Fine..Canyou send me pic", Time: "1:30 pm"),
-                                Message.init(message: "Ok. wait a minute", Time: "1:30 pm"),
+                                Message.init(message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis sed sodales purus", Time: "1:30 pm"),
                                 Message.init(message: "Okay..plz dont forget", Time: "1:30 pm"),
-                                Message.init(message: "Okay..Thank you😍😍", Time: "1:30 pm"),
+                                Message.init(message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis sed sodales purus", Time: "1:30 pm"),
                                 Message.init(message: "😍😍😍😍😍", Time: "1:30 pm")
                             ]
         return messageList
+    }
+    
+    static func TaskListData() -> [TaskDataModel] {
+        let taskList = [
+            TaskDataModel.init(taskImage: UIImage(named: "ic_task1"),taskName: "To do list",taskDes: "05/10"),
+            TaskDataModel.init(taskImage: UIImage(named: "ic_task2"),taskName: "Guestlist",taskDes: "02/10"),
+            TaskDataModel.init(taskImage: UIImage(named: "ic_task3"),taskName: "Vendor shortlist",taskDes: "05/10"),
+            TaskDataModel.init(taskImage: UIImage(named: "ic_task4"),taskName: "Budget",taskDes: "$5400")
+        ]
+        return taskList
+    }
+    
+    static func VendorShortlistData() -> [VendorShortlistModel] {
+        let vendorList = [
+            VendorShortlistModel.init(title: "Venues",addtoshortlist: "3 result",isCreatShortlist: false,vendorImage: UIImage(named: "ic_vendor1")),
+            VendorShortlistModel.init(title: "Makup artist",addtoshortlist: "3 result",isCreatShortlist: false,vendorImage: UIImage(named: "ic_vendor2")),
+            VendorShortlistModel.init(title: "Jewellery",addtoshortlist: "2 result",isCreatShortlist: false,vendorImage: UIImage(named: "ic_vendor3")),
+            VendorShortlistModel.init(title: "Bridal wear",addtoshortlist: "3 result",isCreatShortlist: false,vendorImage: UIImage(named: "ic_vendor4")),
+            VendorShortlistModel.init(title: "Groom wear",addtoshortlist: "add to shortlist",isCreatShortlist: true),
+            VendorShortlistModel.init(title: "Photographers",addtoshortlist: "add to shortlist",isCreatShortlist: true),
+            VendorShortlistModel.init(title: "Food",addtoshortlist: "add to shortlist",isCreatShortlist: true),
+            VendorShortlistModel.init(title: "Invitation",addtoshortlist: "add to shortlist",isCreatShortlist: true),
+            VendorShortlistModel.init(title: "Decoration",addtoshortlist: "add to shortlist",isCreatShortlist: true)
+        ]
+        return vendorList
+    }
+    
+    static func ExpenesesData() -> [BudgetViewModal] {
+        let expensesList = [
+            BudgetViewModal.init(expensesName: "Venues",expensesAmount: "$1000"),
+            BudgetViewModal.init(expensesName: "Makup artist",expensesAmount: "$800"),
+            BudgetViewModal.init(expensesName: "Jewellery",expensesAmount: "$400"),
+            BudgetViewModal.init(expensesName: "Caterers",expensesAmount: "$1000"),
+            BudgetViewModal.init(expensesName: "Bridal wear",expensesAmount: "$900"),
+            BudgetViewModal.init(expensesName: "Bridal jewllery",expensesAmount: "$400"),
+            BudgetViewModal.init(expensesName: "Groom were",expensesAmount: "$800"),
+            BudgetViewModal.init(expensesName: "Photographer",expensesAmount: "$2400")
+        ]
+        return expensesList
     }
 }
 

@@ -77,3 +77,39 @@ struct Message{
     var message:String
     var Time:String
 }
+
+class TaskDataModel{
+    var taskImage: UIImage?
+    var taskName: String?
+    var taskDes: String?
+    
+    init(taskImage: UIImage? = nil, taskName: String? = nil, taskDes: String? = nil) {
+        self.taskImage = taskImage
+        self.taskName = taskName
+        self.taskDes = taskDes
+    }
+}
+
+class VendorShortlistModel {
+    var title: String?
+    var addtoshortlist: String?
+    var isCreatShortlist: Bool?
+    var vendorImage: UIImage?
+    
+    init(title: String? = nil, addtoshortlist: String? = nil, isCreatShortlist: Bool? = nil, vendorImage: UIImage? = nil) {
+        self.title = title
+        self.addtoshortlist = addtoshortlist
+        self.isCreatShortlist = isCreatShortlist
+        self.vendorImage = vendorImage
+    }
+}
+
+class BudgetViewModal{
+    var expensesName: String?
+    var expensesAmount: String?
+    
+    init(expensesName: String? = nil, expensesAmount: String? = nil) {
+        self.expensesName = expensesName
+        self.expensesAmount = expensesAmount
+    }
+}

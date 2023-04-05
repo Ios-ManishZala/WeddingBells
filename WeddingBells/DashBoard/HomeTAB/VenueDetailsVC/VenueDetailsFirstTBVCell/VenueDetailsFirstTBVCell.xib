@@ -98,7 +98,7 @@ Kentucky 39495</string>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="lxN-CX-xSM">
                                         <rect key="frame" x="475" y="27.666666666666664" width="92" height="39.999999999999993"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OAG-Z9-78I">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OAG-Z9-78I" customClass="UIControl">
                                                 <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iconoir_message" translatesAutoresizingMaskIntoConstraints="NO" id="LvN-v7-IeG">
@@ -116,8 +116,11 @@ Kentucky 39495</string>
                                                     <constraint firstItem="LvN-v7-IeG" firstAttribute="centerX" secondItem="OAG-Z9-78I" secondAttribute="centerX" id="H8a-Q0-JZV"/>
                                                     <constraint firstAttribute="height" constant="40" id="ouO-i7-W1R"/>
                                                 </constraints>
+                                                <connections>
+                                                    <action selector="messageTapAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Cqc-lL-tqT"/>
+                                                </connections>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pK0-LG-kiH">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pK0-LG-kiH" customClass="UIControl">
                                                 <rect key="frame" x="52" y="0.0" width="40" height="40"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fluent_call-24-regular" translatesAutoresizingMaskIntoConstraints="NO" id="whp-UV-zPv">
@@ -135,6 +138,9 @@ Kentucky 39495</string>
                                                     <constraint firstItem="whp-UV-zPv" firstAttribute="centerY" secondItem="pK0-LG-kiH" secondAttribute="centerY" id="pPO-xJ-E74"/>
                                                     <constraint firstAttribute="height" constant="40" id="wxD-sd-HsS"/>
                                                 </constraints>
+                                                <connections>
+                                                    <action selector="phoneTapAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="oaH-Up-Prw"/>
+                                                </connections>
                                             </view>
                                         </subviews>
                                         <constraints>

@@ -11,7 +11,8 @@ class VenueDetailsFirstTBVCell: UITableViewCell {
 
     @IBOutlet weak var roundView:UIView!
     @IBOutlet weak var roundPhoenView: UIView!
-    
+    var onTapMessageAction:(()->()) = { }
+    var onTapPhoneAction:(()->()) = { }
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -21,7 +22,15 @@ class VenueDetailsFirstTBVCell: UITableViewCell {
         self.roundPhoenView.makeRounded()
         self.roundPhoenView.addShadow()
     }
-
+    
+    @IBAction func messageTapAction(_ sender: UIControl) {
+        onTapMessageAction()
+    }
+    
+    @IBAction func phoneTapAction(_ sender: UIControl) {
+        onTapPhoneAction()
+    }
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 

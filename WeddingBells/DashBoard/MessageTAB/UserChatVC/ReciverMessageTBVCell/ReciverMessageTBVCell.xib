@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-SemiBold.ttf">
+            <string>Montserrat-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ReciverMessageTBVCell" rowHeight="265" id="KGk-i7-Jjw" customClass="ReciverMessageTBVCell" customModule="WeddingBells" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="452" height="265"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="452" height="265"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="74b-eB-92F">
+                        <rect key="frame" x="0.0" y="0.0" width="452" height="265"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3WK-W2-NZ0">
+                                <rect key="frame" x="20" y="15.000000000000004" width="382" height="62.333333333333343"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit amet,consectetur adipiscing elit. " textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eM9-yn-5FX">
+                                        <rect key="frame" x="10" y="14" width="362" height="34.333333333333336"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="eM9-yn-5FX" secondAttribute="trailing" constant="10" id="2Wc-t4-qXe"/>
+                                    <constraint firstItem="eM9-yn-5FX" firstAttribute="top" secondItem="3WK-W2-NZ0" secondAttribute="top" constant="14" id="3wb-qE-zej"/>
+                                    <constraint firstAttribute="bottom" secondItem="eM9-yn-5FX" secondAttribute="bottom" constant="14" id="cq1-x0-HL0"/>
+                                    <constraint firstItem="eM9-yn-5FX" firstAttribute="leading" secondItem="3WK-W2-NZ0" secondAttribute="leading" constant="10" id="r90-7j-ljA"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="3WK-W2-NZ0" secondAttribute="bottom" constant="15" id="2Y1-Uf-sKn"/>
+                            <constraint firstItem="3WK-W2-NZ0" firstAttribute="top" secondItem="74b-eB-92F" secondAttribute="top" constant="15" id="H63-j2-Vmy"/>
+                            <constraint firstItem="3WK-W2-NZ0" firstAttribute="leading" secondItem="74b-eB-92F" secondAttribute="leading" constant="20" id="P4n-9d-0qW"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="3WK-W2-NZ0" secondAttribute="trailing" constant="50" id="yrt-T6-URc"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="74b-eB-92F" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="CjN-0i-Wwg"/>
+                    <constraint firstItem="74b-eB-92F" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="YDH-bM-onv"/>
+                    <constraint firstAttribute="trailing" secondItem="74b-eB-92F" secondAttribute="trailing" id="n9r-BI-cWb"/>
+                    <constraint firstAttribute="bottom" secondItem="74b-eB-92F" secondAttribute="bottom" id="rDN-va-EsX"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="lblMessage" destination="eM9-yn-5FX" id="DhJ-se-a61"/>
+                <outlet property="messageView" destination="3WK-W2-NZ0" id="DQd-o9-O6N"/>
+            </connections>
+            <point key="canvasLocation" x="226" y="68"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

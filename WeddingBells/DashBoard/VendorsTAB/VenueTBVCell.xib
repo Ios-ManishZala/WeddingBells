@@ -66,7 +66,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="te8-Y7-bab">
                                                 <rect key="frame" x="406" y="232" width="92" height="40"/>
                                                 <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cck-bz-TCa">
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cck-bz-TCa" customClass="UIControl">
                                                         <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iconoir_message" translatesAutoresizingMaskIntoConstraints="NO" id="SMM-5A-0aG">
@@ -84,8 +84,11 @@
                                                             <constraint firstItem="SMM-5A-0aG" firstAttribute="centerY" secondItem="Cck-bz-TCa" secondAttribute="centerY" id="iYc-Cf-JCb"/>
                                                             <constraint firstItem="SMM-5A-0aG" firstAttribute="centerX" secondItem="Cck-bz-TCa" secondAttribute="centerX" id="qX7-oa-zZt"/>
                                                         </constraints>
+                                                        <connections>
+                                                            <action selector="messageTapAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="o2o-lL-QVP"/>
+                                                        </connections>
                                                     </view>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ynH-9N-R6E">
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ynH-9N-R6E" customClass="UIControl">
                                                         <rect key="frame" x="52" y="0.0" width="40" height="40"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fluent_call-24-regular" translatesAutoresizingMaskIntoConstraints="NO" id="ghS-xW-YvY">
@@ -103,6 +106,9 @@
                                                             <constraint firstItem="ghS-xW-YvY" firstAttribute="centerX" secondItem="ynH-9N-R6E" secondAttribute="centerX" id="jam-7a-NjU"/>
                                                             <constraint firstAttribute="width" secondItem="ynH-9N-R6E" secondAttribute="height" multiplier="1:1" id="tt7-nh-HHS"/>
                                                         </constraints>
+                                                        <connections>
+                                                            <action selector="phoneTapAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="qUZ-kz-AKp"/>
+                                                        </connections>
                                                     </view>
                                                 </subviews>
                                                 <constraints>

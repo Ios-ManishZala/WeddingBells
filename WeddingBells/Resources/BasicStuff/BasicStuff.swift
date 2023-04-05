@@ -663,3 +663,47 @@ extension UIView{
         self.layer.addSublayer(layer0)
     }
 }
+
+//MARK: - AddDashedline vertical And Horizontal.
+
+extension UIView {
+    enum dashedOrientation {
+        case horizontal
+        case vertical
+    }
+    
+    func makeDashedBorderLine(color: UIColor, strokeLength: NSNumber, gapLength: NSNumber, width: CGFloat, orientation: dashedOrientation) {
+        let path = CGMutablePath()
+        let shapeLayer = CAShapeLayer()
+        shapeLayer.lineWidth = width
+        shapeLayer.strokeColor = color.cgColor
+        shapeLayer.lineDashPattern = [strokeLength, gapLength]
+        if orientation == .vertical {
+            path.addLines(between: [CGPoint(x: bounds.midX, y: bounds.minY),
+                                    CGPoint(x: bounds.midX, y: bounds.maxY)])
+        } else if orientation == .horizontal {
+            path.addLines(between: [CGPoint(x: bounds.minX, y: bounds.midY),
+                                    CGPoint(x: bounds.maxX, y: bounds.midY)])
+        }
+        shapeLayer.path = path
+        layer.addSublayer(shapeLayer)
+    }
+}
+
+//MARK: - line upon Label.
+
+extension String {
+    func strikeThrough() -> NSAttributedString {
+        let attributeString =  NSMutableAttributedString(string: self)
+        attributeString.addAttribute(
+            NSAttributedString.Key.strikethroughStyle,
+               value: NSUnderlineStyle.single.rawValue,
+                   range:NSMakeRange(0,attributeString.length))
+        return attributeString
+    }
+    
+    func RemoveStrikeThrough() -> NSAttributedString {
+        let attributeString =  NSMutableAttributedString(string: self)
+        return attributeString
+    }
+}
