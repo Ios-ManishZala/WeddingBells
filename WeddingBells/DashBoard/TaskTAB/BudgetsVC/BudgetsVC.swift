@@ -9,6 +9,9 @@ import UIKit
 
 class BudgetsVC: UIViewController {
 
+   
+    @IBOutlet weak var lblAddExpenses: UILabel!
+    @IBOutlet weak var lblExpenses: UILabel!
     @IBOutlet weak var circularProgress: CircularProgressView!
     @IBOutlet weak var customNav: TabNavigationBar!
     @IBOutlet weak var tableView: UITableView!
@@ -21,7 +24,7 @@ class BudgetsVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        customNav.titleLabel.text = "Budgets"
+       
         budgetView.addShadow()
         roundView.forEach { UIView in
             UIView.makeRounded()
@@ -36,6 +39,19 @@ class BudgetsVC: UIViewController {
         self.circularProgress.setProgressWithAnimation(duration: 1.0, value: 0.4)
     }
     
+    //MARK: - update langauge
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.setValueBaseOnLanguage()
+    }
+    
+    func setValueBaseOnLanguage(){
+        customNav.titleLabel.text = "budget".localized()
+        self.lblExpenses.text = "expenses".localized()
+        self.lblAddExpenses.text = "add_expenses".localized()
+    }
+    
     @IBAction func btnEditBudgetAction(_ sender: UIButton) {
         let vc = AddGuestVC()
         self.isFromAddYourBudget = true
@@ -45,7 +61,7 @@ class BudgetsVC: UIViewController {
         self.present(vc, animated: true)
     }
     
-    @IBAction func btnAddExpeneseAction(_ sender: UIButton) {
+    @IBAction func btnAddExpeneseAction(_ sender: UIControl) {
         let vc = AddGuestVC()
         self.isFromAddExpenses = true
         vc.isFromAddExpenses = self.isFromAddExpenses

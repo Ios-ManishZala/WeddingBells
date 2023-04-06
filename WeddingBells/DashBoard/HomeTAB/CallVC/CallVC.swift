@@ -9,10 +9,15 @@ import UIKit
 
 class CallVC: UIViewController {
 
+    @IBOutlet weak var lblcalling: UILabel!
+    @IBOutlet weak var lblName: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        self.lblcalling.text = "calling".localized()
+        self.lblName.text = "leslie_alexand".localized()
     }
 
     @IBAction func btnEndCallAction(_ sender: UIButton) {

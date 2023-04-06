@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -20,6 +20,11 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FunctionTypeVC" customModule="WeddingBells" customModuleProvider="target">
             <connections>
                 <outlet property="functionView" destination="3bz-ev-ehb" id="JeI-j9-udM"/>
+                <outlet property="lblBirthdayCelebration" destination="fzL-YU-Cc4" id="fpS-vC-EJl"/>
+                <outlet property="lblMarraige" destination="BPT-7m-ShD" id="zHb-9A-qYZ"/>
+                <outlet property="lblReception" destination="B9n-R8-O0l" id="0GW-4k-yY1"/>
+                <outlet property="lblRing_ceremony" destination="wPE-cF-hDP" id="nHu-3V-EgN"/>
+                <outlet property="lblTitle" destination="xmx-ux-qXd" id="9mM-lp-NLM"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>

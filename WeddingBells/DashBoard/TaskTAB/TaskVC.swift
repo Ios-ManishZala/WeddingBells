@@ -9,17 +9,37 @@ import UIKit
 
 class TaskVC: UIViewController {
 
+    @IBOutlet weak var lblPlanwedding: UILabel!
+    @IBOutlet weak var lblTaskTitle: UILabel!
+    @IBOutlet weak var lbltask: UILabel!
     @IBOutlet weak var tableView: UITableView!
     var taskListData = WeddingDecorData.TaskListData()
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(of: TaskTBVCell.self)
     }
+    
+    //MARK: - update langauge
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        self.setValueBaseOnLanguage()
+        self.taskListData = WeddingDecorData.TaskListData()
+        self.tableView.reloadData()
+    }
+    
+    func setValueBaseOnLanguage(){
+        self.lbltask.text = "task".localized()
+        self.lblTaskTitle.text = "arunima_anurag".localized()
+        self.lblPlanwedding.text = "plan_wedding".localized()
+    }
+    
     
     @IBAction func btnEditAction(_ sender: UIButton) {
         let vc = EditPlanningVC()

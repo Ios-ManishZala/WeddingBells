@@ -25,7 +25,12 @@ class VendoreTBVCell: UITableViewCell {
         super.awakeFromNib()
        
         self.vrndorView.addShadow()
-        self.vendorImage.makeLeftTopandBottomRound(10)
+        
+        if getAppLanguagesCode() == "ar" {
+            self.vendorImage.makeRightTopandBottomRound(10)
+        }else{
+            self.vendorImage.makeLeftTopandBottomRound(10)
+        }
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

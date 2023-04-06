@@ -9,6 +9,7 @@ import UIKit
 
 class SelectCityVC: UIViewController {
 
+    @IBOutlet weak var lblTitle: UILabel!
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var cityView: UIView!
     var cityName = [
@@ -36,6 +37,7 @@ class SelectCityVC: UIViewController {
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(of: SelectLanguageCell.self)
+        self.lblTitle.text = "select_city".localized()
     }
 
     @IBAction func outerViewAction(_ sender: Any) {

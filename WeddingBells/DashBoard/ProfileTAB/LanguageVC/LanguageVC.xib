@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-SemiBold.ttf">
+            <string>Montserrat-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LanguageVC" customModule="WeddingBells" customModuleProvider="target">
+            <connections>
+                <outlet property="lblLanguageTitle" destination="soo-04-GBU" id="gsd-b7-5Il"/>
+                <outlet property="navigationView" destination="ncI-Ob-xLf" id="dAc-Rl-1TX"/>
+                <outlet property="tableView" destination="41p-ab-MFZ" id="Ksf-dZ-JAf"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aRj-wc-rhT">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2jq-TC-edV">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fO6-81-SfH">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="80"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ncI-Ob-xLf" customClass="TabNavigationBar" customModule="WeddingBells" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="40" width="414" height="40"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="40" id="rRn-4G-aby"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstItem="ncI-Ob-xLf" firstAttribute="leading" secondItem="fO6-81-SfH" secondAttribute="leading" id="A52-CO-ROM"/>
+                                        <constraint firstItem="ncI-Ob-xLf" firstAttribute="top" secondItem="fO6-81-SfH" secondAttribute="top" constant="40" id="JGb-ww-LsF"/>
+                                        <constraint firstAttribute="trailing" secondItem="ncI-Ob-xLf" secondAttribute="trailing" id="N6i-Gl-A7y"/>
+                                        <constraint firstAttribute="bottom" secondItem="ncI-Ob-xLf" secondAttribute="bottom" id="eLS-f0-eAc"/>
+                                    </constraints>
+                                </view>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select preferred language" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="soo-04-GBU">
+                                    <rect key="frame" x="20" y="100" width="188.5" height="17.5"/>
+                                    <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="14"/>
+                                    <color key="textColor" name="FontBlackcolor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ftJ-Tq-VyT">
+                                    <rect key="frame" x="0.0" y="117.5" width="414" height="778.5"/>
+                                    <subviews>
+                                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="41p-ab-MFZ">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="778.5"/>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        </tableView>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstItem="41p-ab-MFZ" firstAttribute="top" secondItem="ftJ-Tq-VyT" secondAttribute="top" id="4ex-9J-775"/>
+                                        <constraint firstItem="41p-ab-MFZ" firstAttribute="leading" secondItem="ftJ-Tq-VyT" secondAttribute="leading" id="VUH-Vz-yDT"/>
+                                        <constraint firstAttribute="trailing" secondItem="41p-ab-MFZ" secondAttribute="trailing" id="XCw-YP-3dE"/>
+                                        <constraint firstAttribute="bottom" secondItem="41p-ab-MFZ" secondAttribute="bottom" id="r5i-Sl-zzv"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="ftJ-Tq-VyT" secondAttribute="bottom" id="4ZY-WA-ZuE"/>
+                                <constraint firstItem="ftJ-Tq-VyT" firstAttribute="top" secondItem="soo-04-GBU" secondAttribute="bottom" id="6if-Vd-Vcl"/>
+                                <constraint firstItem="soo-04-GBU" firstAttribute="leading" secondItem="2jq-TC-edV" secondAttribute="leading" constant="20" id="Cb1-x5-EQu"/>
+                                <constraint firstAttribute="trailing" secondItem="fO6-81-SfH" secondAttribute="trailing" id="Ex3-7i-JH5"/>
+                                <constraint firstItem="ftJ-Tq-VyT" firstAttribute="leading" secondItem="2jq-TC-edV" secondAttribute="leading" id="Hag-FB-Ojk"/>
+                                <constraint firstAttribute="trailing" secondItem="ftJ-Tq-VyT" secondAttribute="trailing" id="J6y-2Y-EBg"/>
+                                <constraint firstItem="fO6-81-SfH" firstAttribute="top" secondItem="2jq-TC-edV" secondAttribute="top" id="UZx-aF-PG5"/>
+                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="soo-04-GBU" secondAttribute="trailing" constant="20" id="h3E-DG-eRX"/>
+                                <constraint firstItem="fO6-81-SfH" firstAttribute="leading" secondItem="2jq-TC-edV" secondAttribute="leading" id="tbm-Yt-qX2"/>
+                                <constraint firstItem="soo-04-GBU" firstAttribute="top" secondItem="fO6-81-SfH" secondAttribute="bottom" constant="20" id="uIM-Ev-k5o"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="2jq-TC-edV" secondAttribute="trailing" id="1Ha-eT-uNz"/>
+                        <constraint firstItem="2jq-TC-edV" firstAttribute="top" secondItem="aRj-wc-rhT" secondAttribute="top" id="ESp-Pi-ArX"/>
+                        <constraint firstItem="2jq-TC-edV" firstAttribute="leading" secondItem="aRj-wc-rhT" secondAttribute="leading" id="Xw7-gG-8k0"/>
+                        <constraint firstAttribute="bottom" secondItem="2jq-TC-edV" secondAttribute="bottom" id="yHW-oi-cJM"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="aRj-wc-rhT" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="2ag-ud-eAW"/>
+                <constraint firstAttribute="trailing" secondItem="aRj-wc-rhT" secondAttribute="trailing" id="Qj8-vB-ReI"/>
+                <constraint firstItem="aRj-wc-rhT" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="cZb-I1-XnA"/>
+                <constraint firstAttribute="bottom" secondItem="aRj-wc-rhT" secondAttribute="bottom" id="eJ0-l7-Psd"/>
+            </constraints>
+            <point key="canvasLocation" x="132" y="113"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="FontBlackcolor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

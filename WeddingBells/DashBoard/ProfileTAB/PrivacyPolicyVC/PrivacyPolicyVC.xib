@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Medium.ttf">
+            <string>Montserrat-Medium</string>
+        </array>
+        <array key="Montserrat-SemiBold.ttf">
+            <string>Montserrat-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PrivacyPolicyVC" customModule="WeddingBells" customModuleProvider="target">
+            <connections>
+                <outlet property="customNav" destination="9y6-dp-YwT" id="UDt-DY-8WZ"/>
+                <outlet property="lblPrivacypolicy" destination="Lix-qi-Daf" id="0AQ-ly-vL9"/>
+                <outlet property="lbltermofuse" destination="e22-n2-tyD" id="VcQ-JO-gZg"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="48G-St-aJY">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qnz-dG-bXN">
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="85"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9y6-dp-YwT" customClass="TabNavigationBar" customModule="WeddingBells" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="40" width="393" height="40"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="40" id="2sW-YB-5Dc"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="9y6-dp-YwT" firstAttribute="leading" secondItem="qnz-dG-bXN" secondAttribute="leading" id="0II-HI-PgO"/>
+                                <constraint firstAttribute="trailing" secondItem="9y6-dp-YwT" secondAttribute="trailing" id="Pzw-hY-j3U"/>
+                                <constraint firstItem="9y6-dp-YwT" firstAttribute="top" secondItem="qnz-dG-bXN" secondAttribute="top" constant="40" id="dPs-ze-dJ2"/>
+                                <constraint firstAttribute="bottom" secondItem="9y6-dp-YwT" secondAttribute="bottom" constant="5" id="jrp-Ei-fXw"/>
+                            </constraints>
+                        </view>
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tas-5c-BEu">
+                            <rect key="frame" x="0.0" y="85" width="393" height="767"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l8j-z3-zLN">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="1115.6666666666667"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZbV-66-JdE">
+                                            <rect key="frame" x="20" y="40" width="353" height="170.66666666666669"/>
+                                            <string key="text">Possimus ipsa ea. Dolorum ea vel et sit voluptatem quis ex. Sequi iusto velit ratione voluptas repudiandaejhk at aliquid molestiae non. Et enim quam. Et consequatur sunt dictasdf esse eveniet tempore deserunt.Possimus ipsa ea. Dolorum ea vel et sit voluptatem quis ex. Sequi iusto velit rationeds voluptas repudiandae Possimus ipsa ea. Dolorum ea vel et sit voluptatem quis ex. Sequi iusto velit ratione voluptas </string>
+                                            <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="14"/>
+                                            <color key="textColor" name="FontColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="17" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r5S-tq-kDF">
+                                            <rect key="frame" x="20" y="220.66666666666669" width="353" height="205"/>
+                                            <string key="text">Possimus ipsa ea. Dolorum ea vel et sit voluptatem quis ex. Sequi iusto velit ratione voluptas repudiandaejhk at aliquids molestiae non. Et enim quam. Et consequatur ghdictagesse eveniet tempore deserunt.Possimus ipsa ea. Dolorum eavel et sit voluptatem quis ex. Sequi iusto velit ratvorepudiandae Possimus ipsa ea. Dolorum ea vevoluptatem quis ex. Sequi iusto velit ratione voluptas .Possimus ipsa ea. Dolorum ea vel et sit voluptatem quis ex. Sequi iusto velit rationvoluptas repudiandae Possimus ifggDolorum ea vel et sit voluptatem </string>
+                                            <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="14"/>
+                                            <color key="textColor" name="FontColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E4L-Mp-Rdy">
+                                            <rect key="frame" x="20" y="470.66666666666663" width="353" height="205"/>
+                                            <string key="text">Possimus ipsa ea. Dolorum ea vel et sit voluptatem quis ex. Sequi iusto velit ratione voluptas repudiandaejhk at aliquids molestiae non. Et enim quam. Et consequatur ghdictagesse eveniet tempore deserunt.Possimus ipsa ea. Dolorum eavel et sit voluptatem quis ex. Sequi iusto velit ratvorepudiandae Possimus ipsa ea. Dolorum ea vevoluptatem quis ex. Sequi iusto velit ratione voluptas .Possimus ipsa ea. Dolorum ea vel et sit voluptatem quis ex. Sequi iusto velit rationvoluptas repudiandae Possimus ifggDolorum ea vel et sit voluptatem </string>
+                                            <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="14"/>
+                                            <color key="textColor" name="FontColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="17" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="meS-ii-BKv">
+                                            <rect key="frame" x="20" y="685.66666666666663" width="353" height="205"/>
+                                            <string key="text">Possimus ipsa ea. Dolorum ea vel et sit voluptatem quis ex. Sequi iusto velit ratione voluptas repudiandaejhk at aliquids molestiae non. Et enim quam. Et consequatur ghdictagesse eveniet tempore deserunt.Possimus ipsa ea. Dolorum eavel et sit voluptatem quis ex. Sequi iusto velit ratvorepudiandae Possimus ipsa ea. Dolorum ea vevoluptatem quis ex. Sequi iusto velit ratione voluptas .Possimus ipsa ea. Dolorum ea vel et sit voluptatem quis ex. Sequi iusto velit rationvoluptas repudiandae Possimus ifggDolorum ea vel et sit voluptatem </string>
+                                            <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="14"/>
+                                            <color key="textColor" name="FontColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="17" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Pd-wg-DNb">
+                                            <rect key="frame" x="20" y="900.66666666666663" width="353" height="204.99999999999989"/>
+                                            <string key="text">Possimus ipsa ea. Dolorum ea vel et sit voluptatem quis ex. Sequi iusto velit ratione voluptas repudiandaejhk at aliquids molestiae non. Et enim quam. Et consequatur ghdictagesse eveniet tempore deserunt.Possimus ipsa ea. Dolorum eavel et sit voluptatem quis ex. Sequi iusto velit ratvorepudiandae Possimus ipsa ea. Dolorum ea vevoluptatem quis ex. Sequi iusto velit ratione voluptas .Possimus ipsa ea. Dolorum ea vel et sit voluptatem quis ex. Sequi iusto velit rationvoluptas repudiandae Possimus ifggDolorum ea vel et sit voluptatem </string>
+                                            <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="14"/>
+                                            <color key="textColor" name="FontColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Terms of use" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e22-n2-tyD">
+                                            <rect key="frame" x="20" y="10" width="353" height="20"/>
+                                            <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="16"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Privacy policy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lix-qi-Daf">
+                                            <rect key="frame" x="20" y="440.66666666666663" width="353" height="20"/>
+                                            <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="16"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstItem="9Pd-wg-DNb" firstAttribute="leading" secondItem="l8j-z3-zLN" secondAttribute="leading" constant="20" id="1fg-U4-dyu"/>
+                                        <constraint firstAttribute="trailing" secondItem="ZbV-66-JdE" secondAttribute="trailing" constant="20" id="2dA-DN-nji"/>
+                                        <constraint firstItem="meS-ii-BKv" firstAttribute="leading" secondItem="l8j-z3-zLN" secondAttribute="leading" constant="20" id="C9a-HR-9K7"/>
+                                        <constraint firstItem="9Pd-wg-DNb" firstAttribute="top" secondItem="meS-ii-BKv" secondAttribute="bottom" constant="10" id="KMx-Ru-eKu"/>
+                                        <constraint firstItem="r5S-tq-kDF" firstAttribute="top" secondItem="ZbV-66-JdE" secondAttribute="bottom" constant="10" id="M7p-XV-nDu"/>
+                                        <constraint firstItem="E4L-Mp-Rdy" firstAttribute="top" secondItem="Lix-qi-Daf" secondAttribute="bottom" constant="10" id="Oet-0Z-kdh"/>
+                                        <constraint firstItem="meS-ii-BKv" firstAttribute="top" secondItem="E4L-Mp-Rdy" secondAttribute="bottom" constant="10" id="QrU-hq-Pqy"/>
+                                        <constraint firstAttribute="trailing" secondItem="Lix-qi-Daf" secondAttribute="trailing" constant="20" id="VK8-Sq-DTC"/>
+                                        <constraint firstItem="ZbV-66-JdE" firstAttribute="top" secondItem="e22-n2-tyD" secondAttribute="bottom" constant="10" id="Z5m-I9-oR6"/>
+                                        <constraint firstItem="ZbV-66-JdE" firstAttribute="leading" secondItem="l8j-z3-zLN" secondAttribute="leading" constant="20" id="Z76-cb-0O8"/>
+                                        <constraint firstAttribute="trailing" secondItem="r5S-tq-kDF" secondAttribute="trailing" constant="20" id="ZsZ-Zo-M7B"/>
+                                        <constraint firstItem="Lix-qi-Daf" firstAttribute="top" secondItem="r5S-tq-kDF" secondAttribute="bottom" constant="15" id="cDn-RD-pXy"/>
+                                        <constraint firstItem="e22-n2-tyD" firstAttribute="top" secondItem="l8j-z3-zLN" secondAttribute="top" constant="10" id="icC-6o-Mbk"/>
+                                        <constraint firstAttribute="trailing" secondItem="E4L-Mp-Rdy" secondAttribute="trailing" constant="20" id="lWi-VA-19u"/>
+                                        <constraint firstItem="e22-n2-tyD" firstAttribute="leading" secondItem="l8j-z3-zLN" secondAttribute="leading" constant="20" id="olC-TT-nl3"/>
+                                        <constraint firstAttribute="trailing" secondItem="9Pd-wg-DNb" secondAttribute="trailing" constant="20" id="r0f-TN-cYg"/>
+                                        <constraint firstItem="Lix-qi-Daf" firstAttribute="leading" secondItem="l8j-z3-zLN" secondAttribute="leading" constant="20" id="rKS-1s-bkW"/>
+                                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="9Pd-wg-DNb" secondAttribute="bottom" constant="10" id="rqs-LU-SHe"/>
+                                        <constraint firstItem="E4L-Mp-Rdy" firstAttribute="leading" secondItem="l8j-z3-zLN" secondAttribute="leading" constant="20" id="sKk-rf-Tyi"/>
+                                        <constraint firstItem="r5S-tq-kDF" firstAttribute="leading" secondItem="l8j-z3-zLN" secondAttribute="leading" constant="20" id="uwS-LL-era"/>
+                                        <constraint firstAttribute="trailing" secondItem="meS-ii-BKv" secondAttribute="trailing" constant="20" id="wbI-eC-F2W"/>
+                                        <constraint firstAttribute="trailing" secondItem="e22-n2-tyD" secondAttribute="trailing" constant="20" id="zwi-A8-EQ4"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="l8j-z3-zLN" firstAttribute="height" secondItem="Tas-5c-BEu" secondAttribute="height" priority="250" id="Ng3-89-dpm"/>
+                                <constraint firstItem="l8j-z3-zLN" firstAttribute="top" secondItem="Tas-5c-BEu" secondAttribute="top" id="Vac-09-NHY"/>
+                                <constraint firstItem="l8j-z3-zLN" firstAttribute="width" secondItem="Tas-5c-BEu" secondAttribute="width" id="Yvy-qH-mhg"/>
+                                <constraint firstItem="l8j-z3-zLN" firstAttribute="trailing" secondItem="Tas-5c-BEu" secondAttribute="trailing" id="c5U-Pq-5Pf"/>
+                                <constraint firstItem="l8j-z3-zLN" firstAttribute="leading" secondItem="Tas-5c-BEu" secondAttribute="leading" id="huL-dW-7sx"/>
+                                <constraint firstItem="l8j-z3-zLN" firstAttribute="bottom" secondItem="Tas-5c-BEu" secondAttribute="bottom" id="wyQ-Xg-0Kj"/>
+                            </constraints>
+                        </scrollView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="Tas-5c-BEu" secondAttribute="bottom" id="9tQ-7z-Azd"/>
+                        <constraint firstItem="qnz-dG-bXN" firstAttribute="top" secondItem="48G-St-aJY" secondAttribute="top" id="L6z-Hy-8NU"/>
+                        <constraint firstAttribute="trailing" secondItem="Tas-5c-BEu" secondAttribute="trailing" id="ScG-Jq-100"/>
+                        <constraint firstItem="Tas-5c-BEu" firstAttribute="top" secondItem="qnz-dG-bXN" secondAttribute="bottom" id="eJ9-Tz-rK6"/>
+                        <constraint firstItem="qnz-dG-bXN" firstAttribute="leading" secondItem="48G-St-aJY" secondAttribute="leading" id="lub-0c-fQf"/>
+                        <constraint firstAttribute="trailing" secondItem="qnz-dG-bXN" secondAttribute="trailing" id="uXb-ej-SHp"/>
+                        <constraint firstItem="Tas-5c-BEu" firstAttribute="leading" secondItem="48G-St-aJY" secondAttribute="leading" id="vNt-Ex-xtX"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="48G-St-aJY" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="J4K-3h-ZGd"/>
+                <constraint firstItem="48G-St-aJY" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="d17-3a-7JQ"/>
+                <constraint firstAttribute="bottom" secondItem="48G-St-aJY" secondAttribute="bottom" id="dLZ-Xr-X6r"/>
+                <constraint firstAttribute="trailing" secondItem="48G-St-aJY" secondAttribute="trailing" id="lCV-xe-LZl"/>
+            </constraints>
+            <point key="canvasLocation" x="132" y="-11"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="FontColor">
+            <color red="0.32899999618530273" green="0.32400000095367432" blue="0.4779999852180481" alpha="0.33000001311302185" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

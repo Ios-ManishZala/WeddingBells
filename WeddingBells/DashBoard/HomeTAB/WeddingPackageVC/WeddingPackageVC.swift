@@ -20,11 +20,11 @@ class WeddingPackageVC: UIViewController {
         super.viewDidLoad()
 
         if isFromFamousDecor == true {
-            customNav.titleLabel.text = "Famous wedding venue"
+            customNav.titleLabel.text = "famous_wedding_venue".localized()
         }else if isFromTrendingDecor == true {
-            customNav.titleLabel.text = "Tranding decore"
+            customNav.titleLabel.text = "tranding_decor".localized()
         }else{
-            customNav.titleLabel.text = "Wedding package"
+            customNav.titleLabel.text = "wedding_package".localized()
         }
         
         collectionView.delegate = self

@@ -17,7 +17,7 @@ class VenueShortListVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.customNav.titleLabel.text = "Venues"
+        self.customNav.titleLabel.text = "Venue".localized()
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(of: VenueShortlistTBVCell.self)

@@ -8,187 +8,153 @@
 
 //MARK: - intoVC
 
-"intro1_title" = "Organise your dream wedding";
-"intro2_title" = "Find your perfect venues";
-"intro3_title" = "Make a guest list, manage your budget";
-"skip" = "Skip";
-"next" = "Next";
+"intro1_title" = "अपने सपनों की शादी का आयोजन करें";
+"intro2_title" = "अपने सही स्थानों का पता लगाएं";
+"intro3_title" = "एक अतिथि सूची बनाएं, अपने बजट का प्रबंधन करें";
+"skip" = "छोडना";
+"next" = "अगला";
 
 //MARK: - loginVC
 
-"login" = "Login";
-"enter_number" = "Enter your mobile number";
-"intrection" = "Please confirm your country code and enter your mobile number";
-"or" = "Or Login using";
-"facebook" = "Facebook";
-"google" = "Google";
-"login_instruction" = "*We will sent OTP for verification";
+"login" = "लॉग इन करें";
+"enter_number" = "मोबाइल नंबर दर्ज करें";
+"intrection" = "कृपया अपना खाता लॉगिन करें";
+"country_name" = "देश नाम";
+
 
 //MARK: - registartionVC
 
-"register_title" = "Register";
-"register_subTitle" = "Please create your account to continue using this application";
-"enter_your_name" = "Enter your name";
-"enter_your_email_id" = "Enter your email id";
-"register" = "REGISTER";
+"register_title" = "पंजीकरण करवाना";
+"register_subTitle" = "कृपया अपना खाता बनाएं";
+"enter_your_name" = "अपना नाम दर्ज करें";
+"enter_your_email_id" = "ईमेल पता दर्ज करें";
+"register" = "पंजीकरण करवाना";
+"name" = "नाम";
+"mobile_number" = "मोबाइल नंबर";
+"email_address" = "मेल पता";
+
 
 //MARK: - otpVC
 
-"verify" = "Verify now";
-"otp_subtitle" = "Confirmation code has benn sent to tou your mobile no +91(1234567890)";
-"otp_verification" = "OTP Verification";
-"resend" = "Resend";
+"verify" = "सत्यापित करना";
+"otp_subtitle" = "हमने आपको 4 अंकों के सत्यापन कोड (OTP) के साथ 1234567890 पर एक एसएमएस भेजा है";
+"otp_verification" = "ओटीपी सत्यापन";
+"resend" = "पुन: भेजें";
 
-//MARK: - Languages.
-
-"selectLanguage_subtitle" = "Select your language";
 
 //MARK: - tabbar
 
-"home" = "Home";
-"category" = "Category";
-"video" = "Video";
-"weather" = "Weather";
-"profile" = "Profile";
+"home" = "घर";
+"vendors" = "विक्रेताओं";
+"task" = "काम";
+"message" = "संदेश";
+"profile" = "प्रोफ़ाइल";
 
 //MARK: - HomeTab
 
-/*
-"latest_transection" = "Latest transection";
-"services" = "Services";
-"total_balance" = "Total Balance :";
-"saving_account" = "Saving account";
-"current_account" = "Current account";
-"fund_transfer" = "Fund transfer";
-"statement" = "Statement";
-"bill_pay" = "Bill pay";
-"scan_and_pay" = "Scan and pay";
-"more" = "More";
-"see_all" = "See all";
-"cards" = "Cards";
-"mutual_fund" = "Mutual fund";
-"insurance" = "Insurance";
-"shop_offer" = "Shop & offer";
-"recharge" = "Recharge";
-"beneficiary_pay" = "Beneficiary pay";
-"irbn_payment" = "IBAN payment";
-"imps_pay" = "IMPS pay";
-"from_account" = "From account";
-"beneficiary_info" = "Beneficiary info";
-"beneficiary_name" = "Beneficiary name";
-"beneficiary_bank_name" = "Beneficiary bank name";
-"beneficiary_account_number" = "Beneficiary account number";
-"transfer_limit" = "Transfer limit";
-"transfer_now" = "Transfer now";
-"iban_number" = "IBAN number";
-"bic_code" = "BIC code";
-"remark" = "Remark";
-"account_holde_name" = "Account holder name";
-"to_account" = "To account";
-"bank_name" = "Bank name";
-"IFSC_code" = "IFSC code";
-"enter_account_no" = "Enter account no";
-"enter_account_holder_name" = "Enter account holder name";
-"hdfc_bank" = "HDFC bank";
-"enter_ifsc_code" = "Enter IFSC code";
-"enter_amount" = "Enter amount";
-"salary_account" = "Salary account";
-"nri_account" = "NRI account";
-"account_number" = "Account number";
-"Total_balance" = "Total balance";
-"account_details" = "Account details";
-"cif" = "CIF";
-"ifsc" = "IFSC";
-"branch_code" = "Branch code";
-"branch_name" = "Branch name";
-"account_opening_date" = "Account opening date";
-"mmid" = "MMId";
-"indian_bank" = "Indian bank";
-"sbi_bank" = "SBI bank";
-"axis_bank" = "Axis bank";
-"hdfc_bank" = "HDFC bank";
-"icic_bank" = "ICICI bank";
-"star_bank" = "Star bank";
-"select_date" = "Select date";
-"transaction_result" = "Transaction result";
-"notification" = "Notification";
-"no_new_notification" = "No new notification";
-"transection" = "Transection";
-"transfer_successfully" = "Transfer successfully";
-"transferred_to" = "Transferred to";
-"from" = "From";
-"payment_mode" = "Payment mode";
-"back_to_home" = "Back to home";
+"categories" = "श्रेणियाँ";
+"wedding_package" = "शादी पैकेज";
+"famous_wedding_venue" = "प्रसिद्ध शादी स्थल";
+"tranding_decor" = "ट्रेंडिंग सजावट";
+"search" = "खोज";
+"check_availblity" = "उपलब्धता जांचें";
+"vendor_title" = "नीला समुद्री भोज";
+"about" = "के बारे में";
+"payment" = "भुगतान";
+"areas_availabel" = "एरियाज अवेलबल";
+"albums(16)" = "एल्बम (16)";
+"similar_venue’s" = "इसी तरह का स्थल";
+"review" = "समीक्षा";
+"read_more" = "और पढ़ें";
+"read_Less" = "कम पढ़ें";
+"select_city" = "शहर चुनें";
+"albums" = "एलबम";
+"dining_area" = "भोजन क्षेत्र";
+"check_subtitle" = "उपलब्धता की जांच करने के लिए फॉर्म भरें";
+"event_date" = "कार्यक्रम की तिथि";
+"function_type" = "समारोह प्रकार";
+"number_of_guest" = "अतिथि की संख्या";
+"ring_ceremony" = "रिंग समारोह";
+"marriage" = "शादी";
+"birth_day" = "जन्मदिन का जश्न";
+"reception" = "स्वागत";
+"book_now" = "अभी बुक करें";
+"booknow_message" = "स्थल उपलब्ध है";
+"sucess_message" = "बुकिंग सफल";
+"back_to_home" = "घर वापिस जा रहा हूँ";
+"notification" = "अधिसूचना";
+"empty_notification" = "कोई नए संदेश नहीं";
+"calling" = "बुला रहा है ...";
+"Venue" = "आ रहा";
+"search_text" = "शादी के स्थानों को खोजें";
 
-//MARK: - DepositeTab.
+//MARK: - TaskTab
 
-"current_deposit" = "Current deposit";
-"completed_deposit" = "Completed deposit";
-"deposite_to" = "Deposite to:";
-"rat" = "Rate:";
-"status" = "Status:";
-"choose_deposit_period" = "Choose deposit period";
-"amount" = "Amount";
-"deposit_to" = "Deposit to";
-"upload_check_image" = "Upload check image";
-"enter_deposit_amount" = "Enter deposit amount";
-"select_account" = "Select account";
-"upload_frontside" = "Upload check front side image";
-"upload_backside" = "Upload check back side image";
-"add_deposit" = "Add deposit";
-"deposit_now" = "Deposit now";
-"sucess" = "Sucess";
-"sucess_subtitle" = "Congratulation your $1000 successfully deposited for 18 month";
+"to_do_list" = "करने के लिए सूची";
+"guestlist" = "अतिथि सूची";
+"vendor_shortlist" = "विक्रेता शॉर्टलिस्ट";
+"budget" = "बजट";
+"arunima_anurag" = "अरुनीमा और";
+"plan_wedding" = "अपनी शादी की योजना बनाएं";
+"bride_name"  = "दुल्हन का नाम";
+"groome_name"  = "ग्रूम नाम";
+"add_guest" = "अतिथि जोड़ें";
+"expenses" = "खर्च";
+"add_expenses" = "खर्च जोड़ें";
+"enter_expenses" = "खर्च दर्ज करें";
+"add_your_budgets" = "अपने बजट जोड़ें";
+"enter_your_budgets" = "अपना बजट दर्ज करें";
+"add" = "जोड़ना";
+"enter_guest_name" = "अतिथि नाम दर्ज करें";
 
-//MARK: - LoansTab.
-
-"current_loan" = "Current Loans";
-"home_loan" = "Home loan";
-"car_loan" = "Car loan";
-"period" = "Period";
-"rate" = "Rate";
-"emi" = "EMI";
-"view_statement" = "View statement";
-"home_loans_statement" = "Home Loans statement";
-"recent_transection" = "Recent transaction";
-"i_am_interested" = "I am Interested";
-"education_loan" = "Education loan";
-"equction_subtitle" = "Thank you for interested education loan we will contact soon";
-"okay" = "Okay";
 
 //MARK: - profileTabVC
 
-"leslie_alexand" = "Leslie Alexander";
-//"nearby_bank" = "Nearby bank";
-//"nearby_atms" = "Nearby ATMs";
-//"change_pin" = "Change pin";
-"language" = "Language";
-//"privacy_policy" = "Privacy policy";
-"terms_condition" = "Terms & condition";
-"logout" = "Logout";
-"edit_profile" = "Edit profile";
-"channel" = "Channels";
-"bookmark" = "Bookmark";
-"settings" = "Settings";
-"rate" = "Rate";
-"update" = "Update";
-"profile" = "Profile";
+"leslie_alexand" = "लेस्ली अलेक्जेंडर";
+"language" = "भाषा";
+"privacy_policy" = "गोपनीयता नीति";
+"customer_support" = "ग्राहक सहेयता";
+"logout" = "लॉग आउट";
+"edit_profile" = "प्रोफ़ाइल संपादित करें";
+"budget" = "बजट";
+"booking" = "बुकिंग";
+"settings" = "समायोजन";
+"about_us" = "हमारे बारे में";
+"update" = "अद्यतन";
+"profile" = "प्रोफ़ाइल";
+"faqs" = "पूछे जाने वाले प्रश्न";
+"name" = "नाम";
+"email_address" = "मेल पता";
+"mobile_number" = "फ़ोन नंबर";
+"save" = "बचाना";
+"remove_subtitle" = "क्या आप सुनिश्चित हैं कि आप अपने बुकिंग स्थल को हटाना चाहते हैं?";
+"no_booking_yet" = "अभी तक कोई बुकिंग नहीं";
+"yes" = "हाँ";
+"terms_of_use" = "उपयोग की शर्तें";
+"language_title" = "पसंदीदा भाषा का चयन करें";
+"customer_instruction" = "आइए हम आपकी आवश्यकता को जानते हैं";
+"write_us" = "हमें लिखना";
+"send" = "भेजना";
+"message" = "संदेश";
+"write_message_here" = "यहां अपना संदेश लिखें";
+"submit" = "जमा करना";
+"contactus_subtitle" = "हम यहां मदद करने के लिए हैं इसलिए कृपया हमारे साथ संपर्क करें।";
+"logout_subtitle" =  "क्या आप लॉग आउट करना चाहते हैं?";
+"cancel" = "रद्द करना";
+"call_us" = "हमें कॉल करें";
+"mail_us" = "हमें मेल करें";
+"upload_image" = "तस्विर अपलोड करना";
+"view_all" = "सभी को देखें";
 
-//"name" = "Name";
-//"email_address" = "Email address";
-//"mobile_number" = "Phone number";
-//"reset" = "Reset";
-//"current_pin" = "Current pin";
-//"new_pin" = "New pin";
-//"confirm_pin" = "Confirm pin";
-//"enter_current_pin" = "Enter current pin";
-//"enter_new_pin" = "Enter new pin";
-//"enter_confirm_pin" = "Confirm your new pin";
-//"message" = "Message";
-//"write_message_here" = "Write your message here";
-//"submit" = "Submit";
-//"contactus_subtitle" = "We are here to help so please get in touch with us.";
 
-"logout_subtitle" =  "Are you sure you want to logout?";
-"cancel" = "Cancel";
+ //MARK: - payment
 
+"cvv_code" = "सीवीवी कोड";
+"expire_date" = "समाप्त होने की तिथि";
+"card_number" = "कार्ड संख्या";
+"card_holder_name" = "कार्ड पर नाम";
+"xxxxxxxxxxxxx" = "XXXX XXXX XXXX XXXX";
+"xx/xx" = "XX/XX";
+"xxx" = "XXX";
+"payment" = "भुगतान";
+"paymet_informaion" = "भुगतान जानकारी";

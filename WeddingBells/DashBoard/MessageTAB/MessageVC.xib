@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -17,6 +17,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MessageVC" customModule="WeddingBells" customModuleProvider="target">
             <connections>
+                <outlet property="lblMessage" destination="7Gm-Qg-yXp" id="wJD-FU-nzJ"/>
                 <outlet property="searchView" destination="0gN-J9-rRG" id="b0R-nE-trn"/>
                 <outlet property="tableView" destination="f1r-lg-tDk" id="fE4-rl-12Z"/>
                 <outlet property="txtSerch" destination="cDt-iH-Rmy" id="ogR-v0-uC6"/>
@@ -35,7 +36,7 @@
                             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Message" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Gm-Qg-yXp">
-                                    <rect key="frame" x="20" y="50" width="353" height="22"/>
+                                    <rect key="frame" x="20" y="50" width="81.666666666666671" height="22"/>
                                     <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="18"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
@@ -52,7 +53,7 @@
                                             </constraints>
                                         </imageView>
                                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Search" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cDt-iH-Rmy">
-                                            <rect key="frame" x="45" y="2" width="306" height="41"/>
+                                            <rect key="frame" x="45" y="2" width="56.333333333333343" height="41"/>
                                             <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="16"/>
                                             <textInputTraits key="textInputTraits"/>
                                             <userDefinedRuntimeAttributes>
@@ -72,7 +73,7 @@
                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     <constraints>
                                         <constraint firstItem="cDt-iH-Rmy" firstAttribute="leading" secondItem="kPA-0g-o3X" secondAttribute="trailing" constant="10" id="DHC-xA-ip4"/>
-                                        <constraint firstAttribute="trailing" secondItem="cDt-iH-Rmy" secondAttribute="trailing" constant="2" id="Fg0-bc-v1D"/>
+                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="cDt-iH-Rmy" secondAttribute="trailing" constant="2" id="Fg0-bc-v1D"/>
                                         <constraint firstAttribute="bottom" secondItem="cDt-iH-Rmy" secondAttribute="bottom" constant="2" id="HWU-T8-mcq"/>
                                         <constraint firstItem="kPA-0g-o3X" firstAttribute="centerY" secondItem="0gN-J9-rRG" secondAttribute="centerY" id="OHm-6R-LdZ"/>
                                         <constraint firstItem="kPA-0g-o3X" firstAttribute="leading" secondItem="0gN-J9-rRG" secondAttribute="leading" constant="13" id="fgj-08-zoU"/>
@@ -113,7 +114,7 @@
                                 <constraint firstItem="7Gm-Qg-yXp" firstAttribute="top" secondItem="ZFD-O3-MXw" secondAttribute="top" constant="50" id="dih-1l-0ns"/>
                                 <constraint firstAttribute="bottom" secondItem="RJV-rh-S7k" secondAttribute="bottom" id="fos-Cn-QV5"/>
                                 <constraint firstItem="RJV-rh-S7k" firstAttribute="top" secondItem="0gN-J9-rRG" secondAttribute="bottom" constant="5" id="gbM-L9-ZI5"/>
-                                <constraint firstAttribute="trailing" secondItem="7Gm-Qg-yXp" secondAttribute="trailing" constant="20" id="nNN-Ad-v1k"/>
+                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="7Gm-Qg-yXp" secondAttribute="trailing" constant="20" id="nNN-Ad-v1k"/>
                             </constraints>
                         </view>
                     </subviews>

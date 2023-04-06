@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_72" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -17,6 +17,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TaskVC" customModule="WeddingBells" customModuleProvider="target">
             <connections>
+                <outlet property="lblPlanwedding" destination="D6m-pt-QfC" id="nTc-oJ-Vkd"/>
+                <outlet property="lblTaskTitle" destination="q4y-bX-iI5" id="aQK-6H-hWE"/>
+                <outlet property="lbltask" destination="y8Q-rP-4L6" id="okx-0f-qDa"/>
                 <outlet property="tableView" destination="x16-xC-glR" id="bYD-tq-mSD"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -33,7 +36,7 @@
                             <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Task" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y8Q-rP-4L6">
-                                    <rect key="frame" x="20" y="50" width="390" height="22"/>
+                                    <rect key="frame" x="20" y="50" width="42" height="22"/>
                                     <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="18"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
@@ -280,7 +283,7 @@
                                     </constraints>
                                 </view>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plan your wedding" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D6m-pt-QfC">
-                                    <rect key="frame" x="20" y="382" width="390" height="24.666666666666686"/>
+                                    <rect key="frame" x="20" y="382" width="195" height="24.666666666666686"/>
                                     <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="20"/>
                                     <color key="textColor" name="maincolor"/>
                                     <nil key="highlightedColor"/>
@@ -290,8 +293,8 @@
                             <constraints>
                                 <constraint firstItem="uvg-jo-N4L" firstAttribute="top" secondItem="y8Q-rP-4L6" secondAttribute="bottom" constant="20" id="1IK-zR-eTm"/>
                                 <constraint firstAttribute="trailing" secondItem="x16-xC-glR" secondAttribute="trailing" id="4bN-rq-6bX"/>
-                                <constraint firstAttribute="trailing" secondItem="y8Q-rP-4L6" secondAttribute="trailing" constant="20" id="7Bz-9G-vdq"/>
-                                <constraint firstAttribute="trailing" secondItem="D6m-pt-QfC" secondAttribute="trailing" constant="20" id="7QD-1D-fwE"/>
+                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="y8Q-rP-4L6" secondAttribute="trailing" constant="20" id="7Bz-9G-vdq"/>
+                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="D6m-pt-QfC" secondAttribute="trailing" constant="20" id="7QD-1D-fwE"/>
                                 <constraint firstItem="D6m-pt-QfC" firstAttribute="leading" secondItem="1rU-lR-1h0" secondAttribute="leading" constant="20" id="Knj-Ug-ZUk"/>
                                 <constraint firstItem="x16-xC-glR" firstAttribute="top" secondItem="D6m-pt-QfC" secondAttribute="bottom" constant="15" id="UZo-mB-hYX"/>
                                 <constraint firstAttribute="bottom" secondItem="x16-xC-glR" secondAttribute="bottom" id="UuT-Fg-GFv"/>

@@ -16,7 +16,7 @@ class VendorShorlistVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        customNav.titleLabel.text = "Vendor shortlist"
+        customNav.titleLabel.text = "vendor_shortlist".localized()
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(of: VendoreTBVCell.self)

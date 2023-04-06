@@ -9,25 +9,26 @@ import UIKit
 
 class SucessVC: UIViewController {
 
+    @IBOutlet weak var btnBacktohome: UIButton!
+    @IBOutlet weak var lblSucesstitle: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
+    
+    // MARK: - update langauge
+     
+     override func viewWillAppear(_ animated: Bool) {
+         super.viewWillAppear(animated)
+         setValueBaseOnLanguage()
+     }
+
+     func setValueBaseOnLanguage(){
+         self.lblSucesstitle.text = "sucess_message".localized()
+         self.btnBacktohome.setTitle("back_to_home".localized(), for: .normal)
+     }
     
     @IBAction func btnBacktoHomeAction(_ sender: UIButton) {
-        self.navigateToLogin()
+        self.navigateToHome()
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

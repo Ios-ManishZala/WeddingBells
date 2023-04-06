@@ -27,6 +27,13 @@ class HomeVC: UIViewController {
         tableView.register(of: TrendingDecorTBVCell.self)
         tableView.registerHeaderFooterView(of: CommonTbvHeaderView.self)
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        self.homeTableviewheaderAndData = WeddingDecorData.getTableviewheaderAndData()
+        self.tableView.reloadData()
+    }
 
 }
 
@@ -45,6 +52,7 @@ extension HomeVC: UITableViewDelegate,UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if indexPath.section == 0{
             let homeFirstCell = tableView.dequeueReusableCell(withType: HomeFirstTBVCell.self)
+            homeFirstCell.txtSearch.placeholder = "search".localized()
             homeFirstCell.onTapSelectCountryAction = {
                 let vc = SelectCityVC()
                 vc.modalTransitionStyle = .crossDissolve
@@ -72,18 +80,24 @@ extension HomeVC: UITableViewDelegate,UITableViewDataSource {
                 vc.isFromWeddingPackagedetails = self.isFromWeddingPackagedetails
                 self.navigationController?.pushViewController(vc, animated: true)
             }
+            homeThirdCell.weddingdecorData = WeddingDecorData.getWeddingDecorData()
+            homeThirdCell.collectionView.reloadData()
             return homeThirdCell
         }else if indexPath.section == 3 {
             let homeFourthCell = tableView.dequeueReusableCell(withType: FamousTBVCell.self)
             homeFourthCell.onTapFamousIndex = {
                 self.pushVC(VenueDetailsVC())
             }
+            homeFourthCell.weddingdecorData = WeddingDecorData.getFamouesDecorData()
+            homeFourthCell.collectionView.reloadData()
             return homeFourthCell
         }else{
             let homeLastCell = tableView.dequeueReusableCell(withType: TrendingDecorTBVCell.self)
             homeLastCell.onTapTrendingIndex = {
                 self.pushVC(VenueDetailsVC())
             }
+            homeLastCell.weddingdecorData = WeddingDecorData.getTrendingDecorData()
+            homeLastCell.collectionView.reloadData()
             return homeLastCell
         }
     }
@@ -97,7 +111,7 @@ extension HomeVC: UITableViewDelegate,UITableViewDataSource {
             headerView.btnSeeAll.isHidden = true
         }else{
             headerView.btnSeeAll.isHidden = false
-            headerView.btnSeeAll.setTitle("View all".localized(), for: .normal)
+            headerView.btnSeeAll.setTitle("view_all".localized(), for: .normal)
             if section == 2 {
                 headerView.onTapSeeAll = {
                     self.pushVC(WeddingPackageVC())

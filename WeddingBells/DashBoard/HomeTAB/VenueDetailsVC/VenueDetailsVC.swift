@@ -9,11 +9,21 @@ import UIKit
 
 class VenueDetailsVC: UIViewController {
 
+    @IBOutlet weak var btnCheckAvailblity: UIButton!
     @IBOutlet weak var imageview: UIImageView!
     @IBOutlet weak var customNav: TabNavigationBar!
     @IBOutlet weak var leftCornerView: UIView!
     @IBOutlet weak var tableView: UITableView!
-    var headerDetails = ["","About","Payment","Areas availabel","Albums(16)","Similar venue’s","Review"]
+    var headerDetails = [
+                         "",
+                         "about".localized(),
+                         "payment".localized(),
+                         "areas_availabel".localized(),
+                         "albums(16)".localized(),
+                         "similar_venue’s".localized(),
+                         "review".localized()
+    ]
+    
     var venueDescAttributedString: NSMutableAttributedString? = nil
     var reviewData = WeddingDecorData.getUserReviewData()
     var isFromWeddingPackagedetails:Bool = false
@@ -27,7 +37,13 @@ class VenueDetailsVC: UIViewController {
         }else{
             self.imageview.image = UIImage(named: "ic_venuefront")
         }
-        self.leftCornerView.makeTopLeft(5)
+        if getAppLanguagesCode() == "ar" {
+            self.leftCornerView.makeTopRight(5)
+         }
+        else{
+            self.leftCornerView.makeTopLeft(5)
+        }
+        
         self.customNav.btnBack.setImage(UIImage(named: "ic_white"), for: .normal)
         self.customNav.titleLabel.text = ""
         self.customNav.btnHeart.isHidden = false
@@ -36,7 +52,17 @@ class VenueDetailsVC: UIViewController {
             sender.isSelected = !sender.isSelected
         }
         self.initTableview()
-       
+    }
+    
+    //MARK: - update langauge
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.setValueBaseOnLanguage()
+    }
+    
+    func setValueBaseOnLanguage(){
+        self.btnCheckAvailblity.setTitle("check_availblity".localized(), for: .normal)
     }
         
     override var preferredStatusBarStyle: UIStatusBarStyle {
@@ -128,6 +154,7 @@ extension VenueDetailsVC: UITableViewDelegate, UITableViewDataSource,UITextViewD
         let headerView = tableView.dequeueReusableHeaderFooterView(withType: CommonTbvHeaderView.self)
         headerView.lblTitle.text = self.headerDetails[section]
         (section == 4) || (section == 6) ? (headerView.btnSeeAll.isHidden = false) :  (headerView.btnSeeAll.isHidden = true)
+        headerView.btnSeeAll.setTitle("view_all".localized(), for: .normal)
         if section == 4 {
             headerView.onTapSeeAll = {
                 self.pushVC(AlbumsVC())

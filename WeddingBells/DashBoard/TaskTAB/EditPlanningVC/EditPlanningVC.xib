@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -21,8 +21,14 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EditPlanningVC" customModule="WeddingBells" customModuleProvider="target">
             <connections>
                 <outlet property="btnSave" destination="IgI-5r-egq" id="s7t-RJ-7gL"/>
+                <outlet property="lblBridgename" destination="vQO-SL-vVm" id="P2c-QS-zMt"/>
+                <outlet property="lblEventdate" destination="syW-Vh-98c" id="Ywm-g3-QPe"/>
+                <outlet property="lblUpdateimage" destination="ULF-un-4Ts" id="bP7-s3-mQJ"/>
+                <outlet property="lblgroomname" destination="p5x-qN-NZq" id="rG0-GU-xqR"/>
                 <outlet property="planningView" destination="5vk-VO-kWh" id="peV-p3-7Jd"/>
                 <outlet property="txtDate" destination="HLK-lC-uyw" id="G0E-LQ-wt5"/>
+                <outlet property="txtbridgeName" destination="tMD-qc-xJJ" id="rhZ-p7-dsQ"/>
+                <outlet property="txtgroomname" destination="UjE-lE-jQM" id="1kM-7d-tDf"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
                 <outletCollection property="textfiedShadow" destination="t0c-CA-v9e" collectionClass="NSMutableArray" id="i8U-Iy-ELw"/>
                 <outletCollection property="textfiedShadow" destination="wrR-xT-8ek" collectionClass="NSMutableArray" id="0uS-W0-7vn"/>
@@ -74,7 +80,7 @@
                                                             <rect key="frame" x="0.0" y="28" width="353" height="50"/>
                                                             <subviews>
                                                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Event date" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HLK-lC-uyw">
-                                                                    <rect key="frame" x="18" y="0.0" width="295" height="50"/>
+                                                                    <rect key="frame" x="18" y="0.0" width="82.333333333333329" height="50"/>
                                                                     <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="15"/>
                                                                     <textInputTraits key="textInputTraits"/>
                                                                 </textField>
@@ -95,7 +101,7 @@
                                                                 <constraint firstAttribute="height" constant="50" id="dfU-2B-r9i"/>
                                                                 <constraint firstAttribute="bottom" secondItem="HLK-lC-uyw" secondAttribute="bottom" id="nof-Oz-tqo"/>
                                                                 <constraint firstAttribute="trailing" secondItem="i5O-Gm-ihw" secondAttribute="trailing" constant="10" id="pWs-ek-fWj"/>
-                                                                <constraint firstItem="i5O-Gm-ihw" firstAttribute="leading" secondItem="HLK-lC-uyw" secondAttribute="trailing" constant="10" id="pyq-H1-bYi"/>
+                                                                <constraint firstItem="i5O-Gm-ihw" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="HLK-lC-uyw" secondAttribute="trailing" constant="10" id="pyq-H1-bYi"/>
                                                             </constraints>
                                                             <userDefinedRuntimeAttributes>
                                                                 <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -131,24 +137,11 @@
                                                                     <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="15"/>
                                                                     <textInputTraits key="textInputTraits"/>
                                                                 </textField>
-                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OXv-v9-98l">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="353" height="50"/>
-                                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                    <userDefinedRuntimeAttributes>
-                                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                                            <real key="value" value="10"/>
-                                                                        </userDefinedRuntimeAttribute>
-                                                                    </userDefinedRuntimeAttributes>
-                                                                </button>
                                                             </subviews>
                                                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                             <constraints>
-                                                                <constraint firstAttribute="trailing" secondItem="OXv-v9-98l" secondAttribute="trailing" id="BKw-XY-aMb"/>
                                                                 <constraint firstItem="tMD-qc-xJJ" firstAttribute="top" secondItem="wrR-xT-8ek" secondAttribute="top" id="Cyw-Sm-Fxu"/>
-                                                                <constraint firstItem="OXv-v9-98l" firstAttribute="leading" secondItem="wrR-xT-8ek" secondAttribute="leading" id="D9Z-6G-hJg"/>
                                                                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="tMD-qc-xJJ" secondAttribute="trailing" constant="20" id="Eh1-dU-yqf"/>
-                                                                <constraint firstAttribute="bottom" secondItem="OXv-v9-98l" secondAttribute="bottom" id="HSU-i6-S7S"/>
-                                                                <constraint firstItem="OXv-v9-98l" firstAttribute="top" secondItem="wrR-xT-8ek" secondAttribute="top" id="IaY-fw-cJM"/>
                                                                 <constraint firstAttribute="height" constant="50" id="Ik2-Qt-3Jv"/>
                                                                 <constraint firstAttribute="bottom" secondItem="tMD-qc-xJJ" secondAttribute="bottom" id="NKc-pU-kk8"/>
                                                                 <constraint firstItem="tMD-qc-xJJ" firstAttribute="leading" secondItem="wrR-xT-8ek" secondAttribute="leading" constant="18" id="fyf-aC-6HP"/>

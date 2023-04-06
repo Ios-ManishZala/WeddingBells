@@ -113,3 +113,8 @@ class BudgetViewModal{
         self.expensesAmount = expensesAmount
     }
 }
+
+struct ProfilSettingData{
+    var image:UIImage
+    var name:String
+}

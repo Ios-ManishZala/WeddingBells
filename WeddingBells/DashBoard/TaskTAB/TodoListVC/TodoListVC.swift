@@ -38,9 +38,13 @@ class TodoListVC: UIViewController {
         self.todoView.addShadow()
         self.percentageView.makeRounded()
         self.percentageView.addShadow()
-        self.colorView.makeTopRight(10)
+        if getAppLanguagesCode() == "ar"{
+            self.colorView.makeTopLeft(10)
+        }else{
+            self.colorView.makeTopRight(10)
+        }
         self.dashedLine.makeDashedBorderLine(color: .placeholderGray, strokeLength: 2, gapLength: 3, width: 2, orientation: .vertical)
-        customNav.titleLabel.text = "To do list"
+        customNav.titleLabel.text = "to_do_list".localized()
         
         tableView.delegate = self
         tableView.dataSource = self

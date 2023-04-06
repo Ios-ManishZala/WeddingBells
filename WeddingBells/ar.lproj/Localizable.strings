@@ -8,187 +8,153 @@
 
 //MARK: - intoVC
 
-"intro1_title" = "Organise your dream wedding";
-"intro2_title" = "Find your perfect venues";
-"intro3_title" = "Make a guest list, manage your budget";
-"skip" = "Skip";
-"next" = "Next";
+"intro1_title" = "تنظيم حفل زفاف أحلامك";
+"intro2_title" = "ابحث عن أماكنك المثالية";
+"intro3_title" = "اصنع قائمة ضيوف ، وإدارة ميزانيتك";
+"skip" = "يتخطى";
+"next" = "التالي";
 
 //MARK: - loginVC
 
-"login" = "Login";
-"enter_number" = "Enter your mobile number";
-"intrection" = "Please confirm your country code and enter your mobile number";
-"or" = "Or Login using";
-"facebook" = "Facebook";
-"google" = "Google";
-"login_instruction" = "*We will sent OTP for verification";
+"login" = "تسجيل الدخول";
+"enter_number" = "أدخل رقم الهاتف المحمول";
+"intrection" = "الرجاء تسجيل الدخول إلى حسابك";
+"country_name" = "اسم الدولة";
+
 
 //MARK: - registartionVC
 
-"register_title" = "Register";
-"register_subTitle" = "Please create your account to continue using this application";
-"enter_your_name" = "Enter your name";
-"enter_your_email_id" = "Enter your email id";
-"register" = "REGISTER";
+"register_title" = "يسجل";
+"register_subTitle" = "الرجاء إنشاء حسابك";
+"enter_your_name" = "أدخل أسمك";
+"enter_your_email_id" = "أدخل عنوان البريد الالكتروني";
+"register" = "يسجل";
+"name" = "اسم";
+"mobile_number" = "رقم الهاتف المحمول";
+"email_address" = "عنوان البريد الإلكتروني";
+
 
 //MARK: - otpVC
 
-"verify" = "Verify now";
-"otp_subtitle" = "Confirmation code has benn sent to tou your mobile no +91(1234567890)";
-"otp_verification" = "OTP Verification";
-"resend" = "Resend";
+"verify" = "يؤكد";
+"otp_subtitle" = "لقد أرسلنا لك الرسائل القصيرة على 1234567890 مع رمز التحقق من 4 أرقام (OTP)";
+"otp_verification" = "التحقق من OTP";
+"resend" = "إعادة إرسال";
 
-//MARK: - Languages.
-
-"selectLanguage_subtitle" = "Select your language";
 
 //MARK: - tabbar
 
-"home" = "Home";
-"category" = "Category";
-"video" = "Video";
-"weather" = "Weather";
-"profile" = "Profile";
+"home" = "بيت";
+"vendors" = "البائعون";
+"task" = "مهمة";
+"message" = "رسالة";
+"profile" = "حساب تعريفي";
 
 //MARK: - HomeTab
 
-/*
-"latest_transection" = "Latest transection";
-"services" = "Services";
-"total_balance" = "Total Balance :";
-"saving_account" = "Saving account";
-"current_account" = "Current account";
-"fund_transfer" = "Fund transfer";
-"statement" = "Statement";
-"bill_pay" = "Bill pay";
-"scan_and_pay" = "Scan and pay";
-"more" = "More";
-"see_all" = "See all";
-"cards" = "Cards";
-"mutual_fund" = "Mutual fund";
-"insurance" = "Insurance";
-"shop_offer" = "Shop & offer";
-"recharge" = "Recharge";
-"beneficiary_pay" = "Beneficiary pay";
-"irbn_payment" = "IBAN payment";
-"imps_pay" = "IMPS pay";
-"from_account" = "From account";
-"beneficiary_info" = "Beneficiary info";
-"beneficiary_name" = "Beneficiary name";
-"beneficiary_bank_name" = "Beneficiary bank name";
-"beneficiary_account_number" = "Beneficiary account number";
-"transfer_limit" = "Transfer limit";
-"transfer_now" = "Transfer now";
-"iban_number" = "IBAN number";
-"bic_code" = "BIC code";
-"remark" = "Remark";
-"account_holde_name" = "Account holder name";
-"to_account" = "To account";
-"bank_name" = "Bank name";
-"IFSC_code" = "IFSC code";
-"enter_account_no" = "Enter account no";
-"enter_account_holder_name" = "Enter account holder name";
-"hdfc_bank" = "HDFC bank";
-"enter_ifsc_code" = "Enter IFSC code";
-"enter_amount" = "Enter amount";
-"salary_account" = "Salary account";
-"nri_account" = "NRI account";
-"account_number" = "Account number";
-"Total_balance" = "Total balance";
-"account_details" = "Account details";
-"cif" = "CIF";
-"ifsc" = "IFSC";
-"branch_code" = "Branch code";
-"branch_name" = "Branch name";
-"account_opening_date" = "Account opening date";
-"mmid" = "MMId";
-"indian_bank" = "Indian bank";
-"sbi_bank" = "SBI bank";
-"axis_bank" = "Axis bank";
-"hdfc_bank" = "HDFC bank";
-"icic_bank" = "ICICI bank";
-"star_bank" = "Star bank";
-"select_date" = "Select date";
-"transaction_result" = "Transaction result";
-"notification" = "Notification";
-"no_new_notification" = "No new notification";
-"transection" = "Transection";
-"transfer_successfully" = "Transfer successfully";
-"transferred_to" = "Transferred to";
-"from" = "From";
-"payment_mode" = "Payment mode";
-"back_to_home" = "Back to home";
+"categories" = "فئات";
+"wedding_package" = "حزمة الزفاف";
+"famous_wedding_venue" = "مكان الزفاف الشهير";
+"tranding_decor" = "تتجه ديكور";
+"search" = "يبحث";
+"check_availblity" = "التحقق من الصلاحية";
+"vendor_title" = "مأدبة البحر الأزرق";
+"about" = "عن";
+"payment" = "قسط";
+"areas_availabel" = "منطقة متوفرة";
+"albums(16)" = "ألبومات (16)";
+"similar_venue’s" = "مكان مماثل";
+"review" = "مراجعة";
+"read_more" = "اقرأ أكثر";
+"read_Less" = "أقرأ أقل";
+"select_city" = "اختر مدينة";
+"albums" = "ألبومات";
+"dining_area" = "منطقة الطعام";
+"check_subtitle" = "املأ النموذج للتحقق من التوافر";
+"event_date" = "تاريخ الحدث";
+"function_type" = "نوع الوظيفة";
+"number_of_guest" = "عدد الحضور";
+"ring_ceremony" = "حفل الحلبة";
+"marriage" = "زواج";
+"birth_day" = "احتفال عيد ميلاد";
+"reception" = "استقبال";
+"book_now" = "احجز الآن";
+"booknow_message" = "المكان متاح";
+"sucess_message" = "حجز ناجح";
+"back_to_home" = "العودة إلى المنزل";
+"notification" = "إشعار";
+"empty_notification" = "لا يوجد إشعارات جديدة";
+"calling" = "الدعوة ...";
+"Venue" = "آت";
+"search_text" = "ابحث عن أماكن الزفاف";
 
-//MARK: - DepositeTab.
+//MARK: - TaskTab
 
-"current_deposit" = "Current deposit";
-"completed_deposit" = "Completed deposit";
-"deposite_to" = "Deposite to:";
-"rat" = "Rate:";
-"status" = "Status:";
-"choose_deposit_period" = "Choose deposit period";
-"amount" = "Amount";
-"deposit_to" = "Deposit to";
-"upload_check_image" = "Upload check image";
-"enter_deposit_amount" = "Enter deposit amount";
-"select_account" = "Select account";
-"upload_frontside" = "Upload check front side image";
-"upload_backside" = "Upload check back side image";
-"add_deposit" = "Add deposit";
-"deposit_now" = "Deposit now";
-"sucess" = "Sucess";
-"sucess_subtitle" = "Congratulation your $1000 successfully deposited for 18 month";
+"to_do_list" = "عمل قائمة";
+"guestlist" = "قائمة الضيوف";
+"vendor_shortlist" = "قائمة مختصرة البائع";
+"budget" = "الميزانيات";
+"arunima_anurag" = "arunima &";
+"plan_wedding" = "خطط لحفل الزفاف الخاص بك";
+"bride_name"  = "اسم العروس";
+"groome_name"  = "اسم جروم";
+"add_guest" = "أضف ضيفًا";
+"expenses" = "نفقات";
+"add_expenses" = "أضف النفقات";
+"enter_expenses" = "أدخل النفقات";
+"add_your_budgets" = "أضف ميزانياتك";
+"enter_your_budgets" = "أدخل ميزانياتك";
+"add" = "يضيف";
+"enter_guest_name" = "أدخل اسم الضيف";
 
-//MARK: - LoansTab.
-
-"current_loan" = "Current Loans";
-"home_loan" = "Home loan";
-"car_loan" = "Car loan";
-"period" = "Period";
-"rate" = "Rate";
-"emi" = "EMI";
-"view_statement" = "View statement";
-"home_loans_statement" = "Home Loans statement";
-"recent_transection" = "Recent transaction";
-"i_am_interested" = "I am Interested";
-"education_loan" = "Education loan";
-"equction_subtitle" = "Thank you for interested education loan we will contact soon";
-"okay" = "Okay";
 
 //MARK: - profileTabVC
 
-"leslie_alexand" = "Leslie Alexander";
-//"nearby_bank" = "Nearby bank";
-//"nearby_atms" = "Nearby ATMs";
-//"change_pin" = "Change pin";
-"language" = "Language";
-//"privacy_policy" = "Privacy policy";
-"terms_condition" = "Terms & condition";
-"logout" = "Logout";
-"edit_profile" = "Edit profile";
-"channel" = "Channels";
-"bookmark" = "Bookmark";
-"settings" = "Settings";
-"rate" = "Rate";
-"update" = "Update";
-"profile" = "Profile";
+"leslie_alexand" = "ليزلي ألكساندر";
+"language" = "لغة";
+"privacy_policy" = "سياسة الخصوصية";
+"customer_support" = "دعم العملاء";
+"logout" = "تسجيل خروج";
+"edit_profile" = "تعديل الملف الشخصي";
+"budget" = "ميزانية";
+"booking" = "الحجز";
+"settings" = "إعدادات";
+"about_us" = "معلومات عنا";
+"update" = "تحديث";
+"profile" = "حساب تعريفي";
+"faqs" = "الأسئلة الشائعة";
+"name" = "اسم";
+"email_address" = "عنوان البريد الإلكتروني";
+"mobile_number" = "رقم التليفون";
+"save" = "يحفظ";
+"remove_subtitle" = "هل أنت متأكد من أنك تريد إزالة مكان الحجز الخاص بك؟";
+"no_booking_yet" = "لا الحجز حتى الآن";
+"yes" = "نعم";
+"terms_of_use" = "شروط الاستخدام";
+"language_title" = "حدد اللغة المفضلة";
+"customer_instruction" = "دعونا نعرف متطلباتك";
+"write_us" = "اكتب لنا";
+"send" = "يرسل";
+"message" = "رسالة";
+"write_message_here" = "اكتب رسالتك هنا";
+"submit" = "يُقدِّم";
+"contactus_subtitle" = "نحن هنا للمساعدة لذا يرجى الاتصال بنا.";
+"logout_subtitle" =  "هل أنت متأكد أنك تريد تسجيل الخروج؟";
+"cancel" = "يلغي";
+"call_us" = "اتصل بنا";
+"mail_us" = "راسلنا بالبريد الإلكتروني";
+"upload_image" = "تحميل الصور";
+"view_all" = "مشاهدة الكل";
 
-//"name" = "Name";
-//"email_address" = "Email address";
-//"mobile_number" = "Phone number";
-//"reset" = "Reset";
-//"current_pin" = "Current pin";
-//"new_pin" = "New pin";
-//"confirm_pin" = "Confirm pin";
-//"enter_current_pin" = "Enter current pin";
-//"enter_new_pin" = "Enter new pin";
-//"enter_confirm_pin" = "Confirm your new pin";
-//"message" = "Message";
-//"write_message_here" = "Write your message here";
-//"submit" = "Submit";
-//"contactus_subtitle" = "We are here to help so please get in touch with us.";
 
-"logout_subtitle" =  "Are you sure you want to logout?";
-"cancel" = "Cancel";
+ //MARK: - payment
 
+"cvv_code" = "رقم الكود الموجود على بطاقات الاتمان";
+"expire_date" = "تاريخ انتهاء الصلاحية";
+"card_number" = "رقم البطاقة";
+"card_holder_name" = "الاسم على البطاقة";
+"xxxxxxxxxxxxx" = "XXXX XXXX XXXX XXXX";
+"xx/xx" = "XX/XX";
+"xxx" = "XXX";
+"payment" = "قسط";
+"paymet_informaion" = "معلومات الدفع";

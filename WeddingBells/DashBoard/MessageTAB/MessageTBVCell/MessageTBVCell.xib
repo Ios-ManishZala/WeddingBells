@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -40,18 +40,18 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wade Warren" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oX7-WO-ebE">
-                                        <rect key="frame" x="60" y="2" width="112" height="20"/>
+                                        <rect key="frame" x="60" y="2" width="112" height="19.666666666666668"/>
                                         <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="16"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="hello, thank you" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6y0-cR-V5P">
-                                        <rect key="frame" x="60" y="26" width="291" height="17.666666666666671"/>
+                                        <rect key="frame" x="59.999999999999993" y="25.666666666666664" width="113.33333333333331" height="16.333333333333336"/>
                                         <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="14"/>
                                         <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2.00am" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wlF-mw-pDE">
-                                        <rect key="frame" x="308" y="0.0" width="53" height="17.666666666666668"/>
+                                        <rect key="frame" x="308.33333333333331" y="0.0" width="52.666666666666686" height="17.333333333333332"/>
                                         <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
                                         <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -65,7 +65,7 @@
                                     <constraint firstItem="wlF-mw-pDE" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="oX7-WO-ebE" secondAttribute="trailing" constant="20" id="Ye8-cz-z84"/>
                                     <constraint firstItem="6y0-cR-V5P" firstAttribute="leading" secondItem="27Q-iV-zg5" secondAttribute="trailing" constant="10" id="bvF-mQ-fOp"/>
                                     <constraint firstItem="27Q-iV-zg5" firstAttribute="top" secondItem="c9V-o9-1mm" secondAttribute="top" id="cNZ-NX-YSi"/>
-                                    <constraint firstAttribute="trailing" secondItem="6y0-cR-V5P" secondAttribute="trailing" constant="10" id="cOr-qd-2LC"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="6y0-cR-V5P" secondAttribute="trailing" constant="10" id="cOr-qd-2LC"/>
                                     <constraint firstItem="27Q-iV-zg5" firstAttribute="leading" secondItem="c9V-o9-1mm" secondAttribute="leading" id="cuh-jH-aGx"/>
                                     <constraint firstItem="wlF-mw-pDE" firstAttribute="top" secondItem="c9V-o9-1mm" secondAttribute="top" id="is6-ap-FUB"/>
                                     <constraint firstItem="oX7-WO-ebE" firstAttribute="top" secondItem="c9V-o9-1mm" secondAttribute="top" constant="2" id="rE2-eX-jVH"/>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -23,6 +23,8 @@
                 <outlet property="budgetView" destination="mQp-Ao-3mp" id="jWj-Sy-YG3"/>
                 <outlet property="circularProgress" destination="ctQ-lo-QXp" id="7e5-pD-iRU"/>
                 <outlet property="customNav" destination="EIC-Dq-XSH" id="Ogg-ab-5GO"/>
+                <outlet property="lblAddExpenses" destination="yKw-hw-gRB" id="NeL-tv-4Ad"/>
+                <outlet property="lblExpenses" destination="djX-SN-IsW" id="i21-ES-rmR"/>
                 <outlet property="tableView" destination="TL7-k8-Ol9" id="WJH-j6-Yxg"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
                 <outletCollection property="roundView" destination="pGq-aA-0Zu" collectionClass="NSMutableArray" id="RKB-eL-xQe"/>
@@ -225,30 +227,44 @@
                                             <color key="textColor" name="maincolor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WcW-S8-JwW">
-                                            <rect key="frame" x="213" y="0.0" width="160" height="40"/>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ayw-r3-SaQ" customClass="UIControl">
+                                            <rect key="frame" x="243.66666666666663" y="0.0" width="129.33333333333337" height="40"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="akar-icons_circle-plus" translatesAutoresizingMaskIntoConstraints="NO" id="eKU-cx-dSK">
+                                                    <rect key="frame" x="0.0" y="11" width="18" height="18"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="eKU-cx-dSK" secondAttribute="height" multiplier="1:1" id="C1w-Sq-Egi"/>
+                                                        <constraint firstAttribute="height" constant="18" id="l0a-fK-lq0"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add expenses" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yKw-hw-gRB">
+                                                    <rect key="frame" x="23.000000000000021" y="11.333333333333313" width="101.33333333333331" height="17.333333333333329"/>
+                                                    <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="160" id="qvp-xg-ziH"/>
+                                                <constraint firstItem="yKw-hw-gRB" firstAttribute="centerY" secondItem="eKU-cx-dSK" secondAttribute="centerY" id="MfG-Z4-MoL"/>
+                                                <constraint firstAttribute="trailing" secondItem="yKw-hw-gRB" secondAttribute="trailing" constant="5" id="YJ7-xp-vb1"/>
+                                                <constraint firstItem="eKU-cx-dSK" firstAttribute="leading" secondItem="ayw-r3-SaQ" secondAttribute="leading" id="kuj-Jk-tjh"/>
+                                                <constraint firstItem="yKw-hw-gRB" firstAttribute="leading" secondItem="eKU-cx-dSK" secondAttribute="trailing" constant="5" id="pCL-CR-djs"/>
+                                                <constraint firstItem="eKU-cx-dSK" firstAttribute="centerY" secondItem="ayw-r3-SaQ" secondAttribute="centerY" id="tEW-HX-Ozr"/>
                                             </constraints>
-                                            <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="14"/>
-                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="10" maxY="0.0"/>
-                                            <state key="normal" title="Add Expenses" image="akar-icons_circle-plus">
-                                                <color key="titleColor" name="FontBlackcolor"/>
-                                            </state>
                                             <connections>
-                                                <action selector="btnAddExpeneseAction:" destination="-1" eventType="touchUpInside" id="tB2-EN-5Cv"/>
+                                                <action selector="btnAddExpeneseAction:" destination="-1" eventType="touchUpInside" id="bta-Wl-u3s"/>
                                             </connections>
-                                        </button>
+                                        </view>
                                     </subviews>
                                     <color key="backgroundColor" red="0.93725490196078431" green="0.92941176470588238" blue="0.92941176470588238" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
-                                        <constraint firstAttribute="trailing" secondItem="WcW-S8-JwW" secondAttribute="trailing" constant="20" id="1NR-Vq-h8I"/>
+                                        <constraint firstAttribute="trailing" secondItem="ayw-r3-SaQ" secondAttribute="trailing" constant="20" id="O8k-XH-tnp"/>
                                         <constraint firstAttribute="height" constant="40" id="PDm-c6-Fji"/>
-                                        <constraint firstItem="WcW-S8-JwW" firstAttribute="top" secondItem="zJO-w1-74U" secondAttribute="top" id="QIX-lp-wuA"/>
                                         <constraint firstItem="djX-SN-IsW" firstAttribute="leading" secondItem="zJO-w1-74U" secondAttribute="leading" constant="20" id="Tfg-0T-40e"/>
-                                        <constraint firstItem="WcW-S8-JwW" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="djX-SN-IsW" secondAttribute="trailing" constant="10" id="XbZ-gf-eXm"/>
+                                        <constraint firstAttribute="bottom" secondItem="ayw-r3-SaQ" secondAttribute="bottom" id="Yii-2J-10a"/>
                                         <constraint firstAttribute="bottom" secondItem="djX-SN-IsW" secondAttribute="bottom" id="Z7P-B2-SWK"/>
-                                        <constraint firstAttribute="bottom" secondItem="WcW-S8-JwW" secondAttribute="bottom" id="pIf-JN-cmu"/>
+                                        <constraint firstItem="ayw-r3-SaQ" firstAttribute="top" secondItem="zJO-w1-74U" secondAttribute="top" id="evo-I4-Ooy"/>
                                         <constraint firstItem="djX-SN-IsW" firstAttribute="top" secondItem="zJO-w1-74U" secondAttribute="top" id="pQG-TN-GvC"/>
                                     </constraints>
                                 </view>
@@ -298,9 +314,6 @@
     <resources>
         <image name="akar-icons_circle-plus" width="24.333333969116211" height="24.333333969116211"/>
         <image name="bxs_edit" width="24" height="24"/>
-        <namedColor name="FontBlackcolor">
-            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
         <namedColor name="FontWhiteColor">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

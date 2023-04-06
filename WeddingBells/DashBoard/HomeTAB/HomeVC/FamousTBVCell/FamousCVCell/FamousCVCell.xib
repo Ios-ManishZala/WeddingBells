@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -43,22 +43,22 @@
                                                 </constraints>
                                             </imageView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="MbX-r8-VXi">
-                                                <rect key="frame" x="6" y="151" width="189" height="56"/>
+                                                <rect key="frame" x="6" y="151" width="39.333333333333336" height="56"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qdq-5h-VU8">
-                                                        <rect key="frame" x="0.0" y="0.0" width="189" height="16"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="39.333333333333336" height="16"/>
                                                         <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="13"/>
                                                         <color key="textColor" name="FontBlackcolor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bjg-qm-gqM">
-                                                        <rect key="frame" x="0.0" y="20" width="189" height="14.666666666666664"/>
+                                                        <rect key="frame" x="0.0" y="20" width="39.333333333333336" height="14.666666666666664"/>
                                                         <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="12"/>
                                                         <color key="textColor" name="fontgraycolor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aPX-iV-50p">
-                                                        <rect key="frame" x="0.0" y="38.666666666666657" width="189" height="17.333333333333329"/>
+                                                        <rect key="frame" x="0.0" y="38.666666666666657" width="39.333333333333336" height="17.333333333333329"/>
                                                         <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="14"/>
                                                         <color key="textColor" name="maincolor"/>
                                                         <nil key="highlightedColor"/>
@@ -106,7 +106,7 @@
                                             <constraint firstItem="QgA-dt-Qjh" firstAttribute="top" secondItem="gQj-f0-xw0" secondAttribute="top" constant="5" id="FZC-W9-Z54"/>
                                             <constraint firstItem="MbX-r8-VXi" firstAttribute="top" secondItem="TGW-qt-B5k" secondAttribute="bottom" constant="6" id="KN0-bx-pdT"/>
                                             <constraint firstAttribute="bottom" secondItem="MbX-r8-VXi" secondAttribute="bottom" constant="6" id="S7i-b6-Ywj"/>
-                                            <constraint firstAttribute="trailing" secondItem="MbX-r8-VXi" secondAttribute="trailing" constant="6" id="bEC-Lg-EJ6"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="MbX-r8-VXi" secondAttribute="trailing" constant="6" id="bEC-Lg-EJ6"/>
                                             <constraint firstItem="TGW-qt-B5k" firstAttribute="leading" secondItem="gQj-f0-xw0" secondAttribute="leading" id="jpR-OI-yfr"/>
                                             <constraint firstAttribute="trailing" secondItem="QgA-dt-Qjh" secondAttribute="trailing" constant="5" id="mYu-I0-mMs"/>
                                             <constraint firstItem="TGW-qt-B5k" firstAttribute="top" secondItem="gQj-f0-xw0" secondAttribute="top" id="vIj-Cs-4NA"/>

@@ -35,12 +35,13 @@ class SerchBookVC: UIViewController, UITableViewDelegate, UITableViewDataSource,
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.customNav.titleLabel.text = "Search".localized()
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(of: RecentSerchCell.self)
         self.serchView.addShadow()
         self.txtSerch.delegate = self
+        self.customNav.titleLabel.text = "search".localized()
+        self.txtSerch.placeholder = "search".localized()
     }
     
     @IBAction func txtSerchAction(_ sender: UITextField) {

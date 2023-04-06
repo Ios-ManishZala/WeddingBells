@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -33,7 +33,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bZs-E9-C9u">
                                 <rect key="frame" x="20" y="10" width="416" height="90"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="z8t-ll-WiV">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="z8t-ll-WiV">
                                         <rect key="frame" x="0.0" y="0.0" width="130" height="90"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="130" id="2t8-5w-Uir"/>
@@ -41,13 +41,13 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Decor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ys-1g-7zM">
-                                        <rect key="frame" x="145" y="25.333333333333336" width="256" height="19.666666666666664"/>
+                                        <rect key="frame" x="145" y="25.333333333333336" width="49.666666666666657" height="19.666666666666664"/>
                                         <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="16"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wedding planners, decoration" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hPh-a2-AEE">
-                                        <rect key="frame" x="145" y="50" width="261" height="17.333333333333329"/>
+                                        <rect key="frame" x="145" y="50" width="215.33333333333337" height="17.333333333333329"/>
                                         <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="14"/>
                                         <color key="textColor" name="fontgraycolor"/>
                                         <nil key="highlightedColor"/>
@@ -57,13 +57,13 @@
                                 <constraints>
                                     <constraint firstItem="z8t-ll-WiV" firstAttribute="leading" secondItem="bZs-E9-C9u" secondAttribute="leading" id="1uG-xy-OEt"/>
                                     <constraint firstItem="hPh-a2-AEE" firstAttribute="top" secondItem="3Ys-1g-7zM" secondAttribute="bottom" constant="5" id="3TC-hY-N3F"/>
-                                    <constraint firstAttribute="trailing" secondItem="3Ys-1g-7zM" secondAttribute="trailing" constant="15" id="7zv-o2-FgU"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="3Ys-1g-7zM" secondAttribute="trailing" constant="15" id="7zv-o2-FgU"/>
                                     <constraint firstItem="z8t-ll-WiV" firstAttribute="top" secondItem="bZs-E9-C9u" secondAttribute="top" id="ChA-Mq-tDU"/>
                                     <constraint firstItem="3Ys-1g-7zM" firstAttribute="leading" secondItem="z8t-ll-WiV" secondAttribute="trailing" constant="15" id="IDp-hS-bMC"/>
                                     <constraint firstItem="hPh-a2-AEE" firstAttribute="leading" secondItem="z8t-ll-WiV" secondAttribute="trailing" constant="15" id="PFo-yU-Mmv"/>
                                     <constraint firstAttribute="bottom" secondItem="z8t-ll-WiV" secondAttribute="bottom" id="l46-KI-l43"/>
                                     <constraint firstItem="3Ys-1g-7zM" firstAttribute="centerY" secondItem="bZs-E9-C9u" secondAttribute="centerY" constant="-10" id="nau-if-bfG"/>
-                                    <constraint firstAttribute="trailing" secondItem="hPh-a2-AEE" secondAttribute="trailing" constant="10" id="z2k-wN-wBx"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="hPh-a2-AEE" secondAttribute="trailing" constant="10" id="z2k-wN-wBx"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">

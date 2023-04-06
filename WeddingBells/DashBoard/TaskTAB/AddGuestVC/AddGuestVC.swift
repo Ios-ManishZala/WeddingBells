@@ -21,15 +21,18 @@ class AddGuestVC: UIViewController {
         super.viewDidLoad()
 
         self.addView.makeTopCornerRound(10)
-        self.btnAdd.setButtonTitleAndFunctionality("Add")
+        self.btnAdd.setButtonTitleAndFunctionality("add".localized())
         
         if isFromAddExpenses == true{
-            self.lblTitle.text = "Add expenses"
-            self.txtExpenses.placeholder = "Enter expenses"
+            self.lblTitle.text = "add_expenses".localized()
+            self.txtExpenses.placeholder = "enter_expenses".localized()
         }
         else if isFromAddYourBudget == true {
-            self.lblTitle.text = "Add your budgets"
-            self.txtExpenses.placeholder = "Enter your budgets"
+            self.lblTitle.text = "add_your_budgets".localized()
+            self.txtExpenses.placeholder = "enter_your_budgets".localized()
+        }else{
+            self.lblTitle.text = "add_guest".localized()
+            self.txtExpenses.placeholder = "enter_guest_name".localized()
         }
     }
 

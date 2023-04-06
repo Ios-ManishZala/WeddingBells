@@ -9,6 +9,7 @@ import UIKit
 
 class VenueDetailsFirstTBVCell: UITableViewCell {
 
+    @IBOutlet weak var lblTitle: UILabel!
     @IBOutlet weak var roundView:UIView!
     @IBOutlet weak var roundPhoenView: UIView!
     var onTapMessageAction:(()->()) = { }
@@ -21,6 +22,8 @@ class VenueDetailsFirstTBVCell: UITableViewCell {
         self.roundView.addShadow()
         self.roundPhoenView.makeRounded()
         self.roundPhoenView.addShadow()
+        
+        self.lblTitle.text = "vendor_title".localized()
     }
     
     @IBAction func messageTapAction(_ sender: UIControl) {

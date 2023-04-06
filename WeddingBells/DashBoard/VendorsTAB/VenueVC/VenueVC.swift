@@ -23,7 +23,6 @@ class VenueVC: UIViewController {
         tableView.dataSource = self
         tableView.register(of: VenueTBVCell.self)
         self.searchView.addShadow()
-        self.customNav.titleLabel.text = "Venue"
         
         for weddingData in WeddingDecorData.getWeddingDecorData() {
             weddingdecorData.append(weddingData)
@@ -37,6 +36,13 @@ class VenueVC: UIViewController {
             weddingdecorData.append(weddingData)
             searchResult.append(weddingData)
         }
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        self.customNav.titleLabel.text = "Venue".localized()
+        self.txtSearch.placeholder = "search_text".localized()
     }
 
     @IBAction func txtSearchAction(_ sender: UITextField) {

@@ -28,10 +28,10 @@ class WeddingDecorData{
         var tableViewData = [WeddingDataModel]()
         tableViewData = [
             WeddingDataModel.init(headerName: "", decorPackageDetails: []),
-            WeddingDataModel.init(headerName: "Categories", decorPackageDetails: WeddingDecorData.getCategoryDecorData()),
-            WeddingDataModel.init(headerName: "Wedding package", decorPackageDetails: WeddingDecorData.getWeddingDecorData()),
-            WeddingDataModel.init(headerName: "Famous wedding venue", decorPackageDetails: WeddingDecorData.getFamouesDecorData()),
-            WeddingDataModel.init(headerName: "Tranding decor", decorPackageDetails: WeddingDecorData.getTrendingDecorData())
+            WeddingDataModel.init(headerName: "categories".localized(), decorPackageDetails: WeddingDecorData.getCategoryDecorData()),
+            WeddingDataModel.init(headerName: "wedding_package".localized(), decorPackageDetails: WeddingDecorData.getWeddingDecorData()),
+            WeddingDataModel.init(headerName: "famous_wedding_venue".localized(), decorPackageDetails: WeddingDecorData.getFamouesDecorData()),
+            WeddingDataModel.init(headerName: "tranding_decor".localized(), decorPackageDetails: WeddingDecorData.getTrendingDecorData())
         ]
         return tableViewData
     }
@@ -225,10 +225,10 @@ class WeddingDecorData{
     
     static func TaskListData() -> [TaskDataModel] {
         let taskList = [
-            TaskDataModel.init(taskImage: UIImage(named: "ic_task1"),taskName: "To do list",taskDes: "05/10"),
-            TaskDataModel.init(taskImage: UIImage(named: "ic_task2"),taskName: "Guestlist",taskDes: "02/10"),
-            TaskDataModel.init(taskImage: UIImage(named: "ic_task3"),taskName: "Vendor shortlist",taskDes: "05/10"),
-            TaskDataModel.init(taskImage: UIImage(named: "ic_task4"),taskName: "Budget",taskDes: "$5400")
+            TaskDataModel.init(taskImage: UIImage(named: "ic_task1"),taskName: "to_do_list".localized(),taskDes: "05/10"),
+            TaskDataModel.init(taskImage: UIImage(named: "ic_task2"),taskName: "guestlist".localized(),taskDes: "02/10"),
+            TaskDataModel.init(taskImage: UIImage(named: "ic_task3"),taskName: "vendor_shortlist".localized(),taskDes: "05/10"),
+            TaskDataModel.init(taskImage: UIImage(named: "ic_task4"),taskName: "budget".localized(),taskDes: "$5400")
         ]
         return taskList
     }
@@ -260,6 +260,21 @@ class WeddingDecorData{
             BudgetViewModal.init(expensesName: "Photographer",expensesAmount: "$2400")
         ]
         return expensesList
+    }
+    
+    static func ProfileViewData() -> [ProfilSettingData]{
+        let profileDetails = [
+            ProfilSettingData.init(image: UIImage(named: "ic_profile1")!, name: "edit_profile".localized()),
+            ProfilSettingData.init(image: UIImage(named: "ic_profile2")!, name: "booking".localized()),
+            ProfilSettingData.init(image: UIImage(named: "ic_profile3")!, name: "budget".localized()),
+            ProfilSettingData.init(image: UIImage(named: "ic_profile4")!, name: "language".localized()),
+            ProfilSettingData.init(image: UIImage(named: "ic_profile5")!, name: "about_us".localized()),
+            ProfilSettingData.init(image: UIImage(named: "ic_profile6")!, name: "faqs".localized()),
+            ProfilSettingData.init(image: UIImage(named: "ic_profile7")!, name: "privacy_policy".localized()),
+            ProfilSettingData.init(image: UIImage(named: "ic_profile8")!, name: "customer_support".localized()),
+            ProfilSettingData.init(image: UIImage(named: "ic_profile9")!, name: "logout".localized())
+          ]
+        return profileDetails
     }
 }
 

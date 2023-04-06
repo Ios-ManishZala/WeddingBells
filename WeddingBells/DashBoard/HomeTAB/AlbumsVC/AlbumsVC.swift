@@ -19,7 +19,7 @@ class AlbumsVC: UIViewController {
         collectionView.delegate = self
         collectionView.dataSource = self
         collectionView.register(of: FamousCVCell.self)
-        self.customNav.titleLabel.text = "Albums"
+        self.customNav.titleLabel.text = "albums".localized()
     }
 }
 

@@ -9,6 +9,7 @@ import UIKit
 
 class VendorsVC: UIViewController {
 
+    @IBOutlet weak var lblvendor: UILabel!
     @IBOutlet weak var tableView: UITableView!
     var vendorData = WeddingDecorData.VenoreData()
     
@@ -18,6 +19,13 @@ class VendorsVC: UIViewController {
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(of: VendoreTBVCell.self)
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        self.lblvendor.text = "vendors".localized()
+        self.tableView.reloadData()
     }
 }
 
@@ -30,6 +38,11 @@ extension VendorsVC: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = self.tableView.dequeueReusableCell(withType: VendoreTBVCell.self)
         cell.vendorData = self.vendorData[indexPath.row]
+        if getAppLanguagesCode() == "ar" {
+            cell.vendorImage.makeRightTopandBottomRound(10)
+        }else{
+            cell.vendorImage.makeLeftTopandBottomRound(10)
+        }
         return cell
     }
     

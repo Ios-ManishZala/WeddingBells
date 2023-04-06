@@ -17,7 +17,7 @@ class CustomerReviewVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        customNav.titleLabel.text = "Review"
+        customNav.titleLabel.text = "review".localized()
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(of: VenueDetailsSevenTBVCell.self)

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -34,14 +34,14 @@
                                 <rect key="frame" x="20" y="10" width="343" height="91"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="akar-icons_circle-plus" translatesAutoresizingMaskIntoConstraints="NO" id="lW2-P2-IEE">
-                                        <rect key="frame" x="89.666666666666671" y="33.666666666666664" width="24" height="24"/>
+                                        <rect key="frame" x="75.333333333333329" y="33.666666666666664" width="24" height="24"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="24" id="HYw-sc-EQF"/>
                                             <constraint firstAttribute="width" secondItem="lW2-P2-IEE" secondAttribute="height" multiplier="1:1" id="My6-wP-Nq8"/>
                                         </constraints>
                                     </imageView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jvn-zf-hMH">
-                                        <rect key="frame" x="128.66666666666666" y="25" width="114.33333333333334" height="41"/>
+                                        <rect key="frame" x="114.33333333333334" y="25" width="114.33333333333334" height="41"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Groom wear" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="piX-UU-MLX">
                                                 <rect key="frame" x="0.0" y="0.0" width="114.33333333333333" height="22"/>
@@ -73,8 +73,8 @@
                                     <constraint firstItem="lW2-P2-IEE" firstAttribute="centerY" secondItem="Jvn-zf-hMH" secondAttribute="centerY" id="0XL-sX-r5L"/>
                                     <constraint firstItem="Jvn-zf-hMH" firstAttribute="leading" secondItem="lW2-P2-IEE" secondAttribute="trailing" constant="15" id="Fwm-YV-qWf"/>
                                     <constraint firstItem="Jvn-zf-hMH" firstAttribute="top" secondItem="fAf-fc-K2h" secondAttribute="top" constant="25" id="TDX-S1-Hyt"/>
+                                    <constraint firstItem="Jvn-zf-hMH" firstAttribute="centerX" secondItem="fAf-fc-K2h" secondAttribute="centerX" id="ZIN-OE-bVh"/>
                                     <constraint firstAttribute="bottom" secondItem="Jvn-zf-hMH" secondAttribute="bottom" constant="25" id="b0l-Ma-mMm"/>
-                                    <constraint firstItem="lW2-P2-IEE" firstAttribute="centerX" secondItem="fAf-fc-K2h" secondAttribute="centerX" constant="-70" id="vsD-lH-WHG"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">

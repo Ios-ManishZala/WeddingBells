@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -36,33 +36,30 @@
                                             <constraint firstAttribute="height" constant="1" id="mYO-8k-J4C"/>
                                         </constraints>
                                     </view>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="TGx-yO-pZp">
-                                        <rect key="frame" x="0.0" y="0.0" width="349" height="17.333333333333332"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aix-Q9-rLL">
-                                                <rect key="frame" x="0.0" y="0.0" width="174.66666666666666" height="17.333333333333332"/>
-                                                <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="14"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VM0-MY-Bvk">
-                                                <rect key="frame" x="174.66666666666663" y="0.0" width="174.33333333333337" height="17.333333333333332"/>
-                                                <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="14"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aix-Q9-rLL">
+                                        <rect key="frame" x="0.0" y="0.0" width="39.333333333333336" height="17.333333333333332"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VM0-MY-Bvk">
+                                        <rect key="frame" x="309.66666666666669" y="0.0" width="39.333333333333314" height="17.333333333333332"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="TGx-yO-pZp" secondAttribute="trailing" id="6cg-X0-YCq"/>
+                                    <constraint firstItem="JK7-JW-eO6" firstAttribute="top" secondItem="VM0-MY-Bvk" secondAttribute="bottom" constant="10" id="8eA-mP-gnu"/>
                                     <constraint firstAttribute="bottom" secondItem="JK7-JW-eO6" secondAttribute="bottom" id="8u3-v2-DT3"/>
-                                    <constraint firstItem="JK7-JW-eO6" firstAttribute="top" secondItem="TGx-yO-pZp" secondAttribute="bottom" constant="10" id="Cze-yZ-LHf"/>
+                                    <constraint firstAttribute="trailing" secondItem="VM0-MY-Bvk" secondAttribute="trailing" id="ACf-YC-GfM"/>
+                                    <constraint firstItem="JK7-JW-eO6" firstAttribute="top" secondItem="aix-Q9-rLL" secondAttribute="bottom" constant="10" id="GTo-jq-sBo"/>
                                     <constraint firstAttribute="trailing" secondItem="JK7-JW-eO6" secondAttribute="trailing" id="Nw9-V1-mtg"/>
-                                    <constraint firstItem="TGx-yO-pZp" firstAttribute="leading" secondItem="amS-fy-EHg" secondAttribute="leading" id="VxC-WC-bDo"/>
+                                    <constraint firstItem="VM0-MY-Bvk" firstAttribute="top" secondItem="amS-fy-EHg" secondAttribute="top" id="Qz7-6k-VTr"/>
+                                    <constraint firstItem="aix-Q9-rLL" firstAttribute="leading" secondItem="amS-fy-EHg" secondAttribute="leading" id="YBE-Aw-VPZ"/>
+                                    <constraint firstItem="aix-Q9-rLL" firstAttribute="top" secondItem="amS-fy-EHg" secondAttribute="top" id="Ymz-kh-Uvj"/>
                                     <constraint firstItem="JK7-JW-eO6" firstAttribute="leading" secondItem="amS-fy-EHg" secondAttribute="leading" id="gy3-HX-BEl"/>
-                                    <constraint firstItem="TGx-yO-pZp" firstAttribute="top" secondItem="amS-fy-EHg" secondAttribute="top" id="kK8-6s-hqO"/>
                                 </constraints>
                             </view>
                         </subviews>

@@ -8,7 +8,8 @@
 import UIKit
 
 class MessageVC: UIViewController {
-
+    
+    @IBOutlet weak var lblMessage: UILabel!
     @IBOutlet weak var txtSerch: UITextField!
     @IBOutlet weak var searchView: UIView!
     @IBOutlet weak var tableView: UITableView!
@@ -22,6 +23,14 @@ class MessageVC: UIViewController {
         tableView.dataSource = self
         tableView.register(of: MessageTBVCell.self)
         self.searchView.addShadow()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        self.lblMessage.text = "message".localized()
+        self.txtSerch.placeholder = "search".localized()
+        self.tableView.reloadData()
     }
 
     // MARK: - filter array

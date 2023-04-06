@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_72" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -16,6 +16,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="VendorsVC" customModule="WeddingBells" customModuleProvider="target">
             <connections>
+                <outlet property="lblvendor" destination="34g-dh-8D1" id="8F0-UH-UCr"/>
                 <outlet property="tableView" destination="QQw-21-cJk" id="25w-DE-6fC"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -32,7 +33,7 @@
                             <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vendors" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="34g-dh-8D1">
-                                    <rect key="frame" x="20" y="50" width="390" height="22"/>
+                                    <rect key="frame" x="20" y="50" width="76.666666666666671" height="22"/>
                                     <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="18"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
@@ -47,7 +48,7 @@
                                 <constraint firstAttribute="bottom" secondItem="QQw-21-cJk" secondAttribute="bottom" id="EFR-VY-BBA"/>
                                 <constraint firstItem="34g-dh-8D1" firstAttribute="top" secondItem="4he-nB-9V7" secondAttribute="top" constant="50" id="Gmb-7h-7EZ"/>
                                 <constraint firstItem="QQw-21-cJk" firstAttribute="leading" secondItem="4he-nB-9V7" secondAttribute="leading" id="NXv-ZI-Nhk"/>
-                                <constraint firstAttribute="trailing" secondItem="34g-dh-8D1" secondAttribute="trailing" constant="20" id="UOd-Ss-ZRe"/>
+                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="34g-dh-8D1" secondAttribute="trailing" constant="20" id="UOd-Ss-ZRe"/>
                                 <constraint firstItem="QQw-21-cJk" firstAttribute="top" secondItem="34g-dh-8D1" secondAttribute="bottom" constant="5" id="jmW-Bi-jyt"/>
                                 <constraint firstAttribute="trailing" secondItem="QQw-21-cJk" secondAttribute="trailing" id="lC5-ks-ycK"/>
                                 <constraint firstItem="34g-dh-8D1" firstAttribute="leading" secondItem="4he-nB-9V7" secondAttribute="leading" constant="20" id="oER-6s-OpA"/>

@@ -8,187 +8,153 @@
 
 //MARK: - intoVC
 
-"intro1_title" = "Organise your dream wedding";
-"intro2_title" = "Find your perfect venues";
-"intro3_title" = "Make a guest list, manage your budget";
-"skip" = "Skip";
-"next" = "Next";
+"intro1_title" = "組織您的夢想婚禮";
+"intro2_title" = "找到您的完美場所";
+"intro3_title" = "列出來賓清單，管理您的預算";
+"skip" = "跳過";
+"next" = "下一個";
 
 //MARK: - loginVC
 
-"login" = "Login";
-"enter_number" = "Enter your mobile number";
-"intrection" = "Please confirm your country code and enter your mobile number";
-"or" = "Or Login using";
-"facebook" = "Facebook";
-"google" = "Google";
-"login_instruction" = "*We will sent OTP for verification";
+"login" = "登錄";
+"enter_number" = "輸入手機號碼";
+"intrection" = "請登錄您的帳戶";
+"country_name" = "國家的名字";
+
 
 //MARK: - registartionVC
 
-"register_title" = "Register";
-"register_subTitle" = "Please create your account to continue using this application";
-"enter_your_name" = "Enter your name";
-"enter_your_email_id" = "Enter your email id";
-"register" = "REGISTER";
+"register_title" = "登記";
+"register_subTitle" = "請創建您的帳戶";
+"enter_your_name" = "輸入你的名字";
+"enter_your_email_id" = "請輸入電郵地址";
+"register" = "登記";
+"name" = "姓名";
+"mobile_number" = "手機號碼";
+"email_address" = "電子郵件地址";
+
 
 //MARK: - otpVC
 
-"verify" = "Verify now";
-"otp_subtitle" = "Confirmation code has benn sent to tou your mobile no +91(1234567890)";
-"otp_verification" = "OTP Verification";
-"resend" = "Resend";
+"verify" = "核實";
+"otp_subtitle" = "我們已通過4位數字驗證代碼（OTP）向您發送了1234567890的短信";
+"otp_verification" = "OTP驗證";
+"resend" = "重發";
 
-//MARK: - Languages.
-
-"selectLanguage_subtitle" = "Select your language";
 
 //MARK: - tabbar
 
-"home" = "Home";
-"category" = "Category";
-"video" = "Video";
-"weather" = "Weather";
-"profile" = "Profile";
+"home" = "家";
+"vendors" = "供應商";
+"task" = "任務";
+"message" = "信息";
+"profile" = "輪廓";
 
 //MARK: - HomeTab
 
-/*
-"latest_transection" = "Latest transection";
-"services" = "Services";
-"total_balance" = "Total Balance :";
-"saving_account" = "Saving account";
-"current_account" = "Current account";
-"fund_transfer" = "Fund transfer";
-"statement" = "Statement";
-"bill_pay" = "Bill pay";
-"scan_and_pay" = "Scan and pay";
-"more" = "More";
-"see_all" = "See all";
-"cards" = "Cards";
-"mutual_fund" = "Mutual fund";
-"insurance" = "Insurance";
-"shop_offer" = "Shop & offer";
-"recharge" = "Recharge";
-"beneficiary_pay" = "Beneficiary pay";
-"irbn_payment" = "IBAN payment";
-"imps_pay" = "IMPS pay";
-"from_account" = "From account";
-"beneficiary_info" = "Beneficiary info";
-"beneficiary_name" = "Beneficiary name";
-"beneficiary_bank_name" = "Beneficiary bank name";
-"beneficiary_account_number" = "Beneficiary account number";
-"transfer_limit" = "Transfer limit";
-"transfer_now" = "Transfer now";
-"iban_number" = "IBAN number";
-"bic_code" = "BIC code";
-"remark" = "Remark";
-"account_holde_name" = "Account holder name";
-"to_account" = "To account";
-"bank_name" = "Bank name";
-"IFSC_code" = "IFSC code";
-"enter_account_no" = "Enter account no";
-"enter_account_holder_name" = "Enter account holder name";
-"hdfc_bank" = "HDFC bank";
-"enter_ifsc_code" = "Enter IFSC code";
-"enter_amount" = "Enter amount";
-"salary_account" = "Salary account";
-"nri_account" = "NRI account";
-"account_number" = "Account number";
-"Total_balance" = "Total balance";
-"account_details" = "Account details";
-"cif" = "CIF";
-"ifsc" = "IFSC";
-"branch_code" = "Branch code";
-"branch_name" = "Branch name";
-"account_opening_date" = "Account opening date";
-"mmid" = "MMId";
-"indian_bank" = "Indian bank";
-"sbi_bank" = "SBI bank";
-"axis_bank" = "Axis bank";
-"hdfc_bank" = "HDFC bank";
-"icic_bank" = "ICICI bank";
-"star_bank" = "Star bank";
-"select_date" = "Select date";
-"transaction_result" = "Transaction result";
-"notification" = "Notification";
-"no_new_notification" = "No new notification";
-"transection" = "Transection";
-"transfer_successfully" = "Transfer successfully";
-"transferred_to" = "Transferred to";
-"from" = "From";
-"payment_mode" = "Payment mode";
-"back_to_home" = "Back to home";
+"categories" = "類別";
+"wedding_package" = "婚禮包";
+"famous_wedding_venue" = "著名的婚禮場地";
+"tranding_decor" = "趨勢裝飾";
+"search" = "搜索";
+"check_availblity" = "檢查可用性";
+"vendor_title" = "藍色海宴";
+"about" = "關於";
+"payment" = "支付";
+"areas_availabel" = "區域可用";
+"albums(16)" = "專輯（16）";
+"similar_venue’s" = "類似的場地";
+"review" = "審查";
+"read_more" = "閱讀更多";
+"read_Less" = "少閱讀";
+"select_city" = "選擇城市";
+"albums" = "專輯";
+"dining_area" = "就餐區";
+"check_subtitle" = "填寫表格以檢查可用性";
+"event_date" = "活動日期";
+"function_type" = "功能類型";
+"number_of_guest" = "客人數量";
+"ring_ceremony" = "戒指儀式";
+"marriage" = "婚姻";
+"birth_day" = "出生日慶祝活動";
+"reception" = "接待";
+"book_now" = "現在預訂";
+"booknow_message" = "場地可用";
+"sucess_message" = "預訂成功";
+"back_to_home" = "回到家";
+"notification" = "通知";
+"empty_notification" = "沒有新的通知";
+"calling" = "叫...";
+"Venue" = "未來";
+"search_text" = "搜索婚禮場地";
 
-//MARK: - DepositeTab.
+//MARK: - TaskTab
 
-"current_deposit" = "Current deposit";
-"completed_deposit" = "Completed deposit";
-"deposite_to" = "Deposite to:";
-"rat" = "Rate:";
-"status" = "Status:";
-"choose_deposit_period" = "Choose deposit period";
-"amount" = "Amount";
-"deposit_to" = "Deposit to";
-"upload_check_image" = "Upload check image";
-"enter_deposit_amount" = "Enter deposit amount";
-"select_account" = "Select account";
-"upload_frontside" = "Upload check front side image";
-"upload_backside" = "Upload check back side image";
-"add_deposit" = "Add deposit";
-"deposit_now" = "Deposit now";
-"sucess" = "Sucess";
-"sucess_subtitle" = "Congratulation your $1000 successfully deposited for 18 month";
+"to_do_list" = "要做列表";
+"guestlist" = "嘉賓名單";
+"vendor_shortlist" = "供應商入圍名單";
+"budget" = "預算";
+"arunima_anurag" = "Arunima＆";
+"plan_wedding" = "計劃你的婚禮";
+"bride_name"  = "新娘名字";
+"groome_name"  = "groome名稱";
+"add_guest" = "添加客人";
+"expenses" = "花費";
+"add_expenses" = "添加費用";
+"enter_expenses" = "輸入費用";
+"add_your_budgets" = "添加您的預算";
+"enter_your_budgets" = "輸入您的預算";
+"add" = "添加";
+"enter_guest_name" = "輸入來賓名稱";
 
-//MARK: - LoansTab.
-
-"current_loan" = "Current Loans";
-"home_loan" = "Home loan";
-"car_loan" = "Car loan";
-"period" = "Period";
-"rate" = "Rate";
-"emi" = "EMI";
-"view_statement" = "View statement";
-"home_loans_statement" = "Home Loans statement";
-"recent_transection" = "Recent transaction";
-"i_am_interested" = "I am Interested";
-"education_loan" = "Education loan";
-"equction_subtitle" = "Thank you for interested education loan we will contact soon";
-"okay" = "Okay";
 
 //MARK: - profileTabVC
 
-"leslie_alexand" = "Leslie Alexander";
-//"nearby_bank" = "Nearby bank";
-//"nearby_atms" = "Nearby ATMs";
-//"change_pin" = "Change pin";
-"language" = "Language";
-//"privacy_policy" = "Privacy policy";
-"terms_condition" = "Terms & condition";
-"logout" = "Logout";
-"edit_profile" = "Edit profile";
-"channel" = "Channels";
-"bookmark" = "Bookmark";
-"settings" = "Settings";
-"rate" = "Rate";
-"update" = "Update";
-"profile" = "Profile";
+"leslie_alexand" = "萊斯利·亞歷山大（Leslie Alexander）";
+"language" = "語言";
+"privacy_policy" = "隱私政策";
+"customer_support" = "客戶支持";
+"logout" = "登出";
+"edit_profile" = "編輯個人資料";
+"budget" = "預算";
+"booking" = "預訂";
+"settings" = "設置";
+"about_us" = "關於我們";
+"update" = "更新";
+"profile" = "輪廓";
+"faqs" = "常見問題解答";
+"name" = "姓名";
+"email_address" = "電子郵件地址";
+"mobile_number" = "電話號碼";
+"save" = "節省";
+"remove_subtitle" = "您確定要刪除預訂場地嗎？";
+"no_booking_yet" = "還沒有預訂";
+"yes" = "是的";
+"terms_of_use" = "使用條款";
+"language_title" = "選擇首選語言";
+"customer_instruction" = "讓我們知道您的要求";
+"write_us" = "給我們寫";
+"send" = "發送";
+"message" = "信息";
+"write_message_here" = "在這裡寫你的消息";
+"submit" = "提交";
+"contactus_subtitle" = "我們在這裡提供幫助，所以請與我們聯繫。";
+"logout_subtitle" =  "您確定要註銷嗎？";
+"cancel" = "取消";
+"call_us" = "打電話給我們";
+"mail_us" = "給我們發郵件";
+"upload_image" = "上傳圖片";
+"view_all" = "查看全部";
 
-//"name" = "Name";
-//"email_address" = "Email address";
-//"mobile_number" = "Phone number";
-//"reset" = "Reset";
-//"current_pin" = "Current pin";
-//"new_pin" = "New pin";
-//"confirm_pin" = "Confirm pin";
-//"enter_current_pin" = "Enter current pin";
-//"enter_new_pin" = "Enter new pin";
-//"enter_confirm_pin" = "Confirm your new pin";
-//"message" = "Message";
-//"write_message_here" = "Write your message here";
-//"submit" = "Submit";
-//"contactus_subtitle" = "We are here to help so please get in touch with us.";
 
-"logout_subtitle" =  "Are you sure you want to logout?";
-"cancel" = "Cancel";
+ //MARK: - payment
 
+"cvv_code" = "CVV代碼";
+"expire_date" = "到期日期";
+"card_number" = "卡號";
+"card_holder_name" = "卡片上的名字";
+"xxxxxxxxxxxxx" = "XXXX XXXX XXXX XXXX";
+"xx/xx" = "XX/XX";
+"xxx" = "XXX";
+"payment" = "支付";
+"paymet_informaion" = "支付信息";

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_72" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -17,7 +17,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GuestListVC" customModule="WeddingBells" customModuleProvider="target">
             <connections>
+                <outlet property="btnAddguest" destination="FKa-tc-B5B" id="lDW-WQ-SrA"/>
                 <outlet property="customNav" destination="wFu-dW-47r" id="h2n-Bo-xFE"/>
+                <outlet property="lblAddGuest" destination="Td5-v8-lqt" id="44N-9d-Ujh"/>
                 <outlet property="tableView" destination="Ojd-Wo-xmq" id="Elb-2V-WdG"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -50,6 +52,31 @@
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dWK-3V-WfN">
                                             <rect key="frame" x="0.0" y="742" width="430" height="100"/>
                                             <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zq2-76-D41">
+                                                    <rect key="frame" x="20" y="25" width="390" height="50"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="akar-icons_circle-plus" translatesAutoresizingMaskIntoConstraints="NO" id="loQ-w8-5Dw">
+                                                            <rect key="frame" x="120.33333333333334" y="14" width="22" height="22"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" secondItem="loQ-w8-5Dw" secondAttribute="height" multiplier="1:1" id="0Ef-6Z-rc2"/>
+                                                                <constraint firstAttribute="height" constant="22" id="SMg-ak-pet"/>
+                                                            </constraints>
+                                                        </imageView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add guest" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Td5-v8-lqt">
+                                                            <rect key="frame" x="152.33333333333334" y="15.333333333333373" width="85.333333333333343" height="19.666666666666671"/>
+                                                            <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="16"/>
+                                                            <color key="textColor" name="maincolor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                    <constraints>
+                                                        <constraint firstItem="Td5-v8-lqt" firstAttribute="leading" secondItem="loQ-w8-5Dw" secondAttribute="trailing" constant="10" id="Ag6-0f-DzW"/>
+                                                        <constraint firstItem="Td5-v8-lqt" firstAttribute="centerY" secondItem="zq2-76-D41" secondAttribute="centerY" id="nG0-xh-gnq"/>
+                                                        <constraint firstItem="Td5-v8-lqt" firstAttribute="centerX" secondItem="zq2-76-D41" secondAttribute="centerX" id="tK9-H3-YRR"/>
+                                                        <constraint firstItem="loQ-w8-5Dw" firstAttribute="centerY" secondItem="Td5-v8-lqt" secondAttribute="centerY" id="yIG-IW-bjs"/>
+                                                    </constraints>
+                                                </view>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FKa-tc-B5B">
                                                     <rect key="frame" x="20" y="25" width="390" height="50"/>
                                                     <constraints>
@@ -58,7 +85,7 @@
                                                     <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="16"/>
                                                     <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                    <state key="normal" title="Add guest" image="akar-icons_circle-plus">
+                                                    <state key="normal">
                                                         <color key="titleColor" name="maincolor"/>
                                                     </state>
                                                     <userDefinedRuntimeAttributes>
@@ -82,6 +109,10 @@
                                                 <constraint firstItem="FKa-tc-B5B" firstAttribute="leading" secondItem="dWK-3V-WfN" secondAttribute="leading" constant="20" id="2nR-55-wyR"/>
                                                 <constraint firstAttribute="height" constant="100" id="7pJ-El-pfg"/>
                                                 <constraint firstAttribute="trailing" secondItem="FKa-tc-B5B" secondAttribute="trailing" constant="20" id="PDh-VN-sD6"/>
+                                                <constraint firstItem="zq2-76-D41" firstAttribute="top" secondItem="FKa-tc-B5B" secondAttribute="top" id="VEK-ZC-eqq"/>
+                                                <constraint firstItem="zq2-76-D41" firstAttribute="leading" secondItem="FKa-tc-B5B" secondAttribute="leading" id="YIT-P6-ezf"/>
+                                                <constraint firstItem="zq2-76-D41" firstAttribute="bottom" secondItem="FKa-tc-B5B" secondAttribute="bottom" id="YfX-Ik-wYQ"/>
+                                                <constraint firstItem="zq2-76-D41" firstAttribute="trailing" secondItem="FKa-tc-B5B" secondAttribute="trailing" id="rUT-Yr-Irr"/>
                                                 <constraint firstAttribute="bottom" secondItem="FKa-tc-B5B" secondAttribute="bottom" constant="25" id="s3r-pI-pfg"/>
                                                 <constraint firstItem="FKa-tc-B5B" firstAttribute="top" secondItem="dWK-3V-WfN" secondAttribute="top" constant="25" id="vmo-Qo-rIn"/>
                                             </constraints>
@@ -128,7 +159,7 @@
                 <constraint firstItem="5PZ-oe-UvT" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="AR3-UH-WVW"/>
                 <constraint firstAttribute="bottom" secondItem="5PZ-oe-UvT" secondAttribute="bottom" id="tF4-js-0Mf"/>
             </constraints>
-            <point key="canvasLocation" x="132" y="-11"/>
+            <point key="canvasLocation" x="135.34883720930233" y="-23.175965665236053"/>
         </view>
     </objects>
     <resources>

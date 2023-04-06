@@ -21,7 +21,7 @@ class DiningAreaVC: UIViewController {
         collectionView.delegate = self
         collectionView.dataSource = self
         collectionView.register(of: DiningCVCell.self)
-        self.customNav.titleLabel.text = "Dining area"
+        self.customNav.titleLabel.text = "dining_area".localized()
     }
 }
 

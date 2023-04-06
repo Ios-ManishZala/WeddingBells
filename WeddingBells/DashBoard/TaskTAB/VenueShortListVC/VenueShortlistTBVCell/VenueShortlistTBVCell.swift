@@ -36,15 +36,15 @@ class VenueShortlistTBVCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-    @IBAction func btnFinalisedAction(_ sender: UIButton) {
+    @IBAction func btnFinalisedAction(_ sender: UIControl) {
         onTapFinalisedAction()
     }
     
-    @IBAction func btnCallAction(_ sender: UIButton) {
+    @IBAction func btnCallAction(_ sender: UIControl) {
         onTapCallAction()
     }
     
-    @IBAction func btnMessageAction(_ sender: UIButton) {
+    @IBAction func btnMessageAction(_ sender: UIControl) {
         onTapMessageAction()
     }
 }

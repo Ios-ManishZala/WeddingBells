@@ -9,6 +9,8 @@ import UIKit
 
 class GuestListVC: UIViewController {
 
+    @IBOutlet weak var lblAddGuest: UILabel!
+    @IBOutlet weak var btnAddguest: UIButton!
     @IBOutlet weak var customNav: TabNavigationBar!
     @IBOutlet weak var tableView: UITableView!
     var guestListName = [
@@ -34,10 +36,12 @@ class GuestListVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.customNav.titleLabel.text = "Guest list"
+        
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(of: GuestTBVCell.self)
+        self.customNav.titleLabel.text = "guestlist".localized()
+        self.lblAddGuest.text = "add_guest".localized()
     }
 
     @IBAction func btnAddguestAction(_ sender: UIButton) {

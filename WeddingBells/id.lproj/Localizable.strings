@@ -8,187 +8,153 @@
 
 //MARK: - intoVC
 
-"intro1_title" = "Organise your dream wedding";
-"intro2_title" = "Find your perfect venues";
-"intro3_title" = "Make a guest list, manage your budget";
-"skip" = "Skip";
-"next" = "Next";
+"intro1_title" = "Atur Pernikahan Impian Anda";
+"intro2_title" = "Temukan tempat yang sempurna";
+"intro3_title" = "Buat daftar tamu, kelola anggaran Anda";
+"skip" = "Melewati";
+"next" = "Berikutnya";
 
 //MARK: - loginVC
 
-"login" = "Login";
-"enter_number" = "Enter your mobile number";
-"intrection" = "Please confirm your country code and enter your mobile number";
-"or" = "Or Login using";
-"facebook" = "Facebook";
-"google" = "Google";
-"login_instruction" = "*We will sent OTP for verification";
+"login" = "Gabung";
+"enter_number" = "Masukkan nomor ponsel";
+"intrection" = "Harap Masuk Akun Anda";
+"country_name" = "Nama negara";
+
 
 //MARK: - registartionVC
 
-"register_title" = "Register";
-"register_subTitle" = "Please create your account to continue using this application";
-"enter_your_name" = "Enter your name";
-"enter_your_email_id" = "Enter your email id";
-"register" = "REGISTER";
+"register_title" = "Daftar";
+"register_subTitle" = "Harap Buat Akun Anda";
+"enter_your_name" = "Masukkan nama Anda";
+"enter_your_email_id" = "Masukkan alamat email";
+"register" = "Daftar";
+"name" = "Nama";
+"mobile_number" = "Nomor handphone";
+"email_address" = "Alamat email";
+
 
 //MARK: - otpVC
 
-"verify" = "Verify now";
-"otp_subtitle" = "Confirmation code has benn sent to tou your mobile no +91(1234567890)";
-"otp_verification" = "OTP Verification";
-"resend" = "Resend";
+"verify" = "Memeriksa";
+"otp_subtitle" = "Kami telah mengirimi Anda SMS di 1234567890 dengan kode verifikasi 4 digit (OTP)";
+"otp_verification" = "Verifikasi OTP";
+"resend" = "Ulang";
 
-//MARK: - Languages.
-
-"selectLanguage_subtitle" = "Select your language";
 
 //MARK: - tabbar
 
-"home" = "Home";
-"category" = "Category";
-"video" = "Video";
-"weather" = "Weather";
-"profile" = "Profile";
+"home" = "Rumah";
+"vendors" = "Vendor";
+"task" = "Tugas";
+"message" = "Pesan";
+"profile" = "Profil";
 
 //MARK: - HomeTab
 
-/*
-"latest_transection" = "Latest transection";
-"services" = "Services";
-"total_balance" = "Total Balance :";
-"saving_account" = "Saving account";
-"current_account" = "Current account";
-"fund_transfer" = "Fund transfer";
-"statement" = "Statement";
-"bill_pay" = "Bill pay";
-"scan_and_pay" = "Scan and pay";
-"more" = "More";
-"see_all" = "See all";
-"cards" = "Cards";
-"mutual_fund" = "Mutual fund";
-"insurance" = "Insurance";
-"shop_offer" = "Shop & offer";
-"recharge" = "Recharge";
-"beneficiary_pay" = "Beneficiary pay";
-"irbn_payment" = "IBAN payment";
-"imps_pay" = "IMPS pay";
-"from_account" = "From account";
-"beneficiary_info" = "Beneficiary info";
-"beneficiary_name" = "Beneficiary name";
-"beneficiary_bank_name" = "Beneficiary bank name";
-"beneficiary_account_number" = "Beneficiary account number";
-"transfer_limit" = "Transfer limit";
-"transfer_now" = "Transfer now";
-"iban_number" = "IBAN number";
-"bic_code" = "BIC code";
-"remark" = "Remark";
-"account_holde_name" = "Account holder name";
-"to_account" = "To account";
-"bank_name" = "Bank name";
-"IFSC_code" = "IFSC code";
-"enter_account_no" = "Enter account no";
-"enter_account_holder_name" = "Enter account holder name";
-"hdfc_bank" = "HDFC bank";
-"enter_ifsc_code" = "Enter IFSC code";
-"enter_amount" = "Enter amount";
-"salary_account" = "Salary account";
-"nri_account" = "NRI account";
-"account_number" = "Account number";
-"Total_balance" = "Total balance";
-"account_details" = "Account details";
-"cif" = "CIF";
-"ifsc" = "IFSC";
-"branch_code" = "Branch code";
-"branch_name" = "Branch name";
-"account_opening_date" = "Account opening date";
-"mmid" = "MMId";
-"indian_bank" = "Indian bank";
-"sbi_bank" = "SBI bank";
-"axis_bank" = "Axis bank";
-"hdfc_bank" = "HDFC bank";
-"icic_bank" = "ICICI bank";
-"star_bank" = "Star bank";
-"select_date" = "Select date";
-"transaction_result" = "Transaction result";
-"notification" = "Notification";
-"no_new_notification" = "No new notification";
-"transection" = "Transection";
-"transfer_successfully" = "Transfer successfully";
-"transferred_to" = "Transferred to";
-"from" = "From";
-"payment_mode" = "Payment mode";
-"back_to_home" = "Back to home";
+"categories" = "Kategori";
+"wedding_package" = "Paket Pernikahan";
+"famous_wedding_venue" = "Tempat Pernikahan Terkenal";
+"tranding_decor" = "Trending decor";
+"search" = "Mencari";
+"check_availblity" = "Cek ketersediaan";
+"vendor_title" = "Perjamuan Laut Biru";
+"about" = "Tentang";
+"payment" = "Pembayaran";
+"areas_availabel" = "Area tersedia";
+"albums(16)" = "Album (16)";
+"similar_venue’s" = "Tempat serupa";
+"review" = "Tinjauan";
+"read_more" = "Baca selengkapnya";
+"read_Less" = "Baca lebih sedikit";
+"select_city" = "Pilih Kota";
+"albums" = "Album";
+"dining_area" = "Ruang makan";
+"check_subtitle" = "Isi formulir untuk memeriksa ketersediaan";
+"event_date" = "Tanggal Acara";
+"function_type" = "Tipe fungsi";
+"number_of_guest" = "Jumlah tamu";
+"ring_ceremony" = "Upacara Ring";
+"marriage" = "Pernikahan";
+"birth_day" = "Perayaan ulang tahun";
+"reception" = "Penerimaan";
+"book_now" = "Pesan sekarang";
+"booknow_message" = "Tempatnya tersedia";
+"sucess_message" = "Pemesanan sukses";
+"back_to_home" = "Kembali ke rumah";
+"notification" = "Pemberitahuan";
+"empty_notification" = "Tidak ada pemberitahuan baru";
+"calling" = "Panggilan...";
+"Venue" = "Yang akan datang";
+"search_text" = "Cari tempat pernikahan";
 
-//MARK: - DepositeTab.
+//MARK: - TaskTab
 
-"current_deposit" = "Current deposit";
-"completed_deposit" = "Completed deposit";
-"deposite_to" = "Deposite to:";
-"rat" = "Rate:";
-"status" = "Status:";
-"choose_deposit_period" = "Choose deposit period";
-"amount" = "Amount";
-"deposit_to" = "Deposit to";
-"upload_check_image" = "Upload check image";
-"enter_deposit_amount" = "Enter deposit amount";
-"select_account" = "Select account";
-"upload_frontside" = "Upload check front side image";
-"upload_backside" = "Upload check back side image";
-"add_deposit" = "Add deposit";
-"deposit_now" = "Deposit now";
-"sucess" = "Sucess";
-"sucess_subtitle" = "Congratulation your $1000 successfully deposited for 18 month";
+"to_do_list" = "Untuk melakukan daftar";
+"guestlist" = "Daftar tamu";
+"vendor_shortlist" = "Daftar Penyelidikan Vendor";
+"budget" = "Anggaran";
+"arunima_anurag" = "Arunima &";
+"plan_wedding" = "Rencanakan pernikahan Anda";
+"bride_name"  = "Nama pengantin";
+"groome_name"  = "Nama Groome";
+"add_guest" = "Tambahkan tamu";
+"expenses" = "Pengeluaran";
+"add_expenses" = "Tambahkan biaya";
+"enter_expenses" = "Masukkan biaya";
+"add_your_budgets" = "Tambahkan anggaran Anda";
+"enter_your_budgets" = "Masukkan anggaran Anda";
+"add" = "Menambahkan";
+"enter_guest_name" = "Masukkan nama tamu";
 
-//MARK: - LoansTab.
-
-"current_loan" = "Current Loans";
-"home_loan" = "Home loan";
-"car_loan" = "Car loan";
-"period" = "Period";
-"rate" = "Rate";
-"emi" = "EMI";
-"view_statement" = "View statement";
-"home_loans_statement" = "Home Loans statement";
-"recent_transection" = "Recent transaction";
-"i_am_interested" = "I am Interested";
-"education_loan" = "Education loan";
-"equction_subtitle" = "Thank you for interested education loan we will contact soon";
-"okay" = "Okay";
 
 //MARK: - profileTabVC
 
-"leslie_alexand" = "Leslie Alexander";
-//"nearby_bank" = "Nearby bank";
-//"nearby_atms" = "Nearby ATMs";
-//"change_pin" = "Change pin";
-"language" = "Language";
-//"privacy_policy" = "Privacy policy";
-"terms_condition" = "Terms & condition";
-"logout" = "Logout";
-"edit_profile" = "Edit profile";
-"channel" = "Channels";
-"bookmark" = "Bookmark";
-"settings" = "Settings";
-"rate" = "Rate";
-"update" = "Update";
-"profile" = "Profile";
+"leslie_alexand" = "leslieAlexander";
+"language" = "Bahasa";
+"privacy_policy" = "Kebijakan pribadi";
+"customer_support" = "Dukungan pelanggan";
+"logout" = "Keluar";
+"edit_profile" = "Sunting profil";
+"budget" = "Anggaran";
+"booking" = "Pemesanan";
+"settings" = "Pengaturan";
+"about_us" = "Tentang kami";
+"update" = "Memperbarui";
+"profile" = "Profil";
+"faqs" = "FAQ";
+"name" = "Nama";
+"email_address" = "Alamat email";
+"mobile_number" = "Nomor telepon";
+"save" = "Menyimpan";
+"remove_subtitle" = "Apakah Anda yakin ingin menghapus tempat pemesanan Anda?";
+"no_booking_yet" = "Belum ada pemesanan";
+"yes" = "Ya";
+"terms_of_use" = "Syarat Penggunaan";
+"language_title" = "Pilih bahasa yang disukai";
+"customer_instruction" = "Beri tahu kami kebutuhan Anda";
+"write_us" = "Tuliskan kami";
+"send" = "Mengirim";
+"message" = "Pesan";
+"write_message_here" = "Tulis pesan Anda di sini";
+"submit" = "Kirim";
+"contactus_subtitle" = "Kami di sini untuk membantu jadi silakan menghubungi kami.";
+"logout_subtitle" =  "Apakah Anda yakin ingin keluar?";
+"cancel" = "Membatalkan";
+"call_us" = "Hubungi kami";
+"mail_us" = "Kirimi kami";
+"upload_image" = "Unggah gambar";
+"view_all" = "Lihat semua";
 
-//"name" = "Name";
-//"email_address" = "Email address";
-//"mobile_number" = "Phone number";
-//"reset" = "Reset";
-//"current_pin" = "Current pin";
-//"new_pin" = "New pin";
-//"confirm_pin" = "Confirm pin";
-//"enter_current_pin" = "Enter current pin";
-//"enter_new_pin" = "Enter new pin";
-//"enter_confirm_pin" = "Confirm your new pin";
-//"message" = "Message";
-//"write_message_here" = "Write your message here";
-//"submit" = "Submit";
-//"contactus_subtitle" = "We are here to help so please get in touch with us.";
 
-"logout_subtitle" =  "Are you sure you want to logout?";
-"cancel" = "Cancel";
+ //MARK: - payment
 
+"cvv_code" = "kode CVV";
+"expire_date" = "Tanggal kadaluarsa";
+"card_number" = "Nomor kartu";
+"card_holder_name" = "Nama di kartu";
+"xxxxxxxxxxxxx" = "XXXX XXXX XXXX XXXX";
+"xx/xx" = "XX/XX";
+"xxx" = "XXX";
+"payment" = "Pembayaran";
+"paymet_informaion" = "Informasi Pembayaran";
