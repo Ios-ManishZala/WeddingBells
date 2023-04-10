@@ -63,15 +63,4 @@ extension TodoListVC: UITableViewDelegate,UITableViewDataSource {
         todoCell.lblListDetails.text = self.todoListName[indexPath.row]
         return todoCell
     }
-    
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let todoCell = tableView.cellForRow(at: indexPath) as! TodolistTBVCell
-        todoCell.yesmarkImage.image = UIImage(named: "ic_yesmark")
-        todoCell.yesmarkBgView.backgroundColor = .mainColor
-    }
-    
-    func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
-        let todoCell = tableView.cellForRow(at: indexPath) as! TodolistTBVCell
-        todoCell.yesmarkBgView.backgroundColor = .white
-    }
 }

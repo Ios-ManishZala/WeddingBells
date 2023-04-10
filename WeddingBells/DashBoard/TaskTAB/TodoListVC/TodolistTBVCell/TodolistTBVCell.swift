@@ -22,7 +22,17 @@ class TodolistTBVCell: UITableViewCell {
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
         
+        //MARK: - Line on Label.
         
+        if selected {
+            let attributedString = NSAttributedString(string: lblListDetails.text ?? "", attributes: [.strikethroughStyle: NSUnderlineStyle.single.rawValue])
+            lblListDetails.attributedText = attributedString
+            yesmarkImage.image = UIImage(named: "ic_yesmark")
+            yesmarkBgView.backgroundColor = .mainColor
+        } else {
+            let attributedString = NSAttributedString(string: lblListDetails.text ?? "", attributes: [.strikethroughStyle: NSUnderlineStyle.byWord.rawValue])
+            lblListDetails.attributedText = attributedString
+            yesmarkBgView.backgroundColor = .white
+        }
     }
-    
 }

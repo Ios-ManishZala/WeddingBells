@@ -14,6 +14,7 @@ class HomeVC: UIViewController {
     var isFromFamousDecor:Bool = false
     var isFromTrendingDecor:Bool = false
     var isFromWeddingPackagedetails:Bool = false
+    var lastContentOffset: CGFloat = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,6 +27,10 @@ class HomeVC: UIViewController {
         tableView.register(of: FamousTBVCell.self)
         tableView.register(of: TrendingDecorTBVCell.self)
         tableView.registerHeaderFooterView(of: CommonTbvHeaderView.self)
+    }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -145,9 +150,8 @@ extension HomeVC: UITableViewDelegate,UITableViewDataSource {
     
     //MARK: - scrollLogic
     
-//    func scrollViewDidScroll(_ scrollView: UIScrollView) {
-//        let y = 300 - (scrollView.contentOffset.y + 300)
-//        let height = min(max(y, 170), 400)
-//        cell.imageViewHeight.constant = 50
-//    }
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        let y = 300 - (scrollView.contentOffset.y + 300)
+        let height = min(max(y, 170), 400)
+    }
 }

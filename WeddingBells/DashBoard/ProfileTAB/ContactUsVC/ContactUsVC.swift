@@ -34,6 +34,10 @@ class ContactUsVC: UIViewController,UITextViewDelegate {
         self.txtView.textColor = UIColor.placeholderGray
     }
     
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
     //MARK: - Lanuguage Update
     
     override func viewWillAppear(_ animated: Bool) {

@@ -124,14 +124,12 @@
 		ECC6D20F29D6E92E002CE30B /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECC6D20D29D6E92E002CE30B /* ProfileVC.xib */; };
 		ECC6D21429D6F86B002CE30B /* HomeFirstTBVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC6D21229D6F86B002CE30B /* HomeFirstTBVCell.swift */; };
 		ECC6D21529D6F86B002CE30B /* HomeFirstTBVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECC6D21329D6F86B002CE30B /* HomeFirstTBVCell.xib */; };
-		ECC6D21B29D6FF64002CE30B /* TableviewDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC6D21A29D6FF64002CE30B /* TableviewDatasource.swift */; };
 		ECC6D21F29D7019D002CE30B /* CategoriesTBVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC6D21D29D7019D002CE30B /* CategoriesTBVCell.swift */; };
 		ECC6D22029D7019D002CE30B /* CategoriesTBVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECC6D21E29D7019D002CE30B /* CategoriesTBVCell.xib */; };
 		ECC6D22329D701D4002CE30B /* FamousTBVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC6D22129D701D4002CE30B /* FamousTBVCell.swift */; };
 		ECC6D22429D701D4002CE30B /* FamousTBVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECC6D22229D701D4002CE30B /* FamousTBVCell.xib */; };
 		ECC6D22929D70228002CE30B /* TrendingDecorTBVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC6D22729D70228002CE30B /* TrendingDecorTBVCell.swift */; };
 		ECC6D22A29D70228002CE30B /* TrendingDecorTBVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECC6D22829D70228002CE30B /* TrendingDecorTBVCell.xib */; };
-		ECC6D22E29D70383002CE30B /* CollectionViewDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC6D22D29D70383002CE30B /* CollectionViewDatasource.swift */; };
 		ECC6D23129D703D8002CE30B /* CategoriesCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC6D22F29D703D8002CE30B /* CategoriesCVCell.swift */; };
 		ECC6D23229D703D8002CE30B /* CategoriesCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECC6D23029D703D8002CE30B /* CategoriesCVCell.xib */; };
 		ECD349B829DC40DB0000C1A2 /* VenueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD349B629DC40DB0000C1A2 /* VenueVC.swift */; };
@@ -323,14 +321,12 @@
 		ECC6D20D29D6E92E002CE30B /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
 		ECC6D21229D6F86B002CE30B /* HomeFirstTBVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFirstTBVCell.swift; sourceTree = "<group>"; };
 		ECC6D21329D6F86B002CE30B /* HomeFirstTBVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeFirstTBVCell.xib; sourceTree = "<group>"; };
-		ECC6D21A29D6FF64002CE30B /* TableviewDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableviewDatasource.swift; sourceTree = "<group>"; };
 		ECC6D21D29D7019D002CE30B /* CategoriesTBVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesTBVCell.swift; sourceTree = "<group>"; };
 		ECC6D21E29D7019D002CE30B /* CategoriesTBVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoriesTBVCell.xib; sourceTree = "<group>"; };
 		ECC6D22129D701D4002CE30B /* FamousTBVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamousTBVCell.swift; sourceTree = "<group>"; };
 		ECC6D22229D701D4002CE30B /* FamousTBVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FamousTBVCell.xib; sourceTree = "<group>"; };
 		ECC6D22729D70228002CE30B /* TrendingDecorTBVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingDecorTBVCell.swift; sourceTree = "<group>"; };
 		ECC6D22829D70228002CE30B /* TrendingDecorTBVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrendingDecorTBVCell.xib; sourceTree = "<group>"; };
-		ECC6D22D29D70383002CE30B /* CollectionViewDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewDatasource.swift; sourceTree = "<group>"; };
 		ECC6D22F29D703D8002CE30B /* CategoriesCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCVCell.swift; sourceTree = "<group>"; };
 		ECC6D23029D703D8002CE30B /* CategoriesCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoriesCVCell.xib; sourceTree = "<group>"; };
 		ECD349B629DC40DB0000C1A2 /* VenueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueVC.swift; sourceTree = "<group>"; };
@@ -806,8 +802,6 @@
 			children = (
 				EC786F2A29D6BB11005F5FD4 /* Model.swift */,
 				EC7E10EE29D7EC7700DEC3A8 /* Data.swift */,
-				ECC6D21A29D6FF64002CE30B /* TableviewDatasource.swift */,
-				ECC6D22D29D70383002CE30B /* CollectionViewDatasource.swift */,
 			);
 			path = MVC;
 			sourceTree = "<group>";
@@ -1632,7 +1626,6 @@
 				EC8CE2A429DC067D00EF4632 /* FunctionTypeVC.swift in Sources */,
 				ECC6D21F29D7019D002CE30B /* CategoriesTBVCell.swift in Sources */,
 				EC786F4929D6BB11005F5FD4 /* Localize.swift in Sources */,
-				ECC6D22E29D70383002CE30B /* CollectionViewDatasource.swift in Sources */,
 				ECF48F6829DD9F42005D9471 /* AddGuestVC.swift in Sources */,
 				EC786F3B29D6BB11005F5FD4 /* CommonTbvHeaderView.swift in Sources */,
 				ECD349B829DC40DB0000C1A2 /* VenueVC.swift in Sources */,
@@ -1645,7 +1638,6 @@
 				EC0BCCFF29DEAB9F002EF203 /* ContactUsVC.swift in Sources */,
 				ECF0F3C829DAD21A006CDA42 /* VenueDetailsFourthTBVCell.swift in Sources */,
 				ECC6D21429D6F86B002CE30B /* HomeFirstTBVCell.swift in Sources */,
-				ECC6D21B29D6FF64002CE30B /* TableviewDatasource.swift in Sources */,
 				EC0BCCE629DEA67C002EF203 /* PrivacyPolicyVC.swift in Sources */,
 				EC58406029DD3E3A001A3662 /* TaskTBVCell.swift in Sources */,
 				ECC6D0D529D6DD84002CE30B /* LoginVC.swift in Sources */,

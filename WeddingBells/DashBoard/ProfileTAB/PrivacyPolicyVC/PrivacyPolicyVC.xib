@@ -60,38 +60,38 @@
                                     <rect key="frame" x="0.0" y="0.0" width="393" height="1115.6666666666667"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZbV-66-JdE">
-                                            <rect key="frame" x="20" y="40" width="353" height="170.66666666666669"/>
+                                            <rect key="frame" x="20" y="40" width="353" height="170.66666666666666"/>
                                             <string key="text">Possimus ipsa ea. Dolorum ea vel et sit voluptatem quis ex. Sequi iusto velit ratione voluptas repudiandaejhk at aliquid molestiae non. Et enim quam. Et consequatur sunt dictasdf esse eveniet tempore deserunt.Possimus ipsa ea. Dolorum ea vel et sit voluptatem quis ex. Sequi iusto velit rationeds voluptas repudiandae Possimus ipsa ea. Dolorum ea vel et sit voluptatem quis ex. Sequi iusto velit ratione voluptas </string>
                                             <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="14"/>
-                                            <color key="textColor" name="FontColor"/>
+                                            <color key="textColor" name="fontgraycolor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="17" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r5S-tq-kDF">
                                             <rect key="frame" x="20" y="220.66666666666669" width="353" height="205"/>
                                             <string key="text">Possimus ipsa ea. Dolorum ea vel et sit voluptatem quis ex. Sequi iusto velit ratione voluptas repudiandaejhk at aliquids molestiae non. Et enim quam. Et consequatur ghdictagesse eveniet tempore deserunt.Possimus ipsa ea. Dolorum eavel et sit voluptatem quis ex. Sequi iusto velit ratvorepudiandae Possimus ipsa ea. Dolorum ea vevoluptatem quis ex. Sequi iusto velit ratione voluptas .Possimus ipsa ea. Dolorum ea vel et sit voluptatem quis ex. Sequi iusto velit rationvoluptas repudiandae Possimus ifggDolorum ea vel et sit voluptatem </string>
                                             <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="14"/>
-                                            <color key="textColor" name="FontColor"/>
+                                            <color key="textColor" name="fontgraycolor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E4L-Mp-Rdy">
                                             <rect key="frame" x="20" y="470.66666666666663" width="353" height="205"/>
                                             <string key="text">Possimus ipsa ea. Dolorum ea vel et sit voluptatem quis ex. Sequi iusto velit ratione voluptas repudiandaejhk at aliquids molestiae non. Et enim quam. Et consequatur ghdictagesse eveniet tempore deserunt.Possimus ipsa ea. Dolorum eavel et sit voluptatem quis ex. Sequi iusto velit ratvorepudiandae Possimus ipsa ea. Dolorum ea vevoluptatem quis ex. Sequi iusto velit ratione voluptas .Possimus ipsa ea. Dolorum ea vel et sit voluptatem quis ex. Sequi iusto velit rationvoluptas repudiandae Possimus ifggDolorum ea vel et sit voluptatem </string>
                                             <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="14"/>
-                                            <color key="textColor" name="FontColor"/>
+                                            <color key="textColor" name="fontgraycolor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="17" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="meS-ii-BKv">
                                             <rect key="frame" x="20" y="685.66666666666663" width="353" height="205"/>
                                             <string key="text">Possimus ipsa ea. Dolorum ea vel et sit voluptatem quis ex. Sequi iusto velit ratione voluptas repudiandaejhk at aliquids molestiae non. Et enim quam. Et consequatur ghdictagesse eveniet tempore deserunt.Possimus ipsa ea. Dolorum eavel et sit voluptatem quis ex. Sequi iusto velit ratvorepudiandae Possimus ipsa ea. Dolorum ea vevoluptatem quis ex. Sequi iusto velit ratione voluptas .Possimus ipsa ea. Dolorum ea vel et sit voluptatem quis ex. Sequi iusto velit rationvoluptas repudiandae Possimus ifggDolorum ea vel et sit voluptatem </string>
                                             <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="14"/>
-                                            <color key="textColor" name="FontColor"/>
+                                            <color key="textColor" name="fontgraycolor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="17" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Pd-wg-DNb">
                                             <rect key="frame" x="20" y="900.66666666666663" width="353" height="204.99999999999989"/>
                                             <string key="text">Possimus ipsa ea. Dolorum ea vel et sit voluptatem quis ex. Sequi iusto velit ratione voluptas repudiandaejhk at aliquids molestiae non. Et enim quam. Et consequatur ghdictagesse eveniet tempore deserunt.Possimus ipsa ea. Dolorum eavel et sit voluptatem quis ex. Sequi iusto velit ratvorepudiandae Possimus ipsa ea. Dolorum ea vevoluptatem quis ex. Sequi iusto velit ratione voluptas .Possimus ipsa ea. Dolorum ea vel et sit voluptatem quis ex. Sequi iusto velit rationvoluptas repudiandae Possimus ifggDolorum ea vel et sit voluptatem </string>
                                             <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="14"/>
-                                            <color key="textColor" name="FontColor"/>
+                                            <color key="textColor" name="fontgraycolor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Terms of use" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e22-n2-tyD">
@@ -169,8 +169,8 @@
         </view>
     </objects>
     <resources>
-        <namedColor name="FontColor">
-            <color red="0.32899999618530273" green="0.32400000095367432" blue="0.4779999852180481" alpha="0.33000001311302185" colorSpace="custom" customColorSpace="sRGB"/>
+        <namedColor name="fontgraycolor">
+            <color red="0.58039215686274515" green="0.58039215686274515" blue="0.58039215686274515" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
